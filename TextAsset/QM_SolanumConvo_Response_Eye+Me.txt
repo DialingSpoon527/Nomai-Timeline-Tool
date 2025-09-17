@@ -1,0 +1,22 @@
+<!--
+1 - 2
+-->
+
+<NomaiObject>
+	<TextBlock>
+		<ID>1</ID>
+		<Text>SOLANUM: Suppose you could reach the <![CDATA[<color=lightblue>Eye of the universe</color>]]>: Would you try to enter it?</Text>
+	</TextBlock>
+	<TextBlock>
+		<ID>2</ID>
+		<ParentID>1</ParentID>
+		<Text>SOLANUM: What do you imagine the effects of a conscious observer might be?</Text>
+	</TextBlock>
+
+  <ShipLogConditions>
+    <RevealFact>
+      <FactID>QM_SIXTH_LOCATION_X2</FactID>
+      <Condition>1, 2</Condition>
+    </RevealFact>
+  </ShipLogConditions>
+</NomaiObject>

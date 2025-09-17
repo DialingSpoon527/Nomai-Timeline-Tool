@@ -1,0 +1,19 @@
+<NomaiObject>
+	<TextBlock>
+		<ID>1</ID>
+		<Text>
+			You have recalled the rule of quantum imaging.
+		</Text>
+	</TextBlock>
+
+	<ShipLogConditions>
+		<RevealFact>
+			<FactID>QM_SHRINE_X1</FactID>
+			<Condition></Condition>
+		</RevealFact>
+		<RevealFact>
+			<FactID>QM_SHRINE_X2</FactID>
+			<Condition></Condition>
+		</RevealFact>
+	</ShipLogConditions>
+</NomaiObject>

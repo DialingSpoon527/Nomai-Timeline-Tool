@@ -1,0 +1,51 @@
+<NomaiObject>
+	<TextBlock>
+		<ID>1</ID>
+		<Text>
+			CLARY: I fear our situation may be dire:</Text>
+	</TextBlock>
+
+	<TextBlock>
+		<ID>2</ID>
+		<Text>CLARY: Pye, Poke, and I landed here on this <![CDATA[<color=lightblue>comet</color>]]> not long after its arrival in this star system. Our <![CDATA[<color=orange>shuttle</color>]]>’s equipment heard strange energy readings coming from somewhere beneath the surface.</Text>
+	</TextBlock>
+
+	<TextBlock>
+		<ID>3</ID>
+		<Text>CLARY: Pye and Poke were able to locate a fissure in the ice on the <![CDATA[<color=lightblue>comet</color>]]>’s sunward side, and they descended inside to investigate the source of the readings.</Text>
+	</TextBlock>
+
+	<TextBlock>
+		<ID>4</ID>
+		<Text>CLARY: But... Pye and my sister have been gone for a long time now. They haven’t contacted me since descending below the surface, either.</Text>
+	</TextBlock>
+
+	<TextBlock>
+		<ID>5</ID>
+		<Text>CLARY: Should I leave the <![CDATA[<color=orange>shuttle</color>]]> to look for them? I want to follow protocol, but I don’t know what I’ll do if they aren’t well...</Text>
+	</TextBlock>
+
+	<TextBlock>
+		<ID>6</ID>
+		<Text>CLARY: Poke... Pye... Come back to me safely, my friends.</Text>
+	</TextBlock>
+
+	<ShipLogConditions>
+		<RevealFact>
+			<FactID>COMET_SHUTTLE_X2</FactID>
+			<Condition>2</Condition>
+		</RevealFact>
+		<RevealFact>
+			<FactID>COMET_SHUTTLE_X4</FactID>
+			<Condition>4</Condition>
+		</RevealFact>
+		<RevealFact>
+			<FactID>COMET_INTERIOR_R1</FactID>
+			<Condition>2</Condition>
+		</RevealFact>
+		<RevealFact>
+			<FactID>COMET_INTERIOR_R2</FactID>
+			<Condition>3</Condition>
+		</RevealFact>
+	</ShipLogConditions>
+</NomaiObject>

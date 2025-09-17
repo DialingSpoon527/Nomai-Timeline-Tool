@@ -1,0 +1,14 @@
+
+<NomaiObject>
+	<TextBlock>
+		<ID>1</ID>
+		<Text>SOLANUM: We are orbiting the <![CDATA[<color=lightblue>Eye of the universe</color>]]> now, although we cannot see it (only the <![CDATA[<color=lightblue>Quantum Moon</color>]]>’s reflection of it). The <![CDATA[<color=lightblue>Eye</color>]]> is older than the universe itself, and my clan believes it dwells in an extremely distant orbit around this star system.</Text>
+	</TextBlock>
+
+	<ShipLogConditions>
+		<RevealFact>
+			<FactID>QM_SIXTH_LOCATION_X5</FactID>
+			<Condition>1</Condition>
+		</RevealFact>
+	</ShipLogConditions>
+</NomaiObject>

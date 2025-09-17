@@ -1,0 +1,31 @@
+<!--
+1 - 2 - 3
+-->
+
+<NomaiObject>
+	<TextBlock>
+		<ID>1</ID>
+		<Text>PYE: Friends visiting from the <![CDATA[<color=orange>Hanging City</color>]]>, we are planning the <![CDATA[<color=orange>Ash Twin Project</color>]]> at the <![CDATA[<color=orange>High Energy Lab</color>]]> on <![CDATA[<color=lightblue>Ember Twin</color>]]>’s equator.</Text>
+	</TextBlock>
+	<TextBlock>
+		<ID>2</ID>
+		<ParentID>1</ParentID>
+		<Text>CONOY: I became lost on <![CDATA[<color=lightblue>Ember Twin</color>]]> (my gratitude that Ramie found me!), but the <![CDATA[<color=orange>High Energy Lab</color>]]> is the building with the large solar panels. I’m suprised I didn’t see it!</Text>
+	</TextBlock>
+	<TextBlock>
+		<ID>3</ID>
+		<ParentID>2</ParentID>
+		<Text>RAMIE: I imagine our otherwise immensely clever Conoy would lose his own head if it weren’t anatomically impossible!</Text>
+	</TextBlock>
+
+	<ShipLogConditions>
+		<RevealFact>
+			<FactID>CT_HIGH_ENERGY_LAB_R2</FactID>
+			<Condition></Condition>
+		</RevealFact>
+		<RevealFact>
+			<FactID>TT_WARP_TOWERS_X1</FactID>
+			<Condition></Condition>
+		</RevealFact>
+	</ShipLogConditions>
+</NomaiObject>

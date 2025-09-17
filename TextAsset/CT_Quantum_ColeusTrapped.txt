@@ -1,0 +1,66 @@
+<!--
+1 — 2 — 3
+|
+4 — 5 — 6 — 7
+-->
+<NomaiObject>
+	<TextBlock>
+		<ID>1</ID>
+		<Text>
+			COLEUS: How curious! This rock took me with it to a new location. I wonder why this happened?
+		</Text>
+	</TextBlock>
+	<TextBlock>
+		<ID>2</ID>
+		<ParentID>1</ParentID>
+		<Text>
+			COLEUS: Curious, but also alarming: This new cave appears to lack an entrance or exit. Also, the rock that brought me here disappeared while I wasn’t watching.
+		</Text>
+	</TextBlock>
+	<TextBlock>
+		<ID>3</ID>
+		<ParentID>2</ParentID>
+		<Text>
+			COLEUS: The wandering rock has returned! Never before have I been so delighted to see a sedimentary specimen.
+		</Text>
+	</TextBlock>
+	<TextBlock>
+		<ID>4</ID>
+		<ParentID>1</ParentID>
+		<Text>
+			COLEUS: I wonder if I myself became quantum briefly when the rock carried me here! This seems the clearest explanation. Hypothesis: If the rock can bring me here, it can also carry me out.
+		</Text>
+	</TextBlock>
+	<TextBlock>
+		<ID>5</ID>
+		<ParentID>4</ParentID>
+		<Text>
+			COLEUS: My hypothesis was correct! I can travel on this rock, as long as I’m not observing my surroundings (meaning I must be in complete darkness). I’m going to bring my mentor here to see this.
+		</Text>
+	</TextBlock>
+	<TextBlock>
+		<ID>6</ID>
+		<ParentID>5</ParentID>
+		<Text>
+			COLEUS: Melorae is here now, too. We theorize when a conscious being is in contact with a quantum object and ceases to observe his or her surroundings, the being can become entangled with that quantum object, and they move together.
+		</Text>
+	</TextBlock>
+	<TextBlock>
+		<ID>7</ID>
+		<ParentID>6</ParentID>
+		<Text>
+			MELORAE: Friends, Coleus has discovered a new quantum rule! (He has also promised me he’ll never vanish again, even if he <![CDATA[<i>does</i>]]> learn something useful from it!)
+		</Text>
+	</TextBlock>
+
+	<ShipLogConditions>
+		<RevealFact>
+			<FactID>CT_LAKEBED_CAVERN_X2</FactID>
+			<Condition>5</Condition>
+		</RevealFact>
+		<RevealFact>
+			<FactID>CT_LAKEBED_CAVERN_X3</FactID>
+			<Condition>6</Condition>
+		</RevealFact>
+	</ShipLogConditions>
+</NomaiObject>

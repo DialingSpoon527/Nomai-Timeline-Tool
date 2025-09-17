@@ -1,0 +1,53 @@
+<!--
+1 - 2 - 4 - 5 - 6 - 7
+    |
+    3
+-->
+
+<NomaiObject>
+	<TextBlock>
+		<ID>1</ID>
+		<Text>COLEUS: I was upstairs testing the <![CDATA[<color=orange>Eye signal locator</color>]]>, and it can hear and follow the signals from the <![CDATA[<color=lightblue>sun</color>]]>, <![CDATA[<color=lightblue>Giant’s Deep</color>]]>, and <![CDATA[<color=lightblue>Brittle Hollow</color>]]>.</Text>
+	</TextBlock>
+	<TextBlock>
+		<ID>2</ID>
+		<ParentID>1</ParentID>
+		<Text>COLEUS: However, something strange is happening when I ask the <![CDATA[<color=orange>Eye signal locator</color>]]> to follow the <![CDATA[<color=lightblue>Eye</color>]]>’s signal: The device’s indicator rotates wildly and never points to just one direction.</Text>
+	</TextBlock>
+	<TextBlock>
+		<ID>3</ID>
+		<ParentID>2</ParentID>
+		<Text>THATCH: This is a curious result. It’s possible the <![CDATA[<color=lightblue>Eye</color>]]> has stopped calling out its signal.</Text>
+	</TextBlock>	
+	<TextBlock>
+		<ID>4</ID>
+		<ParentID>2</ParentID>
+		<Text>FILIX: I see! I most likely calibrated the locator incorrectly. Privet (my apprentice) and I will make adjustments and try again.</Text>
+	</TextBlock>
+	<TextBlock>
+		<ID>5</ID>
+		<ParentID>4</ParentID>
+		<Text>FILIX: An update: Disappointingly, everything is correctly calibrated after all.</Text>
+	</TextBlock>
+	<TextBlock>
+		<ID>6</ID>
+		<ParentID>5</ParentID>
+		<Text>CASSAVA: It saddens me to posit this, my friends, but I believe this <![CDATA[<color=orange>locator</color>]]> cannot detect the <![CDATA[<color=lightblue>Eye</color>]]>’s signal. We would need to build a more sensitive device if we want to locate the <![CDATA[<color=lightblue>Eye of the universe</color>]]>.</Text>
+	</TextBlock>
+	<TextBlock>
+		<ID>7</ID>
+		<ParentID>6</ParentID>
+		<Text>THATCH: Then we will build it. Don’t lose hope, Cassava; our search for the <![CDATA[<color=lightblue>Eye</color>]]> is what brought our clan to this place. We won’t give up so easily!</Text>
+	</TextBlock>
+
+	<ShipLogConditions>
+		<RevealFact>
+			<FactID>TM_EYE_LOCATOR_X1</FactID>
+			<Condition>1</Condition>
+		</RevealFact>
+		<RevealFact>
+			<FactID>TM_EYE_LOCATOR_X2</FactID>
+			<Condition>2</Condition>
+		</RevealFact>
+	</ShipLogConditions>
+</NomaiObject>

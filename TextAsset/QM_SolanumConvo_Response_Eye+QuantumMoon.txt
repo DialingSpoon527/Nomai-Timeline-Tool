@@ -1,0 +1,37 @@
+<!--
+1 - 2 - 3 - 4 - 5
+-->
+
+<NomaiObject>
+	<TextBlock>
+		<ID>1</ID>
+		<Text>SOLANUM: I imagine you’ve noticed the <![CDATA[<color=lightblue>Quantum Moon</color>]]> changes in appearance depending on which location it is currently orbiting (for instance, the moon looks quite different when orbiting <![CDATA[<color=lightblue>Giant’s Deep</color>]]> than it does when orbiting the <![CDATA[<color=lightblue>Hourglass Twins</color>]]>).</Text>
+	</TextBlock>
+	<TextBlock>
+		<ID>2</ID>
+		<ParentID>1</ParentID>
+		<Text>SOLANUM: Because the <![CDATA[<color=lightblue>Quantum Moon</color>]]> clearly changes in its different forms, the <![CDATA[<color=lightblue>Eye</color>]]> (being this moon’s primary location) must be similarly malleable.</Text>
+	</TextBlock>
+	<TextBlock>
+		<ID>3</ID>
+		<ParentID>2</ParentID>
+		<Text>SOLANUM: From this, we can hypothesize that <![CDATA[<i>the Eye represents extreme changeability</i>]]>.</Text>
+	</TextBlock>
+	<TextBlock>
+		<ID>4</ID>
+		<ParentID>3</ParentID>
+		<Text>SOLANUM: That said, despite its malleable nature, the <![CDATA[<color=lightblue>Quantum Moon</color>]]> becomes locked to one specific version of itself when it is consciously observed.</Text>
+	</TextBlock>
+	<TextBlock>
+		<ID>5</ID>
+		<ParentID>4</ParentID>
+		<Text>SOLANUM: But what would happen if a conscious observer were to enter the <![CDATA[<i>Eye</i>]]>?</Text>
+	</TextBlock>
+
+	<ShipLogConditions>
+		<RevealFact>
+			<FactID>QM_SIXTH_LOCATION_X2</FactID>
+			<Condition>5</Condition>
+		</RevealFact>
+	</ShipLogConditions>
+</NomaiObject>

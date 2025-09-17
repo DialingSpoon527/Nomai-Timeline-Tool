@@ -1,0 +1,60 @@
+<!--
+1 — 2 — 3 — 4 — 5
+        |
+        6 — 7 — 8
+
+TO UPDATE: add something from Yarrow asking if Pye and Idaea are still not talking to each other (probably coming off of 4).
+-->
+
+<NomaiObject>
+	<TextBlock>
+		<ID>1</ID>
+		<Text>YARROW: Some time has passed since I checked in with you, Pye. How are you and Idaea progressing with the <![CDATA[<color=orange>Sun Station</color>]]> plans?</Text>
+	</TextBlock>
+	<TextBlock>
+		<ID>2</ID>
+		<ParentID>1</ParentID>
+		<Text>PYE: Presently, my assessment is that our plan will either fail explosively or succeed explosively.</Text>
+	</TextBlock>
+	<TextBlock>
+		<ID>3</ID>
+		<ParentID>2</ParentID>
+		<Text>IDAEA: Pye, you know I don’t find that funny.</Text>
+	</TextBlock>
+	<TextBlock>
+		<ID>4</ID>
+		<ParentID>3</ParentID>
+		<Text>PYE: How curious; Ramie thinks I’m a gas. And I don’t recall requesting that you monitor this conversation, Idaea.</Text>
+	</TextBlock>
+	<TextBlock>
+		<ID>5</ID>
+		<ParentID>4</ParentID>
+		<Text>IDAEA: I don’t see what state of matter you are has to do with this. And I don’t recall supporting the <![CDATA[<color=orange>Sun Station</color>]]>’s construction, but here we are.</Text>
+	</TextBlock>
+	<TextBlock>
+		<ID>6</ID>
+		<ParentID>3</ParentID>
+		<Text>YARROW: Hypothesis: Time spent away from the station would be beneficial to you both.</Text>
+	</TextBlock>
+		<TextBlock>
+		<ID>7</ID>
+		<ParentID>6</ParentID>
+		<Text>PYE: I’m immensely interested in testing your hypothesis, Yarrow.</Text>
+	</TextBlock>
+		<TextBlock>
+		<ID>8</ID>
+		<ParentID>7</ParentID>
+		<Text>IDAEA: That, at least, we can agree on.</Text>
+	</TextBlock>
+
+	<ShipLogConditions>
+		<RevealFact>
+			<FactID>S_SUNSTATION_R3</FactID>
+			<Condition></Condition>
+		</RevealFact>
+		<RevealFact>
+			<FactID>TT_WARP_TOWERS_X1</FactID>
+			<Condition></Condition>
+		</RevealFact>
+	</ShipLogConditions>
+</NomaiObject>

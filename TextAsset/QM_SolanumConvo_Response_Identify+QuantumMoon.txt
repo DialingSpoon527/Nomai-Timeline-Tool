@@ -1,0 +1,22 @@
+<!--
+1 - 2
+-->
+
+<NomaiObject>
+	<TextBlock>
+		<ID>1</ID>
+		<Text>SOLANUM: This is the <![CDATA[<color=lightblue>Quantum Moon</color>]]>, where we both are standing.</Text>
+	</TextBlock>
+	<TextBlock>
+		<ID>2</ID>
+		<ParentID>1</ParentID>
+		<Text>SOLANUM: Despite also orbiting other celestial bodies, the <![CDATA[<color=lightblue>Quantum Moon</color>]]> is the <![CDATA[<color=lightblue>Eye of the universe</color>]]>’s moon.</Text>
+	</TextBlock>
+
+	<ShipLogConditions>
+		<RevealFact>
+			<FactID>QM_SIXTH_LOCATION_X3</FactID>
+			<Condition>2</Condition>
+		</RevealFact>
+	</ShipLogConditions>
+</NomaiObject>

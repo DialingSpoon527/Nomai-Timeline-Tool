@@ -1,0 +1,21 @@
+<NomaiObject>
+	<TextBlock>
+		<ID>1</ID>
+		<Text>
+		    Star has reached end of natural life cycle. Now approaching red giant stage. WARNING: Evacuate <![CDATA[<color=orange>Sun Station</color>]]>.
+		</Text>
+	</TextBlock>
+	<TextBlock>
+		<ID>2</ID>
+		<Text>
+		    Approximate time until <![CDATA[<color=orange>Sun Station</color>]]> is destroyed by expanding star: <![CDATA[<RemainingMinutes>]]> MINUTES, <![CDATA[<RemainingSeconds>]]> SECONDS\\nApproximate time until star’s death: <![CDATA[<MinutesToRedGiant>]]> MINUTES, <![CDATA[<SecondsToRedGiant>]]> SECONDS
+		</Text>
+	</TextBlock>
+
+	<ShipLogConditions>
+		<RevealFact>
+			<FactID>S_SUNSTATION_X4</FactID>
+			<Condition></Condition>
+		</RevealFact>
+	</ShipLogConditions>
+</NomaiObject>

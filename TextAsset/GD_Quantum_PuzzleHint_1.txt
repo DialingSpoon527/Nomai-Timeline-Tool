@@ -1,0 +1,7 @@
+<NomaiObject>
+	<TextBlock>
+		<ID>1</ID>
+<!-- 		<Text>To observe a quantum object causes stillness.</Text> -->
+		<Text>Seek the wandering arch.</Text>
+	</TextBlock>
+</NomaiObject>

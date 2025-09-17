@@ -1,0 +1,15 @@
+<NomaiObject>
+	<TextBlock>
+		<ID>1</ID>
+		<Text>
+			COLEUS: To reach the shelter site, walk forward until you meet the sandfall at the pit, then turn left. Continue to the room filled with rock column formations and climb upward through the opening above them.
+		</Text>
+	</TextBlock>
+	<TextBlock>
+		<ID>2</ID>
+		<ParentID>1</ParentID>
+		<Text>
+			COLEUS: The sand here is rising, so you must be cautious but swift.
+		</Text>
+	</TextBlock>
+</NomaiObject>

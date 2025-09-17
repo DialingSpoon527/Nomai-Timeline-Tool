@@ -1,0 +1,8 @@
+<NomaiObject>
+	<TextBlock>
+		<ID>1</ID>
+		<Text>
+			COLEUS: You’re doing well! There’s only a little farther left to go now until you reach the shelter site. You can rest there. Hurry, before the sand comes!
+		</Text>
+	</TextBlock>
+</NomaiObject>

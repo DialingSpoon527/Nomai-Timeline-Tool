@@ -1,0 +1,39 @@
+<!--
+1 - 2 - 4
+	|
+	3	
+-->
+
+<NomaiObject>
+	<TextBlock>
+		<ID>1</ID>
+		<Text>POKE: Welcome to the <![CDATA[<color=orange>White Hole Station</color>]]>! If you fell through the black hole by accident (don't worry, you aren’t the first), this warp tower can return you to <![CDATA[<color=lightblue>Brittle Hollow</color>]]>.</Text>
+	</TextBlock>
+	<TextBlock>
+		<ID>2</ID>
+		<ParentID>1</ParentID>
+		<Text>POKE: Every warp tower is tuned to a specific astral body. A tower's warp can only be used during the brief window when the tower is aligned with its corresponding astral body (in this case, <![CDATA[<color=lightblue>Brittle Hollow</color>]]>).</Text>
+	</TextBlock>
+	<TextBlock>
+		<ID>3</ID>
+		<ParentID>2</ParentID>
+		<Text>You must be standing on the warp platform on the floor during this alignment to be warped.</Text>
+	</TextBlock>	
+	<TextBlock>
+		<ID>4</ID>
+		<ParentID>2</ParentID>
+		<Text>POKE: If you look up while the station is rotating, you can see the alignment happens when the astral body is directly overhead.</Text>
+	</TextBlock>
+
+
+	<ShipLogConditions>
+		<RevealFact>
+			<FactID>WHS_X4</FactID>
+			<Condition>2</Condition>
+		</RevealFact>
+		<RevealFact>
+			<FactID>WHS_X1</FactID>
+			<Condition>2, 3, 4</Condition>
+		</RevealFact>
+	</ShipLogConditions>
+</NomaiObject>

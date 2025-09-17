@@ -1,0 +1,39 @@
+<!--
+1
+|
+2
+|
+3
+|
+4
+
+-->
+
+<NomaiObject>
+	<TextBlock>
+		<ID>1</ID>
+		<Text>Be welcomed in this place. This shrine is a space to reflect on what brought us to this star system: the signal from the <![CDATA[<color=lightblue>Eye</color>]]>. </Text>
+	</TextBlock>
+	<TextBlock>
+		<ID>2</ID>
+		<ParentID>1</ParentID>
+		<Text>We observed the <![CDATA[<color=lightblue>Eye</color>]]>’s signal in our travels, and followed it here to find its source. </Text>
+	</TextBlock>
+	<TextBlock>
+		<ID>3</ID>
+		<ParentID>2</ParentID>
+		<Text>What we know is this: The source of the signal (which we have chosen to call the <![CDATA[<color=lightblue>Eye of the universe</color>]]>) is older than this universe itself. The rest, we have yet to learn.</Text>
+	</TextBlock>
+	<TextBlock>
+		<ID>4</ID>
+		<ParentID>3</ParentID>
+		<Text>Enter, and open your mind to its possibilities.</Text>
+	</TextBlock>
+
+	<ShipLogConditions>
+		<RevealFact>
+			<FactID>BH_HANGING_CITY_X4</FactID>
+			<Condition>3</Condition>
+		</RevealFact>
+	</ShipLogConditions>
+</NomaiObject>

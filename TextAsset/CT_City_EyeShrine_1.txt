@@ -1,0 +1,38 @@
+<!--
+4
+|
+3
+|
+1 — 2
+
+-->
+
+<NomaiObject>
+	<TextBlock>
+		<ID>1</ID>
+		<Text>
+			If the <![CDATA[<color=lightblue>Eye</color>]]> called to us, why won’t it reveal itself? Why is it so difficult to locate it?
+		</Text>
+	</TextBlock>
+	<TextBlock>
+		<ID>2</ID>
+		<ParentID>1</ParentID>
+		<Text>
+			Did something happen to it?
+		</Text>
+	</TextBlock>
+	<TextBlock>
+		<ID>3</ID>
+		<ParentID>1</ParentID>
+		<Text>
+			Did the signal stop? Does the <![CDATA[<color=lightblue>Eye</color>]]> no longer desire to be found?
+		</Text>
+	</TextBlock>
+	<TextBlock>
+		<ID>4</ID>
+		<ParentID>3</ParentID>
+		<Text>
+			Perhaps this isn’t the <![CDATA[<color=lightblue>Eye</color>]]>’s choice. The <![CDATA[<color=lightblue>Eye</color>]]> may not be able to communicate with us more than it already has.
+		</Text>
+	</TextBlock>	
+</NomaiObject>

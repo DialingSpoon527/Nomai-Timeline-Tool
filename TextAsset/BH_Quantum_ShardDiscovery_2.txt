@@ -1,0 +1,79 @@
+<!--
+1 — 2 — 3 — 4 
+❘
+5
+|
+6
+-->
+
+<NomaiObject>
+	<TextBlock>
+		<ID>1</ID>
+		<Text>
+			THATCH: Plume, Filix, and I have determined this atypical shard of rock is the reason objects in this grove are behaving in a quantum manner.
+		</Text>
+	</TextBlock>
+	<TextBlock>
+		<ID>2</ID>
+		<ParentID>1</ParentID>
+		<Text>
+			THATCH: The only other object we’ve observed displaying this quantum behavior is the <![CDATA[<color=lightblue>wandering moon</color>]]>. I imagine the moon’s behavior and this grove’s are related.
+		</Text>
+	</TextBlock>
+	<TextBlock>
+		<ID>3</ID>
+		<ParentID>2</ParentID>
+		<Text>
+			PLUME: In her note from earlier, Filix mentions this strange type of rock isn’t found elsewhere on <![CDATA[<color=lightblue>Brittle Hollow</color>]]>. What if it isn’t originally from this planet?
+		</Text>
+	</TextBlock>
+	<TextBlock>
+		<ID>4</ID>
+		<ParentID>3</ParentID>
+		<Text>
+			PLUME: Hypothesis: This “quantum shard” is from the <![CDATA[<color=lightblue>wandering (quantum) moon</color>]]>. Perhaps it is even a small piece of the moon itself.
+		</Text>
+	</TextBlock>
+	<TextBlock>
+		<ID>5</ID>
+		<ParentID>1</ParentID>
+		<Text>
+			FILIX: Of note: A unique signal is coming from this shard! Curiously, our friend the <![CDATA[<color=lightblue>wandering moon</color>]]> sounds the same.
+		</Text>
+	</TextBlock>
+	<TextBlock>
+		<ID>6</ID>
+		<ParentID>5</ParentID>
+		<Text>
+			FILIX: I’ve also heard the same signal this shard produces calling out from <![CDATA[<color=lightblue>Giant’s Deep</color>]]>,<![CDATA[<color=lightblue>Timber Hearth</color>]]>, and the <![CDATA[<color=lightblue>Hourglass Twins</color>]]>. Suppose there are other shards like this one!
+		</Text>
+	</TextBlock>
+
+	<ShipLogConditions>
+		<RevealFact>
+			<FactID>BH_QUANTUM_SHARD_X1</FactID>
+			<Condition>1</Condition>
+		</RevealFact>
+		<RevealFact>
+			<FactID>BH_QUANTUM_SHARD_X2</FactID>
+			<Condition>4</Condition>
+		</RevealFact>
+		<RevealFact>
+			<FactID>BH_QUANTUM_SHARD_X3</FactID>
+			<Condition>5</Condition>
+		</RevealFact>
+
+		<RevealFact>
+			<FactID>CT_QUANTUM_CAVES_R1</FactID>
+			<Condition>6</Condition>
+		</RevealFact>
+		<RevealFact>
+			<FactID>TH_QUANTUM_SHARD_R2</FactID>
+			<Condition>6</Condition>
+		</RevealFact>
+		<RevealFact>
+			<FactID>GD_QUANTUM_TOWER_R1</FactID>
+			<Condition>6</Condition>
+		</RevealFact>
+	</ShipLogConditions>
+</NomaiObject>

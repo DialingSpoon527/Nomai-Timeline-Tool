@@ -1,0 +1,52 @@
+<!--
+1 - 2 - 3 - 4
+    |
+    5
+-->
+<NomaiObject>
+	<TextBlock>
+		<ID>1</ID>
+		<Text>
+			MELORAE: This rock is very familiar! Did you travel here, my sedimentary friend? Because your unique color and texture appears identical to a rock I met earlier.
+		</Text>
+	</TextBlock>
+	<TextBlock>
+		<ID>2</ID>
+		<ParentID>1</ParentID>
+		<Text>
+			MELORAE: Wasn’t this same rock fragment in the cave we found at the bottom of the dry lakebed (at the north pole)?
+		</Text>
+	</TextBlock>
+	<TextBlock>
+		<ID>3</ID>
+		<ParentID>2</ParentID>
+		<Text>
+			 COLEUS: An update: Melorae and I went back to the <![CDATA[<color=orange>Lakebed Cave</color>]]> and observed this rock again. Sometimes it’s there, and sometimes it isn’t.
+		</Text>
+	</TextBlock>
+	<TextBlock>
+		<ID>4</ID>
+		<ParentID>3</ParentID>
+		<Text>
+			MELORAE: That means this rock wanders like the <![CDATA[<color=lightblue>Quantum Moon</color>]]> does. How curious!
+		</Text>
+	</TextBlock>
+	<TextBlock>
+		<ID>5</ID>
+		<ParentID>2</ParentID>
+		<Text>
+			COLEUS: We plan to reexamine the northern <![CDATA[<color=orange>Lakebed Cave</color>]]>. (Maybe our friendly rock will meet us down there!)
+		</Text>
+	</TextBlock>
+
+	<ShipLogConditions>
+		<RevealFact>
+			<FactID>CT_QUANTUM_CAVES_X1</FactID>
+			<Condition></Condition>
+		</RevealFact>
+		<RevealFact>
+			<FactID>CT_LAKEBED_CAVERN_R1</FactID>
+			<Condition>2</Condition>
+		</RevealFact>
+	</ShipLogConditions>
+</NomaiObject>

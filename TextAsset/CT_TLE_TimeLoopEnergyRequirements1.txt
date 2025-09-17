@@ -1,0 +1,60 @@
+<!--
+1 — 2 — 3 — 4 — 5
+        |   
+        6    
+        |    
+        7    
+
+-->
+
+<NomaiObject>
+	<TextBlock>
+		<ID>1</ID>
+		<Text>RAMIE: The <![CDATA[<color=orange>Southern Observatory</color>]]> is asking if creating a 22 minute interval is possible (that is, to have something arrive 22 minutes before it is actually sent through the warp).</Text>
+	</TextBlock>
+	<TextBlock>
+		<ID>2</ID>
+		<ParentID>1</ParentID>
+		<Text>RAMIE: We’ve learned the negative interval of time between departure and arrival can be increased by adding more energy to the warp core. Problematically, the energy required to extend the interval increases at an exponential rate.</Text>
+	</TextBlock>
+	<TextBlock>
+		<ID>3</ID>
+		<ParentID>2</ParentID>
+		<Text>PYE: Hypothesis: Creating a 22-minute-long interval is possible, but we are currently unable to generate the necessary energy.</Text>
+	</TextBlock>
+	<TextBlock>
+		<ID>4</ID>
+		<ParentID>3</ParentID>
+		<Text>PYE: Ramie and I believe it would be necessary to invent a new method of producing energy, a thrilling but enormous undertaking. We would also require advanced warp technology able to handle such energy.</Text>
+	</TextBlock>
+	<TextBlock>
+		<ID>5</ID>
+		<ParentID>4</ParentID>
+		<Text>PYE: We would also likely need an enormous space to fit these proposed new energy and warp technologies together. The only location large enough would be <![CDATA[<color=lightblue>Ash Twin</color>]]>.</Text>
+	</TextBlock>
+	<TextBlock>
+		<ID>6</ID>
+		<ParentID>3</ParentID>
+		<Text>RAMIE: The energy is <![CDATA[<i>currently</i>]]> unavailable, you say? You’re a gas, Pye!</Text>
+	</TextBlock>
+	<TextBlock>
+		<ID>7</ID>
+		<ParentID>6</ParentID>
+		<Text>PYE: My pun was unintended, Ramie, so I believe it’s you who’s aeriform!</Text>
+	</TextBlock>
+
+	<ShipLogConditions>
+		<RevealFact>
+			<FactID>TT_TIME_LOOP_DEVICE_R2</FactID>
+			<Condition>3, 4, 5</Condition>
+		</RevealFact>
+		<RevealFact>
+			<FactID>CT_HIGH_ENERGY_LAB_X2</FactID>
+			<Condition>2</Condition>
+		</RevealFact>
+		<RevealFact>
+			<FactID>CT_HIGH_ENERGY_LAB_X3</FactID>
+			<Condition>3, 4, 5</Condition>
+		</RevealFact>
+	</ShipLogConditions>
+</NomaiObject>

@@ -1,0 +1,37 @@
+<NomaiObject>
+	<TextBlock>
+		<ID>1</ID>
+		<Text>
+			<![CDATA[<color=orange>ORBITAL PROBE CANNON</color>]]> DAMAGE REPORT: Severe structural stress detected. Assessing damage to modules...
+		</Text>
+	</TextBlock>
+	<TextBlock>
+		<ID>2</ID>
+		<Text>
+			<![CDATA[<color=orange>Control Module</color>]]>: Intact. No structural damage.
+		</Text>
+	</TextBlock>
+	<TextBlock>
+		<ID>3</ID>
+		<Text>
+			<![CDATA[<color=orange>Launch Module</color>]]>: Viewport window fractured. Module exposed to vacuum of space.
+		</Text>
+	</TextBlock>
+	<TextBlock>
+		<ID>4</ID>
+		<Text>
+			<![CDATA[<color=orange>Probe Tracking Module</color>]]>: MISSING.
+		</Text>
+	</TextBlock>
+
+	<ShipLogConditions>
+		<RevealFact>
+			<FactID>OPC_BROKEN_MODULE_R3</FactID>
+			<Condition>3</Condition>
+		</RevealFact>
+		<RevealFact>
+			<FactID>OPC_SUNKEN_MODULE_R2</FactID>
+			<Condition>4</Condition>
+		</RevealFact>
+	</ShipLogConditions>
+</NomaiObject>

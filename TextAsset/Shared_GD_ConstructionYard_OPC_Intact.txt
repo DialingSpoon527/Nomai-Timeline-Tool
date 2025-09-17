@@ -1,0 +1,53 @@
+<!--
+1 - 2 - 3
+    |
+    4 - 5
+-->
+
+<NomaiObject>
+	<TextBlock>
+		<ID>1</ID>
+		<LocationA/>
+		<Text>CASSAVA: I have bad news, Avens. Yarrow says there was a problem with the proposed power source, so the <![CDATA[<color=orange>Orbital Probe Cannon</color>]]> won’t be asked to fire.</Text>
+	</TextBlock>
+	<TextBlock>
+		<ID>2</ID>
+		<ParentID>1</ParentID>
+		<LocationB/>
+		<Text>AVENS: I hope you’re pulling my locomotive limb here, Cassava.</Text>
+	</TextBlock>
+	<TextBlock>
+		<ID>3</ID>
+		<ParentID>2</ParentID>
+		<LocationA/>
+		<Text>CASSAVA: I wish I were, my friend, but no. They aren’t certain they can fix the problem, so the <![CDATA[<color=orange>Orbital Probe Cannon</color>]]> is on indefinite hiatus.</Text>
+	</TextBlock>
+	<TextBlock>
+		<ID>4</ID>
+		<ParentID>2</ParentID>
+		<LocationA/>
+		<Text>CASSAVA: Tell Privet and Mallow they should return from the <![CDATA[<color=orange>cannon</color>]]>. My spouse and I will remain at the <![CDATA[<color=orange>Construction Yard</color>]]>, for now.</Text>
+	</TextBlock>
+	<TextBlock>
+		<ID>5</ID>
+		<ParentID>4</ParentID>
+		<LocationB/>
+		<Text>AVENS: An update: Mallow and I will join you and Daz. Privet left to visit her brother. She fears Idaea may feel responsible.</Text>
+	</TextBlock>
+	
+	<ShipLogConditions>
+		<LocationA/>
+		<RevealFact>
+			<FactID>GD_CONSTRUCTION_YARD_X2</FactID>
+			<Condition>1, 3</Condition>
+		</RevealFact>
+	</ShipLogConditions>
+
+	<ShipLogConditions>
+		<LocationB/>
+		<RevealFact>
+			<FactID>GD_CONSTRUCTION_YARD_R1</FactID>
+			<Condition>4</Condition>
+		</RevealFact>
+	</ShipLogConditions>
+</NomaiObject>

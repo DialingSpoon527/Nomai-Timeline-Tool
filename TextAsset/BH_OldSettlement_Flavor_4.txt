@@ -1,0 +1,7 @@
+
+<NomaiObject>
+	<TextBlock>
+		<ID>1</ID>
+		<Text>THATCH: Is the hardest part of this tragedy not knowing who we may have lost? Or will the hardest part come later, when we learn? (Be well, Aunt Melorae...)</Text>
+	</TextBlock>
+</NomaiObject>

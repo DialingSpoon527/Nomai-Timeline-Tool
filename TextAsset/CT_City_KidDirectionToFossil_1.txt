@@ -1,0 +1,57 @@
+<!--
+1 — 2 — 3 - 4
+        |
+        5 — 6
+
+-->
+
+<NomaiObject>
+	<TextBlock>
+		<ID>1</ID>
+		<Text>
+			LAEVI: We’re meeting in the <![CDATA[<color=orange>Fossil Fish Cave</color>]]> to play the game! If you’re too big to climb through the <![CDATA[<color=orange>Anglerfish Overlook</color>]]> hole:
+		</Text>
+	</TextBlock>
+	<TextBlock>
+		<ID>2</ID>
+		<ParentID>1</ParentID>
+		<Text>
+			LAEVI: You’ll have to go the long way, but it isn’t far. Go to <![CDATA[<color=orange>Stepping Stone Cave</color>]]>, and then up and into the <![CDATA[<color=orange>Fossil Fish Cave</color>]]>.
+		</Text>
+	</TextBlock>
+	<TextBlock>
+		<ID>3</ID>
+		<ParentID>2</ParentID>
+		<Text>
+			TAGET: I tried to get to the fossil fish through <![CDATA[<color=orange>Stepping Stone Cave</color>]]>, but I couldn’t find the entrance. Where is it?
+		</Text>
+	</TextBlock>
+	<TextBlock>
+		<ID>4</ID>
+		<ParentID>3</ParentID>
+		<Text>
+			ILEX: Remember to feed the fossil fish first! If you go to the <![CDATA[<color=orange>Anglerfish Overlook</color>]]> and throw a light into his mouth, he’ll show you the way.
+		</Text>
+	</TextBlock>
+	<TextBlock>
+		<ID>5</ID>
+		<ParentID>3</ParentID>
+		<Text>LAMI: Taget can’t fit through the <![CDATA[<color=orange>Anglerfish Overlook</color>]]> hole anymore because he grew bigger! He’s taller than Laevi now.</Text>
+	</TextBlock>
+	<TextBlock>
+		<ID>6</ID>
+		<ParentID>5</ParentID>
+		<Text>LAEVI: Who cares? Ilex is still tallest.</Text>
+	</TextBlock>
+
+	<ShipLogConditions>
+		<RevealFact>
+			<FactID>CT_ANGLERFISH_FOSSIL_R3</FactID>
+			<Condition>1, 2</Condition>
+		</RevealFact>
+		<RevealFact>
+			<FactID>CT_ANGLERFISH_FOSSIL_R4</FactID>
+			<Condition>4</Condition>
+		</RevealFact>
+	</ShipLogConditions>
+</NomaiObject>

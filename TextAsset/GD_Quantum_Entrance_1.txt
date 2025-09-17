@@ -1,0 +1,13 @@
+<NomaiObject>
+	<TextBlock>
+		<ID>1</ID>
+		<Text>Be welcomed in this place. This tower shares with all who ask the knowledge needed to make his or her first quantum journey.</Text>
+	</TextBlock>
+	
+	<ShipLogConditions>
+		<RevealFact>
+			<FactID>GD_QUANTUM_TOWER_X1</FactID>
+			<Condition></Condition>
+		</RevealFact>
+	</ShipLogConditions>
+</NomaiObject>

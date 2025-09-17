@@ -1,0 +1,35 @@
+<!--
+1 — 2 — 3
+|
+4
+-->
+
+<NomaiObject>
+	<TextBlock>
+		<ID>1</ID>
+		<Text>
+			Is the <![CDATA[<color=lightblue>Eye</color>]]> natural, or artificial?
+		</Text>
+	</TextBlock>
+	<TextBlock>
+		<ID>2</ID>
+		<ParentID>1</ParentID>
+		<Text>
+			Maybe someone built it.
+		</Text>
+	</TextBlock>
+	<TextBlock>
+		<ID>3</ID>
+		<ParentID>2</ParentID>
+		<Text>
+			The <![CDATA[<color=lightblue>Eye</color>]]> is older than the universe itself. How could something exist before its creator?
+		</Text>
+	</TextBlock>
+	<TextBlock>
+		<ID>4</ID>
+		<ParentID>3</ParentID>
+		<Text>
+			It could be naturally occurring, though this doesn’t answer how the <![CDATA[<color=lightblue>Eye</color>]]> could be as old as it is.
+		</Text>
+	</TextBlock>
+</NomaiObject>

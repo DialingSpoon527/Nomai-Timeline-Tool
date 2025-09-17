@@ -1,0 +1,32 @@
+<!--
+1 - 2 - 3 - 4
+-->
+
+<NomaiObject>
+	<TextBlock>
+		<ID>1</ID>
+		<Text>SOLANUM: Many in my clan have believed the <![CDATA[<color=lightblue>Eye</color>]]> called to us for a particular purpose.</Text>
+	</TextBlock>
+	<TextBlock>
+		<ID>2</ID>
+		<ParentID>1</ParentID>
+		<Text>SOLANUM: When I was a child, I used to believe the <![CDATA[<color=lightblue>Eye</color>]]> was malevolent, to have lured my clan to this star system only to then vanish from them so completely.</Text>
+	</TextBlock>
+	<TextBlock>
+		<ID>3</ID>
+		<ParentID>2</ParentID>
+		<Text>SOLANUM: But I don’t fear the <![CDATA[<color=lightblue>Eye</color>]]>, anymore. In fact, it became my fondest hope to see the <![CDATA[<color=lightblue>Eye</color>]]> itself, someday, but I fear this may be beyond my reach.</Text>
+	</TextBlock>
+	<TextBlock>
+		<ID>4</ID>
+		<ParentID>3</ParentID>
+		<Text>SOLANUM: You may think I’m strange, but I have a hypothesis that I may not be entirely alive. Perhaps my journey has reached its end.</Text>
+	</TextBlock>
+
+	<ShipLogConditions>
+		<RevealFact>
+			<FactID>QM_SIXTH_LOCATION_X6</FactID>
+			<Condition>4</Condition>
+		</RevealFact>
+	</ShipLogConditions>
+</NomaiObject>

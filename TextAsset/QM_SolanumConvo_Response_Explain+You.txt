@@ -1,0 +1,27 @@
+<!--
+1 - 2 - 3
+-->
+
+<NomaiObject>
+	<TextBlock>
+		<ID>1</ID>
+		<Text>SOLANUM: I am on my first pilgrimage to the <![CDATA[<color=lightblue>Quantum Moon</color>]]>. All Nomai in my clan make this journey when we come of age.</Text>
+	</TextBlock>
+	<TextBlock>
+		<ID>2</ID>
+		<ParentID>1</ParentID>
+		<Text>SOLANUM: Even though the <![CDATA[<color=lightblue>Eye</color>]]> cannot be reached from here, the <![CDATA[<color=lightblue>Quantum Moon</color>]]> remains special to us, as it carries us nearer to the <![CDATA[<color=lightblue>Eye</color>]]> than any other place we know.</Text>
+	</TextBlock>
+	<TextBlock>
+		<ID>3</ID>
+		<ParentID>2</ParentID>
+		<Text>SOLANUM: I’ve journeyed here to be close to the <![CDATA[<color=lightblue>Eye</color>]]>. While the <![CDATA[<color=lightblue>Eye</color>]]> is obscured from our sight, we can see the <![CDATA[<color=lightblue>Quantum Moon</color>]]>’s reflection of the <![CDATA[<color=lightblue>Eye</color>]]> in the sky above us.</Text>
+	</TextBlock>
+
+	<ShipLogConditions>
+		<RevealFact>
+			<FactID>QM_SIXTH_LOCATION_X5</FactID>
+			<Condition>3</Condition>
+		</RevealFact>
+	</ShipLogConditions>
+</NomaiObject>

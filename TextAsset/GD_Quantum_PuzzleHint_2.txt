@@ -1,0 +1,13 @@
+<NomaiObject>
+	<TextBlock>
+		<ID>1</ID>
+		<Text>Observing a quantum object; observing an image of a quantum object. These are the same.</Text>
+	</TextBlock>
+
+	<ShipLogConditions>
+		<RevealFact>
+			<FactID>GD_QUANTUM_TOWER_X2</FactID>
+			<Condition></Condition>
+		</RevealFact>
+	</ShipLogConditions>
+</NomaiObject>

@@ -1,0 +1,41 @@
+<!--
+	1 - 2 - 3 - 4 - 5
+-->
+
+<NomaiObject>
+	<TextBlock>
+		<ID>1</ID>
+		<Text>BELLS: If you’re here to make your first pilgrimage to the <![CDATA[<color=lightblue>Quantum Moon</color>]]>, you are almost prepared to set out on this deeply significant journey. Before you do, pause, and remember your history.</Text>
+	</TextBlock>
+	<TextBlock>
+		<ID>2</ID>
+		<ParentID>1</ParentID>
+		<Text>BELLS: We make this journey not only for ourselves, but also to honor the members of our clan who came before us: those who, after the crash that brought them to this star system, became stranded on <![CDATA[<color=lightblue>Brittle Hollow</color>]]> and on <![CDATA[<color=lightblue>Ember Twin</color>]]>, with no communication between these two groups of survivors.</Text>
+	</TextBlock>
+	<TextBlock>
+		<ID>3</ID>
+		<ParentID>2</ParentID>
+		<Text>BELLS: These Nomai looked upward from two different planets and saw the same wandering moon visiting their skies. It was this moon (the <![CDATA[<color=lightblue>Quantum Moon</color>]]>) that kept their curiosity alive during this long period of hardship.</Text>
+	</TextBlock>
+	<TextBlock>
+		<ID>4</ID>
+		<ParentID>3</ParentID>
+		<Text>BELLS: After the two divided groups were able to reunite, it became our clan’s united goal to find and visit the <![CDATA[<color=lightblue>Quantum Moon</color>]]>. This took time, and many Nomai who dreamed of seeing the <![CDATA[<color=lightblue>Quantum Moon</color>]]> died before we discovered how to make the journey.</Text>
+	</TextBlock>
+	<TextBlock>
+		<ID>5</ID>
+		<ParentID>4</ParentID>
+		<Text>BELLS: When you reach the <![CDATA[<color=lightblue>Quantum Moon</color>]]>, recall these Nomai, and carry their curiosity onward with you.</Text>
+	</TextBlock>
+
+	<ShipLogConditions>
+		<RevealFact>
+			<FactID>BH_QUANTUM_RESEARCH_TOWER_X2</FactID>
+			<Condition>1</Condition>
+		</RevealFact>
+		<RevealFact>
+			<FactID>BH_QUANTUM_RESEARCH_TOWER_X3</FactID>
+			<Condition>4</Condition>
+		</RevealFact>
+	</ShipLogConditions>
+</NomaiObject>

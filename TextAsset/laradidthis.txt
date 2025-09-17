@@ -1,0 +1,113 @@
+<!--
+lmao dont look
+
+-->
+<NomaiObject>
+	<TextBlock>	
+			<ID>1</ID>
+			<DefaultFontOverride/>
+		<Text>
+<![CDATA[<color=
+
+loading...
+
+
+></color><size=20><color=orange>
+ . . . . . . . . . . . . . . . WWWWWWWWWWWWWWWWWWWWWWWWWWWW . . . . . . . . . . . . . 
+ . . . . . . . . . . . . .WWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWW . . . . . . . . . . .
+ . . . . . . . . . . .WWWWWWWWWWWW . . . . . . . . . .WWWWWWWWWWWWWW . . . . . . . . .
+ . . . . . . . . .WWWWWWWW . . . . . . . . . . . . . . . .WWWWWWWWWWWW . . . . . . . .
+ . . . . . . . .WWWWWWWW . . . . . . . . . . . . . . . . . . .WWWWWWWWWW . . . . . . .
+ . . . . . . .WWWWWWWW . . . . . . . . . . . . . . . . . . . . .WWWWWWWWWW . . . . . .
+ . . . . . .WWWWWWWW . . . . . . . . . . . . . . . . . . . . . . .WWWWWWWWWW . . . . .
+ . . . . .WWWWWWWW . . . . . . . . . . . . . . . . . . . . . . . . .WWWWWWWW . . . . .
+ . . . .WWWWWWWW . . . . . . . . . . . . . . . . . . . . . . . . . . .WWWWWWWW . . . .
+ . . . .WWWWWWWW . . . . . . . . . . . . . . . . . . . . . . . . . . .WWWWWWWW . . . .
+ . . . .WWWWWW . . . . . . . . . . . . . . . . . . . . . . . . . . . . .WWWWWWWW . . .
+ . . .WWWWWWWW . . . . . . . . . . . . . . . . . . . . . . . . . . . . .WWWWWWWW . . .
+ . . .WWWWWW . . . . . .WWWW . . . . . . . . . . . . .WWWW . . . . . . . .WWWWWWW . . 
+ . .WWWWWWWW . . . . .WWWWWWWW . . . . . . . . . . .WWWWWWWW . . . . . . .WWWWWWWW . .
+ . .WWWWWWWW . . . . .WWWWWWWW . . . . . . . . . . .WWWWWWWW . . . . . . . WWWWWWW . .
+ . WWWWWWW . . . . . .WWWWWWWW . . . . . . . . . . .WWWWWWWW . . . . . . . .WWWWWW . .
+ . WWWWWWW . . . . . .WWWWWWWW . . . . . . . . . . .WWWWWWWW . . . . . . . .WWWWWW . .
+ .WWWWWWWW . . . . . .WWWWWWWW . . . . . . . . . . .WWWWWWWW . . . . . . . .WWWWWW . .
+ .WWWWWWWW . . . . . . .WWWW . . . . . . . . . . . . .WWWW . . . . . . . . .WWWWWW . .
+ .WWWWWWWW . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . WWWWWWW . .
+ .WWWWWWWW . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . WWWWWWW . .
+ .WWWWWWWW . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .WWWWWWWW . .
+ .WWWWWWWW . . . . . . . . . . . . . . . . . . . .WWWWWW . . . . . . . . .WWWWWWW . . 
+ . .WWWWWW . . . . . . . .WWWWWW . . . . . . . WWWWWWWWW . . . . . . . . WWWWWWW . . .
+ . .WWWWWWWW . . . . . . .WWWWWWWW . . . . . .WWWWWWWW . . . . . . . . .WWWWWWWW . . .
+ . .WWWWWWWW . . . . . . . .WWWWWWWWWWWWWWWWWWWWWWWW . . . . . . . . . WWWWWWWW . . . 
+ . . .WWWWWW . . . . . . . . .WWWWWWWWWWWWWWWWWW . . . . . . . . . . .WWWWWWWW . . . .
+ . . .WWWWWWWW . . . . . . . . . .WWWWWWWWWW . . . . . . . . . . . .WWWWWWWW . . . . .
+ . . . .WWWWWWWW . . . . . . . . . . . . . . . . . . . . . . . . .WWWWWWWWWW . . . . .
+ . . . . .WWWWWWWW . . . . . . . . . . . . . . . . . . . . . . .WWWWWWWWWW . . . . . .
+ . . . . . WWWWWWWWW . . . . . . . . . . . . . . . . . . . . .WWWWWWWWWW . . . . . . .
+ . . . . . . .WWWWWWWW . . . . . . . . . . . . . . . . . .WWWWWWWWWWWW . . . . . . . .
+ . . . . . . . .WWWWWWWWWW . . . . . . . . . . . . . .WWWWWWWWWWWWWW . . . . . . . . .
+ . . . . . . . . .WWWWWWWWWWWW . . . . . . . . . .WWWWWWWWWWWWWW . . . . . . . . . . .
+ . . . . . . . . . .WWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWW . . . . . . . . . . . . .
+ . . . . . . . . . . . . .WWWWWWWWWWWWWWWWWWWWWWWWWWWWWW . . . . . . . . . . . . . . .
+ . . . . . . . . . . . . . . . .WWWWWWWWWWWWWWWW . . . . . . . . . . . . . . . . . . .
+</color></size>]]>
+		</Text>
+	</TextBlock>
+	<TextBlock>
+			<ID>2</ID>
+			<DefaultFontOverride/>
+		<Text><![CDATA[<color=
+
+LOADING...???
+
+
+></color><size=20><color=orange>                                       
+               WWWWWWWWWWWWWWW             
+           WWWWWW          WWWWWWW         
+        WWWW                   WWWWW       
+      WWWW                       WWWWW     
+    WWWW                           WWWW    
+    WWW                             WWWW   
+   WWW      WW            WWWW       WWWW  
+  WWWW     WWWW         WWWWWWWW     WWWW  
+  WWW      WWWW        WWW    WWW     WWW  
+ WWWW       WW                        WWW  
+ WWWW                                WWWW  
+ WWWW                    WWW         WWWW  
+  WWWW       WWWW      WWWW         WWWW   
+   WWW         WWWWWWWWWW          WWWW    
+    WWWW                         WWWWW     
+     WWWWW                     WWWWW       
+        WWWWW              WWWWWWW         
+          WWWWWWWWWWWWWWWWWWWW             
+                WWWWWWWW                   
+</color></size>]]>
+		</Text>
+	</TextBlock>
+	<TextBlock>
+			<ID>3</ID>
+			<DefaultFontOverride/>
+		<Text>omg... :O<![CDATA[<size=20><color=black>
+
+▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄
+█░▄▄▄▄▄░█▀░█▀▀▀▀▀░█░▄▄▄▄▄░█
+█░█░░░█░█▀░▄░██▄▀▄█░█░░░█░█
+█░█▄▄▄█░█▀█░█▄░▀▀░█░█▄▄▄█░█
+█▄▄▄▄▄▄▄█▄█▄█░▀▄▀░█▄▄▄▄▄▄▄█
+█▄▄▄▄░█▄░░░▄█▄█▄▄▀▄█░█▄█░██
+█▄█░██▀▄▀█░▀░▄█▀░█▀░░█▄▄░░█
+█▀▀▄░▀█▄░▀▄▀▄▀▀▀▄█░▄▀▄▄░███
+█░█▀▄▄▀▄▀▄▀▄█▀░▄▄█▀▄███▄▄░█
+█▄██▄█▄▄▄░▀▀█▄█▄▄░▄▄▄░█▄▀▄█
+█░▄▄▄▄▄░█▄▄▄░▄█▀█░█▄█░░█▄▄█
+█░█░░░█░█░▀█▄▀▀▀▄▄░░▄░▄▄▀░█
+█░█▄▄▄█░█░░██▀░▄▀▀░▀▀▀█▄█░█
+█▄▄▄▄▄▄▄█▄███▄█▄███▄███▄▄▄█
+
+
+
+</color></size>]]>
+		</Text>
+	</TextBlock>
+
+</NomaiObject>

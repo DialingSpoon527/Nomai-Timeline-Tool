@@ -1,0 +1,13 @@
+<NomaiObject>
+	<TextBlock>
+		<ID>1</ID>
+		<Text>MELORAE: Coleus is missing! He vanished from the <![CDATA[<color=orange>Lakebed Cave</color>]]> (the one at the bottom of the dry lakebed at the north pole) several days ago, and we’re unable to find any trace of him. I don’t know how much air he had when he disappeared. I beg any friend reading this, help us recover Coleus!</Text>
+	</TextBlock>
+
+	<ShipLogConditions>
+		<RevealFact>
+			<FactID>CT_LAKEBED_CAVERN_R2</FactID>
+			<Condition></Condition>
+		</RevealFact>
+	</ShipLogConditions>
+</NomaiObject>

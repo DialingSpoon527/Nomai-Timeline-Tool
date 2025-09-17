@@ -1,0 +1,26 @@
+<NomaiObject>
+	<TextBlock>
+		<ID>1</ID>
+		<Text>ILEX: Look out, look out below!</Text>
+	</TextBlock>
+	<TextBlock>
+		<ID>2</ID>
+		<ParentID>1</ParentID>
+		<Text>ILEX: Look out for the gravity hole!</Text>
+	</TextBlock>
+	<TextBlock>
+		<ID>3</ID>
+		<ParentID>2</ParentID>
+		<Text>ILEX: For should you slip</Text>
+	</TextBlock>
+	<TextBlock>
+		<ID>4</ID>
+		<ParentID>3</ParentID>
+		<Text>ILEX: And lose your grip,</Text>
+	</TextBlock>
+	<TextBlock>
+		<ID>5</ID>
+		<ParentID>4</ParentID>
+		<Text>ILEX: Then into space you’ll go!</Text>
+	</TextBlock>
+</NomaiObject>

@@ -1,0 +1,8 @@
+<NomaiObject>
+	<TextBlock>
+		<ID>1</ID>
+		<Text>
+			The <![CDATA[<color=orange>Southern Observatory</color>]]>\\n(south 550m)
+		</Text>
+	</TextBlock>
+</NomaiObject>

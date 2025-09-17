@@ -1,0 +1,42 @@
+<!--
+1 — 2 — 3 — 4 - 5
+
+-->
+
+<NomaiObject>
+	<TextBlock>
+		<ID>1</ID>
+		<Text>TAGET: Are we playing the fossil fish game tonight?</Text>
+	</TextBlock>
+	<TextBlock>
+		<ID>2</ID>
+		<ParentID>1</ParentID>
+		<Text>SOLANUM: I fed the fossil fish a new lantern. If you go to <![CDATA[<color=orange>Stepping Stone Cave</color>]]>, the entrance to the <![CDATA[<color=orange>Fossil Fish Cave</color>]]> is easy to see now.</Text>
+	</TextBlock>
+	<TextBlock>
+		<ID>3</ID>
+		<ParentID>2</ParentID>
+		<Text>LAEVI: Gratitude, Solanum! It’s good you’re small enough to climb in through the hole at the <![CDATA[<color=orange>Anglerfish Overlook</color>]]>.</Text>
+	</TextBlock>
+	<TextBlock>
+		<ID>4</ID>
+		<ParentID>3</ParentID>
+		<Text>LAMI: I’m still small enough!</Text>
+	</TextBlock>
+	<TextBlock>
+		<ID>5</ID>
+		<ParentID>4</ParentID>
+		<Text>LAEVI: You won’t be for long. Mom and Dad are tall, so you and I will be tall, too.</Text>
+	</TextBlock>
+
+	<ShipLogConditions>
+		<RevealFact>
+			<FactID>CT_ANGLERFISH_FOSSIL_R3</FactID>
+			<Condition>2</Condition>
+		</RevealFact>
+		<RevealFact>
+			<FactID>CT_ANGLERFISH_FOSSIL_R4</FactID>
+			<Condition>2</Condition>
+		</RevealFact>
+	</ShipLogConditions>
+</NomaiObject>

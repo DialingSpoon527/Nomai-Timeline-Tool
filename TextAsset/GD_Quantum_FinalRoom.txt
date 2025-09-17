@@ -1,0 +1,31 @@
+<!-- 
+1 - 2 - 3
+-->
+
+<NomaiObject>
+	<TextBlock>
+		<ID>1</ID>
+		<Text>We offer our congratulations! You’ve learned the rule of quantum imaging. Take this knowledge with you on the remainder of your quantum pilgrimage.</Text>
+	</TextBlock>
+	<TextBlock>
+		<ID>2</ID>
+		<ParentID>1</ParentID>
+		<Text>Remember, the other quantum shards have other lessons to teach.</Text>
+	</TextBlock>
+	<TextBlock>
+		<ID>3</ID>
+		<ParentID>2</ParentID>
+		<Text>Our curiosity goes with you on your journey. You walk in the footsteps of those who came before you, and your path guides those who will follow later.</Text>
+	</TextBlock>
+	<ShipLogConditions>
+		<RevealFact>
+			<FactID>GD_QUANTUM_TOWER_X3</FactID>
+			<Condition></Condition>
+		</RevealFact>
+		<RevealFact>
+			<FactID>GD_QUANTUM_TOWER_X4</FactID>
+			<Condition>2</Condition>
+		</RevealFact>
+	</ShipLogConditions>
+<!-- ** [add names + imagery will go nearby]** -->
+</NomaiObject> 

@@ -1,0 +1,40 @@
+<!--
+1 - 2 - 3 - 4
+|
+5
+-->
+
+
+<NomaiObject>
+	<TextBlock>
+		<ID>1</ID>
+		<Text>THATCH: Where should this new, more sophisticated locator be built? It may need to be larger than this <![CDATA[<color=orange>Eye signal locator</color>]]> is.</Text>
+	</TextBlock>
+	<TextBlock>
+		<ID>2</ID>
+		<ParentID>1</ParentID>
+		<Text>PLUME: The southern glacier on <![CDATA[<color=lightblue>Brittle Hollow</color>]]> has ample available space. I could construct a new building to house this proposed locator.</Text>
+	</TextBlock>
+	<TextBlock>
+		<ID>3</ID>
+		<ParentID>2</ParentID>
+		<Text>FILIX: Yes, let’s build there! I imagine our young friend Conoy would enjoy that immensely. He’s always held a great interest in the <![CDATA[<color=lightblue>Eye</color>]]>, especially for a child born so long after the crash.</Text>
+	</TextBlock>
+	<TextBlock>
+		<ID>4</ID>
+		<ParentID>3</ParentID>
+		<Text>PLUME: I will begin construction on <![CDATA[<color=lightblue>Brittle Hollow</color>]]>’s south pole immediately, then!</Text>
+	</TextBlock>
+	<TextBlock>
+		<ID>5</ID>
+		<ParentID>1</ParentID>
+		<Text>COLEUS: Annona and those of us originally stranded on <![CDATA[<color=lightblue>Ember Twin</color>]]> built a <![CDATA[<color=orange>Quantum Moon locator</color>]]> there, but the heat of the <![CDATA[<color=lightblue>sun</color>]]> made its construction challenging. I wouldn’t recommend building on that planet.</Text>
+	</TextBlock>
+
+	<ShipLogConditions>
+		<RevealFact>
+			<FactID>BH_OBSERVATORY_R1</FactID>
+			<Condition>2</Condition>
+		</RevealFact>
+	</ShipLogConditions>	
+</NomaiObject>

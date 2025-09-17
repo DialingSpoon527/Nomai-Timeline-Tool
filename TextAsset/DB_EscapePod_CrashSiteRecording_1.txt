@@ -1,0 +1,40 @@
+<NomaiObject>
+	<TextBlock>
+		<ID>1</ID>
+		<Text>SECCA: Our <![CDATA[<color=orange>escape pod</color>]]> crashed as we tried to flee this place, destroying our movement and communication capabilities in the process.
+		</Text>
+	</TextBlock>
+	<TextBlock>
+		<ID>2</ID>
+		<Text>
+			SECCA: We’ve held out as long as we could here, but this pod’s supply of breathable air is nearly depleted, and the anglerfish attack more and more frequently.
+		</Text>
+	</TextBlock>
+	<TextBlock>
+		<ID>3</ID>
+		<Text>
+			SECCA: Our best chance at survival is to return to the <![CDATA[<color=orange>Vessel</color>]]> to either repair the damage or, more probably, await rescue.
+		</Text>
+	</TextBlock>
+	<TextBlock>
+		<ID>4</ID>
+		<Text>
+			ESCALL: Secca, is the message finished? The <![CDATA[<color=orange>Vessel</color>]]>’s beacon is already growing fainter; it will be gone in a matter of hours. We need to leave here, quickly.
+		</Text>
+	</TextBlock>
+
+	<ShipLogConditions>
+		<RevealFact>
+			<FactID>DB_ESCAPE_POD_X1</FactID>
+			<Condition>1</Condition>
+		</RevealFact>
+		<RevealFact>
+			<FactID>DB_ESCAPE_POD_X2</FactID>
+			<Condition>3</Condition>
+		</RevealFact>
+		<RevealFact>
+			<FactID>DB_NOMAI_GRAVE_R1</FactID>
+			<Condition>3</Condition>
+		</RevealFact>
+	</ShipLogConditions>
+</NomaiObject>

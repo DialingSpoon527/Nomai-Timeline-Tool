@@ -1,0 +1,13 @@
+<NomaiObject>
+	<TextBlock>
+		<ID>1</ID>
+		<Text>The <![CDATA[<color=orange>Ash Twin Project</color>]]> requires a powerful, highly advanced warp core. How should we obtain it?</Text>
+	</TextBlock>
+
+	<ShipLogConditions>
+		<RevealFact>
+			<FactID>BH_HANGING_CITY_X3</FactID>
+			<Condition></Condition>
+		</RevealFact>
+	</ShipLogConditions>
+</NomaiObject>

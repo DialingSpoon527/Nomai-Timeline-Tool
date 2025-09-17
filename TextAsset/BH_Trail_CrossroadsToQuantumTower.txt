@@ -1,0 +1,8 @@
+<NomaiObject>
+	<TextBlock>
+		<ID>1</ID>
+		<Text>
+			The <![CDATA[<color=orange>Tower of Quantum Knowledge</color>]]>\\n(west 190m)
+		</Text>
+	</TextBlock>
+</NomaiObject>

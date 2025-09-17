@@ -1,0 +1,19 @@
+<!--
+	"...receiving data from probe" or "signal"?
+
+	Also. Do we want to include something indicating structural damage? What about a "time" indicating the module is no longer receiving the probe’s signal?
+-->
+
+<NomaiObject>
+	<TextBlock>
+		<ID>1</ID>
+		<Text><![CDATA[<TimeMinutes>]]> MINUTES, <![CDATA[<TimeSeconds>]]> SECONDS AGO: Long-range probe successfully launched from the <![CDATA[<color=orange>Orbital Probe Cannon</color>]]>.</Text>
+	</TextBlock>
+
+	<ShipLogConditions>
+		<RevealFact>
+			<FactID>GD_CONSTRUCTION_YARD_X3</FactID>
+			<Condition></Condition>
+		</RevealFact>
+	</ShipLogConditions>
+</NomaiObject>

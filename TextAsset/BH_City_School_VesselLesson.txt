@@ -1,0 +1,81 @@
+<!--
+1 - 2 - 3 - 4 - 5
+|
+6 - 7 - 8
+|
+9
+-->
+<NomaiObject>
+	
+	<TextBlock>
+		<ID>1</ID>
+		<Text>
+			ILEX: Why We Should Build A New Vessel
+		</Text>
+	</TextBlock>
+
+	<TextBlock>
+		<ID>2</ID>
+		<ParentID>1</ParentID>
+		<Text>
+			ILEX: Each Nomai clan explores the universe in its own Vessel. The Vessel is the heart of every clan.
+		</Text>
+	</TextBlock>
+
+	<TextBlock>
+		<ID>3</ID>
+		<ParentID>2</ParentID>
+		<Text>
+			ILEX: It’s unusual for Nomai to remain in one place for so long. Nomai are wanderers and have no permanent home.
+		</Text>
+	</TextBlock>
+
+	<TextBlock>
+		<ID>4</ID>
+		<ParentID>3</ParentID>
+		<Text>
+			ILEX: If we built a new Vessel, we could return to our adventurous way of life. Imagine all the new places we could go! Our clan wouldn’t be stuck here in this star system.
+		</Text>
+	</TextBlock>
+
+	<TextBlock>
+		<ID>5</ID>
+		<ParentID>4</ParentID>
+		<Text>
+			ILEX: We could even meet with other Nomai, and learn from them, like Coleus says we used to do.
+		</Text>
+	</TextBlock>
+
+	<TextBlock>
+		<ID>6</ID>
+		<ParentID>1</ParentID>
+		<Text>
+			ILEX: It probably wouldn’t be hard to get parts if we stopped building other new things, and if we broke down other structures (like the towers on <![CDATA[<color=lightblue>Ash Twin</color>]]>) for parts.
+		</Text>
+	</TextBlock>
+
+	<TextBlock>
+		<ID>7</ID>
+		<ParentID>6</ParentID>
+		<Text>
+			ILEX: We might have to build a smaller Vessel for now, even though Vessels are normally large. But we could make it bigger later once we reach planets with more resources.
+		</Text>
+	</TextBlock>
+
+	<TextBlock>
+		<ID>8</ID>
+		<ParentID>7</ParentID>
+		<Text>
+			 ILEX: It would also help if we stopped building so many things to search for the <![CDATA[<color=lightblue>Eye of the universe</color>]]>. I asked Yarrow, and he says we use lots of resources on the <![CDATA[<color=orange>Ash Twin Project</color>]]>.
+		</Text>
+	</TextBlock>
+
+	<TextBlock>
+		<ID>9</ID>
+		<ParentID>6</ParentID>
+		<Text>
+			ILEX: We could even have a warp core for jumping long distances like Vessels have. Poke tells me she plans to make a very advanced warp core for a different project. I’m sure she could connect it to the Vessel for travel (because Poke is smart).
+		</Text>
+	</TextBlock>
+
+</NomaiObject>

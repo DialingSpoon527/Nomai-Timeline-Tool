@@ -1,0 +1,55 @@
+<!--
+1 — 3 — 4 — 5
+|
+2
+|
+6
+
+-->
+
+<NomaiObject>
+	<TextBlock>
+		<ID>1</ID>
+		<Text>CLARY: Regarding the warp towers on <![CDATA[<color=lightblue>Ash Twin</color>]]>: Does each tower have to be perfectly aligned with the center of the astral body to which it’s tuned?</Text>
+	</TextBlock>
+	<TextBlock>
+		<ID>2</ID>
+		<ParentID>1</ParentID>
+		<Text>CLARY: I enjoy precision as much as the next Nomai, but if, for example, a tower’s base were to shift even slightly, that tower might no longer align with its astral body.</Text>
+	</TextBlock>
+	<TextBlock>
+		<ID>3</ID>
+		<ParentID>1</ParentID>
+		<Text>POKE: We don’t need the alignment angle to be exact; it only needs to be within five degrees of the astral body’s center.</Text>
+	</TextBlock>
+	<TextBlock>
+		<ID>4</ID>e
+		<ParentID>3</ParentID>
+		<Text>POKE: Of note: This gives us a slightly longer warp window. I imagine this window will last roughly several seconds.</Text>
+	</TextBlock>
+	<TextBlock>
+		<ID>5</ID>
+		<ParentID>4</ParentID>
+		<Text>POKE: As such, any Nomai stepping onto the warp platform during the active window will be immediately warped. We will need to be careful around the platform for the duration of the time it’s active to avoid accidental transportation.</Text>
+	</TextBlock>
+	<TextBlock>
+		<ID>6</ID>
+		<ParentID>2</ParentID>
+		<Text>CLARY: More accurately, I enjoy precision as much as the next Nomai, provided the next Nomai is not Poke.</Text>
+	</TextBlock>
+
+	<ShipLogConditions>
+		<RevealFact>
+			<FactID>BH_WARP_ALIGNMENT_MAP_X2</FactID>
+			<Condition>3</Condition>
+		</RevealFact>
+		<RevealFact>
+			<FactID>BH_WARP_ALIGNMENT_MAP_X3</FactID>
+			<Condition>4</Condition>
+		</RevealFact>
+		<RevealFact>
+			<FactID>BH_WARP_ALIGNMENT_MAP_X4</FactID>
+			<Condition>5</Condition>
+		</RevealFact>
+	</ShipLogConditions>
+</NomaiObject>

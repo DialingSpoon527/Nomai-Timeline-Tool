@@ -1,0 +1,61 @@
+<!--
+1 — 2 — 3 — 4 — 5
+  	        |
+    	  6 — 7
+-->
+
+<NomaiObject>
+	<TextBlock>
+		<ID>1</ID>
+		<LocationB/>
+		<Text>YARROW: What happened? Did the <![CDATA[<color=orange>Sun Station</color>]]> not fire?</Text>
+	</TextBlock>
+	<TextBlock>
+		<ID>2</ID>
+		<ParentID>1</ParentID>
+		<LocationA/>
+		<Text>PYE: It fired, Yarrow. But it failed. The <![CDATA[<color=lightblue>sun</color>]]> barely responded; there were infintestimally small surface-level changes, but they were barely visible, even to the third eye.</Text>
+	</TextBlock>
+	<TextBlock>
+		<ID>3</ID>
+		<ParentID>2</ParentID>
+		<LocationA/>
+		<Text>PYE: The <![CDATA[<color=orange>Sun Station</color>]]> is useless. It will never, and <![CDATA[<i>could</i>]]> never, cause the <![CDATA[<color=lightblue>sun</color>]]> to explode.</Text>
+	</TextBlock>
+	<TextBlock>
+		<ID>4</ID>
+		<ParentID>3</ParentID>
+		<LocationA/>
+		<Text>PYE: I don’t know what comes next, my friends. I suppose we must start over, but I’m unsure how to start over.</Text>
+	</TextBlock>
+	<TextBlock>
+		<ID>5</ID>
+		<ParentID>4</ParentID>
+		<LocationB/>
+		<Text>YARROW: Return to <![CDATA[<color=lightblue>Ash Twin</color>]]> first, my friend. Perhaps a change of task would help: Spire noticed a comet approaching this star system that we’d like to investigate.</Text>
+	</TextBlock>
+	<TextBlock>
+		<ID>6</ID>
+		<ParentID>4</ParentID>
+		<LocationB/>
+		<Text>YARROW: Pye... I hurt for you, my friends; we all know how hard you’ve both worked. I can only offer my compassion. How are you? How is Idaea?</Text>
+	</TextBlock>
+	<TextBlock>
+		<ID>7</ID>
+		<ParentID>6</ParentID>
+		<LocationA/>
+		<Text>IDAEA: We’re well, Yarrow (or as well as can be expected, given the circumstances), though disappointed. I may have disagreed with exploding the <![CDATA[<color=lightblue>sun</color>]]>, but I never wished the device would fail. I’d hoped our terrible work was finished.</Text>
+	</TextBlock>
+	
+	<ShipLogConditions>
+		<LocationA/>
+		<RevealFact>
+			<FactID>S_SUNSTATION_X2</FactID>
+			<Condition>2, 3</Condition>
+		</RevealFact>
+		<RevealFact>
+			<FactID>S_SUNSTATION_X3</FactID>
+			<Condition>5</Condition>
+		</RevealFact>
+	</ShipLogConditions>
+</NomaiObject>

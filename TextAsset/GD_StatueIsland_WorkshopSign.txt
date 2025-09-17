@@ -1,0 +1,18 @@
+<NomaiObject>
+	<TextBlock>
+		<ID>1</ID>
+		<Text><![CDATA[<color=orange>Statue Workshop</color>]]></Text>
+	</TextBlock>
+
+	<ShipLogConditions>
+		<RevealFact>
+			<FactID>GD_STATUE_WORKSHOP_R1</FactID>
+			<Condition></Condition>
+		</RevealFact>
+		<RevealFact>
+			<FactID>GD_STATUE_ISLAND_X1</FactID>
+			<Condition></Condition>
+		</RevealFact>
+	</ShipLogConditions>
+
+</NomaiObject>

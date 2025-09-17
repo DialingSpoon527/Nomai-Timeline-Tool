@@ -1,0 +1,8 @@
+<NomaiObject>
+	<TextBlock>
+		<ID>1</ID>
+		<Text>
+			Artificial gravity control
+		</Text>
+	</TextBlock>
+</NomaiObject>

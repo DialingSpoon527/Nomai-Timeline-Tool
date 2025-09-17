@@ -1,0 +1,37 @@
+<NomaiObject>
+	<TextBlock>
+		<ID>1</ID>
+		<Text>BEGIN FLIGHTLOG: <![CDATA[<color=orange>Escape Pod 3</color>]]>. <![CDATA[<color=orange>Vessel</color>]]> has been mortally injured. Emergency sequence activated. Awaiting departure from <![CDATA[<color=orange>Vessel</color>]]>.</Text>
+	</TextBlock>
+	<TextBlock>
+		<ID>2</ID>
+		<Text>Now launching <![CDATA[<color=orange>Escape Pod 3</color>]]>.</Text>
+	</TextBlock>
+	<TextBlock>
+		<ID>3</ID>
+		<Text>ALERT: Multiple collisions have altered pod’s trajectory. Significant damage to pod detected.</Text>
+	</TextBlock>
+	<TextBlock>
+		<ID>4</ID>
+		<Text>WARNING: Navigation error. Life support error. Propulsion error.</Text>
+	</TextBlock>
+	<TextBlock>
+		<ID>5</ID>
+		<Text>Scanning external environment... Scan complete. Gravity not detected. Breathable air not detected. Multiple lifeforms detected (potentially hostile). Verdict: DO NOT EXIT POD.</Text>
+	</TextBlock>
+	
+	<ShipLogConditions>
+		<RevealFact>
+			<FactID>DB_ESCAPE_POD_X1</FactID>
+			<Condition></Condition>
+		</RevealFact>
+		<RevealFact>
+			<FactID>DB_ESCAPE_POD_X2</FactID>
+			<Condition></Condition>
+		</RevealFact>
+		<RevealFact>
+			<FactID>DB_NOMAI_GRAVE_R1</FactID>
+			<Condition></Condition>
+		</RevealFact>
+	</ShipLogConditions>
+</NomaiObject>

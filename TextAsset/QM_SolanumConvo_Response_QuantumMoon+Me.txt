@@ -1,0 +1,15 @@
+<!--
+1 - 2
+-->
+
+<NomaiObject>
+	<TextBlock>
+		<ID>1</ID>
+		<Text>SOLANUM: Is this your first time on the <![CDATA[<color=lightblue>Quantum Moon</color>]]>? It’s my first time here.</Text>
+	</TextBlock>
+	<TextBlock>
+		<ID>2</ID>
+		<ParentID>1</ParentID>
+		<Text>SOLANUM: If you’ve come here looking for answers, I hope you find them.</Text>
+	</TextBlock>
+</NomaiObject>

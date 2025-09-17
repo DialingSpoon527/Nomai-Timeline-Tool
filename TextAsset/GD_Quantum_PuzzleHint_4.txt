@@ -1,0 +1,6 @@
+<NomaiObject>
+	<TextBlock>
+		<ID>1</ID>
+		<Text>This is the last one (but we made it harder).</Text>
+	</TextBlock>
+</NomaiObject>

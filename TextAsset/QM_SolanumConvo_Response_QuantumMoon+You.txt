@@ -1,0 +1,26 @@
+<!--
+1 - 2
+-->
+
+<NomaiObject>
+	<TextBlock>
+		<ID>1</ID>
+		<Text>SOLANUM: Like many of my clan before me, I journeyed here to see the <![CDATA[<color=lightblue>Quantum Moon</color>]]>’s reflection of the <![CDATA[<color=lightblue>Eye</color>]]>. This is the closest any of us have come to seeing the <![CDATA[<color=lightblue>Eye</color>]]> itself.</Text>
+	</TextBlock>
+	<TextBlock>
+		<ID>2</ID>
+		<ParentID>1</ParentID>
+		<Text>SOLANUM: You may think I’m strange, but I have a hypothesis that I may not be entirely alive. Perhaps my journey has reached its end.</Text>
+	</TextBlock>
+
+	<ShipLogConditions>
+		<RevealFact>
+			<FactID>QM_SIXTH_LOCATION_X5</FactID>
+			<Condition>1</Condition>
+		</RevealFact>
+		<RevealFact>
+			<FactID>QM_SIXTH_LOCATION_X6</FactID>
+			<Condition>2</Condition>
+		</RevealFact>
+	</ShipLogConditions>
+</NomaiObject>

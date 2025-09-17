@@ -1,0 +1,59 @@
+<!--
+1 — 2 — 3 — 4 — 5
+        |
+        6 — 7 — 8
+-->
+
+
+<NomaiObject>
+	<TextBlock>
+		<ID>1</ID>
+		<Text>LAEVI: Whoever was it when we ended last time is the anglerfish.</Text>
+	</TextBlock>
+	<TextBlock>
+		<ID>2</ID>
+		<ParentID>1</ParentID>
+		<Text>LAEVI: <![CDATA[<i>Rule change</i>]]>! The anglerfish now has to wear a blindfold. (And do <![CDATA[<i>not</i>]]> peek!)</Text>
+	</TextBlock>
+	<TextBlock>
+		<ID>3</ID>
+		<ParentID>2</ParentID>
+		<Text>LAEVI: The rest of us (the littlefish) line up against one wall. When the anglerfish says go, the littlefish sneak across to the other side.</Text>
+	</TextBlock>
+	<TextBlock>
+		<ID>4</ID>
+		<ParentID>3</ParentID>
+		<Text>LAEVI: If the anglerfish catches you, you’re eaten.</Text>
+	</TextBlock>
+	<TextBlock>
+		<ID>5</ID>
+		<ParentID>4</ParentID>
+		<Text>LAEVI: Last littlefish to be caught is the new anglerfish! (The old anglerfish gives the new anglerfish the blindfold and becomes a littlefish.)</Text>
+	</TextBlock>
+	<TextBlock>
+		<ID>6</ID>
+		<ParentID>2</ParentID>
+		<Text>LAMI: Why are we changing it? It’s too hard if you can’t see anything!</Text>
+	</TextBlock>
+	<TextBlock>
+		<ID>7</ID>
+		<ParentID>6</ParentID>
+		<Text>LAEVI: Aunt Pye says real anglerfish are blind, so you have to wear a blindfold! The rule stands!</Text>
+	</TextBlock>
+	<TextBlock>
+		<ID>8</ID>
+		<ParentID>7</ParentID>
+		<Text>ILEX: Rule update: It’s okay if younger kids don’t wear the blindfold when they’re it. (The rest of us will still wear it for scientific accuracy and to make the game more even.)</Text>
+	</TextBlock>
+
+	<ShipLogConditions>
+		<RevealFact>
+			<FactID>CT_ANGLERFISH_FOSSIL_X1</FactID>
+			<Condition>2, 3</Condition>
+		</RevealFact>
+		<RevealFact>
+			<FactID>CT_ANGLERFISH_FOSSIL_X2</FactID>
+			<Condition>2, 7</Condition>
+		</RevealFact>
+	</ShipLogConditions>
+</NomaiObject>

@@ -1,0 +1,60 @@
+<!--
+1 - 3 - 4 - 5 - 6
+|       |
+2       7
+
+The file ComputerTimeReading_2 is the second part of this discussion.
+
+***THIS TEXT IS LOCATED ON BH’S NORTH POLE!!***
+-->
+
+<NomaiObject>
+	<TextBlock>
+		<ID>1</ID>
+		<Text>CLARY: To our friends on <![CDATA[<color=lightblue>Brittle Hollow</color>]]>: I just warped here from the <![CDATA[<color=orange>White Hole Station</color>]]> (on the other side of <![CDATA[<color=lightblue>Brittle Hollow</color>]]>’s black hole)! Our design worked; we’ve successfully recreated warp travel!</Text>
+	</TextBlock>
+	<TextBlock>
+		<ID>2</ID>
+		<ParentID>1</ParentID>
+		<Text>FILIX: This is wonderful news! I can’t wait to see the warp tower (although it’s been a long time since I’ve jumped through a black hole!).</Text>
+	</TextBlock>
+	<TextBlock>
+		<ID>3</ID>
+		<ParentID>1</ParentID>
+		<Text>POKE: I don’t know how close it is to Annona’s original design, but as long as what we’ve built works, then I’m delighted! I knew we could do it (Cassava, I hope you’re reading this)!</Text>
+	</TextBlock>
+	<TextBlock>
+		<ID>4</ID>
+		<ParentID>3</ParentID>
+		<Text>POKE: Wait, this can’t be correct. Clary, have you seen these readings? If they were accurate, they would violate causality. There must be an equipment error somewhere.</Text>
+	</TextBlock>
+	<TextBlock>
+		<ID>5</ID>
+		<ParentID>4</ParentID>
+		<Text>POKE: I’m returning to the <![CDATA[<color=orange>White Hole Station</color>]]>. If you and Root meet me there, we can run a full diagnostic and hopefully locate the problem.</Text>
+	</TextBlock>
+	<TextBlock>
+		<ID>6</ID>
+		<ParentID>5</ParentID>
+		<Text>POKE: (Don’t tell Cassava.)</Text>
+	</TextBlock>
+
+	<ShipLogConditions>
+		<RevealFact>
+			<FactID>WHS_R1</FactID>
+			<Condition>1</Condition>
+		</RevealFact>
+		<RevealFact>
+			<FactID>WHS_R2</FactID>
+			<Condition>5</Condition>
+		</RevealFact>
+		<RevealFact>
+			<FactID>BH_WARP_RECEIVER_X1</FactID>
+			<Condition>1</Condition>
+		</RevealFact>
+		<RevealFact>
+			<FactID>BH_WARP_RECEIVER_X2</FactID>
+			<Condition>1</Condition>
+		</RevealFact>
+	</ShipLogConditions>
+</NomaiObject>

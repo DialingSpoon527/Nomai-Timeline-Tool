@@ -1,0 +1,47 @@
+<NomaiObject>
+	<TextBlock>	
+			<ID>1</ID>
+			<DefaultFontOverride/>
+		<Text><![CDATA[<color=lightblue>--Divergence Meter active--
+Now calculating world line divergence...
+</color>]]>
+		</Text>
+	</TextBlock>
+	<TextBlock>
+			<ID>2</ID>
+			<ParentID>1</ParentID>
+			<DefaultFontOverride/>
+		<Text><![CDATA[<color=lightblue>Current divergence value:
+<WorldLine>
+</color>]]>
+		</Text>
+	</TextBlock>
+	<TextBlock>
+			<ID>3</ID>
+			<ParentID>2</ParentID>
+			<DefaultFontOverride/>
+		<Text><![CDATA[<color=orange>To all those who have streamed and clipped their playthroughs, I offer my humble thanks. Thank you for discovering the anomalies within this world line.
+</color>]]>
+		</Text>
+	</TextBlock>
+	<TextBlock>
+			<ID>4</ID>
+			<ParentID>3</ParentID>
+			<DefaultFontOverride/>
+		<Text><![CDATA[<color=orange>Subsequent world lines have been improved thanks to you. This may be my last venture into this world, so I leave you with this:
+Enjoy the journey, friend.
+</color>]]>
+		</Text>
+	</TextBlock>
+	<TextBlock>
+			<ID>5</ID>
+			<ParentID>4</ParentID>
+			<DefaultFontOverride/>
+		<Text><![CDATA[<color=orange>El
+Psy
+Congroo
+</color>]]>
+		</Text>
+	</TextBlock>
+
+</NomaiObject>

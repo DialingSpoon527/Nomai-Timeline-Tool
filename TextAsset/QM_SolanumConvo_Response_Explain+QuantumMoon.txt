@@ -1,0 +1,36 @@
+<!--
+1 - 2 - 3 - 4
+-->
+
+<NomaiObject>
+	<TextBlock>
+		<ID>1</ID>
+		<Text>SOLANUM: Have you encountered a quantum shard on another planet? The shards look the same as the <![CDATA[<color=lightblue>Quantum Moon</color>]]>’s surface does now, while at the <![CDATA[<color=lightblue>Eye</color>]]>.</Text>
+	</TextBlock>
+	<TextBlock>
+		<ID>2</ID>
+		<ParentID>1</ParentID>
+		<Text>SOLANUM: From this, we can reasonably infer the <![CDATA[<color=lightblue>Quantum Moon</color>]]>’s natural state is as we see it now, and that the Eye is its primary location.</Text>
+	</TextBlock>
+		<TextBlock>
+		<ID>3</ID>
+		<ParentID>2</ParentID>
+		<Text>SOLANUM: Given the <![CDATA[<color=lightblue>Quantum Moon</color>]]> is the <![CDATA[<color=lightblue>Eye</color>]]>’s moon, it’s likely that any characteristics the moon exhibits are also exhibited by the Eye itself. The <![CDATA[<color=lightblue>Quantum Moon</color>]]> and its shards, for instance, are quantum; thus, the <![CDATA[<color=lightblue>Eye</color>]]> is likely also quantum.</Text>
+	</TextBlock>
+		<TextBlock>
+		<ID>4</ID>
+		<ParentID>3</ParentID>
+		<Text>SOLANUM: In fact, this moon is probably quantum because its proximity to the <![CDATA[<color=lightblue>Eye</color>]]> made it quantum, the same way the areas surrounding quantum shards that landed on other planets eventually became quantum, too.</Text>
+	</TextBlock>
+
+	<ShipLogConditions>
+		<RevealFact>
+			<FactID>QM_SIXTH_LOCATION_X3</FactID>
+			<Condition>3</Condition>
+		</RevealFact>
+		<RevealFact>
+			<FactID>QM_SIXTH_LOCATION_X4</FactID>
+			<Condition>4</Condition>
+		</RevealFact>
+	</ShipLogConditions>
+</NomaiObject>

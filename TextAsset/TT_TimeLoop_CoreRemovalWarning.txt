@@ -1,0 +1,17 @@
+<NomaiObject>
+	<TextBlock>
+		<ID>1</ID>
+		<Text>Caution: You are about to access the core while the <![CDATA[<color=orange>Ash Twin Project</color>]]> is active.</Text>
+	</TextBlock>
+	<TextBlock>
+		<ID>2</ID>
+		<Text>WARNING: Removing the core will disable the <![CDATA[<color=orange>Ash Twin Project</color>]]>.</Text>
+	</TextBlock>
+
+	<ShipLogConditions>
+		<RevealFact>
+			<FactID>TT_TIME_LOOP_DEVICE_X5</FactID>
+			<Condition></Condition>
+		</RevealFact>
+	</ShipLogConditions>
+</NomaiObject>

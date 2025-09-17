@@ -1,0 +1,45 @@
+<NomaiObject>
+	<TextBlock>
+		<ID>1</ID>
+		<Text>DIN: There is a new problem: Our equipment is detecting two distinct beacons from the <![CDATA[<color=orange>Vessel</color>]]>.</Text>
+	</TextBlock>
+	<TextBlock>
+		<ID>2</ID>
+		<Text>SECCA: But it isn’t possible for the <![CDATA[<color=orange>Vessel</color>]]> to be in two different locations at the same time.</Text>
+	</TextBlock>
+	<TextBlock>
+		<ID>3</ID>
+		<Text>DIN: I agree, but the beacons are exactly identical to each other. Perhaps if I had more time —</Text>
+	</TextBlock>
+	<TextBlock>
+		<ID>4</ID>
+		<Text>SECCA: We’re nearly out of time already, Din; the <![CDATA[<color=orange>Vessel</color>]]>’s beacon is quickly fading. Soon, it will be gone, and we will be lost.</Text>
+	</TextBlock>
+	<TextBlock>
+		<ID>5</ID>
+		<Text>ESCALL: We will follow the beacon whose source is nearest to us.</Text>
+	</TextBlock>
+	<TextBlock>
+		<ID>6</ID>
+		<Text>DIN: But suppose that beacon is false!</Text>
+	</TextBlock>
+	<TextBlock>
+		<ID>7</ID>
+		<Text>ESCALL: We likely don’t have enough air to reach the farther of the two beacons, Din. The decision is made for us.</Text>
+	</TextBlock>
+	<TextBlock>
+		<ID>8</ID>
+		<Text>ESCALL: We’ll leave a trail of lights as we go. There’s still a chance someone could hear our <![CDATA[<color=orange>escape pod</color>]]>’s distress signal.</Text>
+	</TextBlock>
+	
+	<ShipLogConditions>
+		<RevealFact>
+			<FactID>DB_ESCAPE_POD_X3</FactID>
+			<Condition>1, 2</Condition>
+		</RevealFact>
+		<RevealFact>
+			<FactID>DB_NOMAI_GRAVE_R2</FactID>
+			<Condition>5, 8</Condition>
+		</RevealFact>
+	</ShipLogConditions>
+</NomaiObject>

@@ -1,0 +1,38 @@
+
+<!--
+1 — 2
+|
+3
+|
+4
+
+-->
+
+<NomaiObject>
+	<TextBlock>
+		<ID>1</ID>
+		<Text>Who’s been computing shuttle trajectories to the <![CDATA[<color=orange>Sun Station</color>]]>? Don’t worry; the station is in such a low stellar orbit, we’ve constructed a different, safer way to travel there from <![CDATA[<color=lightblue>Ash Twin</color>]]>.</Text>
+	</TextBlock>
+	<TextBlock>
+		<ID>2</ID>
+		<ParentID>1</ParentID>
+		<Text>IDAEA: That would be Pye. I told her we wouldn’t be traveling there by <![CDATA[<color=orange>shuttle</color>]]>, and that the <![CDATA[<color=orange>Sun Station</color>]]> doesn’t even have a landing pad, but she said she knew.</Text>
+	</TextBlock>
+	<TextBlock>
+		<ID>3</ID>
+		<ParentID>1</ParentID>
+		<Text>PYE: It’s a purely theoretical exercise on my part, Yarrow. Who doesn’t love computing a good low stellar orbit shuttle trajectory!</Text>
+	</TextBlock>
+	<TextBlock>
+		<ID>4</ID>
+		<ParentID>3</ParentID>
+		<Text>IDAEA: Pye, I look forward to working with you, but I’m also relieved it will be easy to return to <![CDATA[<color=lightblue>Ash Twin</color>]]> regularly.</Text>
+	</TextBlock>
+
+	<ShipLogConditions>
+		<RevealFact>
+			<FactID>S_SUNSTATION_R1</FactID>
+			<Condition></Condition>
+		</RevealFact>
+	</ShipLogConditions>
+</NomaiObject>

@@ -1,0 +1,12 @@
+
+<NomaiObject>
+	<TextBlock>
+		<ID>1</ID>
+		<Text>PLUME: My brother wasn’t in <![CDATA[<color=orange>Escape Pod 1</color>]]> with us. Was he in <![CDATA[<color=orange>Pod 2</color>]]>, or <![CDATA[<color=orange>Pod 3</color>]]>? Was he able to board an escape pod at all?</Text>
+	</TextBlock>
+	<TextBlock>
+		<ID>2</ID>
+		<ParentID>1</ParentID>
+		<Text>PLUME: We sacrificed too much arriving here. I cannot (<![CDATA[<i>I will</i>]]> not) allow our clan’s greatest loss to be in vain.</Text>
+	</TextBlock>
+</NomaiObject>

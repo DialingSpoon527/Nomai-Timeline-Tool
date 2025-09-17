@@ -1,0 +1,46 @@
+<!--
+	ORIGINAL (changed 4/10)
+FILIX: I’m recording now - I’ve never seen anything like this!\\n\\nESCALL: This is our first contact with anything of this nature. The signal the <![CDATA[<color=orange>Vessel</color>]]> is receiving appears to be older than the universe itself.\\n\\nFILIX: Shouldn’t we [tell someone where we’re going] first?\\n\\nESCALL: No, this signal will likely disappear as quickly as it appeared to us. We can send another message upon our arrival.\\n\\nFILIX: I understand! I’ll do that.\\n\\nESCALL: Annona, is the <![CDATA[<color=orange>Vessel</color>]]> ready to warp to the signal’s approximate coordinates?\\n\\nAnnona: The warp core is powered, but this will be a significant jump. Afterwards, we’ll need time to recharge the core.\\n\\nESCALL: That shouldn’t create a problem, provided we arrive at or near the signal’s source. Prepare to warp!
+-->
+
+<NomaiObject>
+	<TextBlock>
+		<ID>1</ID>
+		<Text>FILIX: I’m recording now — I’ve never encountered anything like this! The signal the <![CDATA[<color=orange>Vessel</color>]]> is receiving appears to be <![CDATA[<i>older than the universe itself</i>]]>!</Text>
+	</TextBlock>
+	<TextBlock>
+		<ID>2</ID>
+		<Text>ESCALL: This is our first contact with anything of this nature. Everyone, prepare to warp immediately!</Text>
+	</TextBlock>
+	<TextBlock>
+		<ID>3</ID>
+		<Text>FILIX: Escall, wait, I need more time to send an outgoing message! Shouldn’t we tell another clan where we’re going?</Text>
+	</TextBlock>
+	<TextBlock>
+		<ID>4</ID>
+		<Text>ESCALL: We can send the message upon our arrival. This extraordinary signal appeared suddenly; it may disappear just as quickly, and we can’t lose a discovery this incredible! Focus on preparing for the warp, instead.</Text>
+	</TextBlock>
+	<TextBlock>
+		<ID>5</ID>
+		<Text>FILIX: I understand!</Text>
+	</TextBlock>
+	<TextBlock>
+		<ID>6</ID>
+		<Text>ESCALL: Annona, is the <![CDATA[<color=orange>Vessel</color>]]> ready to warp to the signal’s approximate coordinates?</Text>
+	</TextBlock>
+	<TextBlock>
+		<ID>7</ID>
+		<Text>ANNONA: The warp core is powered, but this will be a significant jump. Afterward, we’ll need time to recharge the core.</Text>
+	</TextBlock>
+	<TextBlock>
+		<ID>8</ID>
+		<Text>ESCALL: That shouldn’t create a problem, provided we arrive at or near the signal’s source. Everyone, we’re ready to warp!</Text>
+	</TextBlock>
+
+	<ShipLogConditions>
+		<RevealFact>
+			<FactID>DB_VESSEL_X6</FactID>
+			<Condition>1, 2, 3, 4</Condition>
+		</RevealFact>
+	</ShipLogConditions>
+</NomaiObject>

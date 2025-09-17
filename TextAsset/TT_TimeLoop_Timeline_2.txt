@@ -1,0 +1,26 @@
+<!--
+1 - 2 - 3 — 4
+
+-->
+
+<NomaiObject>
+	<TextBlock>
+		<ID>1</ID>
+		<Text>YARROW: Poke just sent the warp core for the final tower to us from the <![CDATA[<color=orange>Black Hole Forge</color>]]>. Now <![CDATA[<color=lightblue>Ash Twin</color>]]> can be connected with <![CDATA[<color=lightblue>Giant’s Deep</color>]]>, where Cassava is working with Avens to craft the <![CDATA[<color=orange>Orbital Probe Cannon</color>]]>, and where Phlox is sculpting the memory statues.</Text>
+	</TextBlock>
+	<TextBlock>
+		<ID>2</ID>
+		<ParentID>1</ParentID>
+		<Text>CASSAVA: Hypothesis: It was not by accident the core of our warp tower was the last to be forged.</Text>
+	</TextBlock>
+	<TextBlock>
+		<ID>3</ID>
+		<ParentID>2</ParentID>
+		<Text>POKE: Hypothesis: The cores could have been forged faster if Cassava had interrupted my work less frequently to ask for updates.</Text>
+	</TextBlock>
+	<TextBlock>
+		<ID>4</ID>
+		<ParentID>3</ParentID>
+		<Text>YARROW: The important point is we are all connected through <![CDATA[<color=lightblue>Ash Twin</color>]]> now, and also that I’m no longer needed for mediating your disagreements.</Text>
+	</TextBlock>
+</NomaiObject>

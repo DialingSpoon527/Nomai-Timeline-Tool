@@ -1,0 +1,8 @@
+<NomaiObject>
+	<TextBlock>
+		<ID>1</ID>
+		<Text>
+			The <![CDATA[<color=orange>High Energy Lab</color>]]>\\n(400m)
+		</Text>
+	</TextBlock>
+</NomaiObject>

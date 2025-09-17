@@ -1,0 +1,15 @@
+<!--
+1 - 2
+-->
+
+<NomaiObject>
+	<TextBlock>
+		<ID>1</ID>
+		<Text>SOLANUM: I imagine your purpose here is the same as mine: to learn about and to find the <![CDATA[<color=lightblue>Eye of the universe</color>]]>.</Text>
+	</TextBlock>
+	<TextBlock>
+		<ID>2</ID>
+		<ParentID>1</ParentID>
+		<Text>SOLANUM: I’m unsure how you arrived here, however. Perhaps you came from another star system, as my clan originally did?</Text>
+	</TextBlock>
+</NomaiObject>

@@ -1,0 +1,12 @@
+<NomaiObject>
+	<TextBlock>
+		<ID>1</ID>
+		<Text>Launch Module</Text>
+	</TextBlock>
+	<ShipLogConditions>
+		<RevealFact>
+			<FactID>OPC_BROKEN_MODULE_R1</FactID>
+			<Condition></Condition>
+		</RevealFact>
+	</ShipLogConditions>
+</NomaiObject>

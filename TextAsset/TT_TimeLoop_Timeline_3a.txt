@@ -1,0 +1,20 @@
+<!--
+1 - 2 - 3
+-->
+
+<NomaiObject>
+	<TextBlock>
+		<ID>1</ID>
+		<Text>YARROW: Our friends on <![CDATA[<color=lightblue>Giant’s Deep</color>]]> tested the <![CDATA[<color=orange>Orbital Probe Cannon</color>]]> today. Mallow tells me the cannon is doing well, and that Avens advocates for more launch power. If anyone can coax the maximum power from a device, Avens can.</Text>
+	</TextBlock>
+	<TextBlock>
+		<ID>2</ID>
+		<ParentID>1</ParentID>
+		<Text>YARROW: But then, if anyone can goad a device into exploding, that, too, is likely Avens. Perhaps I should check in with the <![CDATA[<color=orange>Orbital Probe Cannon</color>]]> crew in the interest of safety.</Text>
+	</TextBlock>
+	<TextBlock>
+		<ID>3</ID>
+		<ParentID>2</ParentID>
+		<Text>YARROW: Would it help to remind Avens that Mallow (his love) will be one of the Nomai aboard the cannon, or is Mallow part of the problem?</Text>
+	</TextBlock>
+</NomaiObject>

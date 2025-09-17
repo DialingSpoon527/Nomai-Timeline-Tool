@@ -1,0 +1,22 @@
+
+<NomaiObject>
+	<TextBlock>
+		<ID>1</ID>
+		<Text>
+			Retrieving stored coordinates from <![CDATA[<color=lightblue>Ash Twin</color>]]>.
+		</Text>
+	</TextBlock>
+	<TextBlock>
+		<ID>2</ID>
+		<Text>
+			Displaying coordinates for the <![CDATA[<color=lightblue>Eye of the universe</color>]]>.
+		</Text>
+	</TextBlock>
+
+	<ShipLogConditions>
+		<RevealFact>
+			<FactID>OPC_EYE_COORDINATES_X1</FactID>
+			<Condition>2</Condition>
+		</RevealFact>
+	</ShipLogConditions>
+</NomaiObject>

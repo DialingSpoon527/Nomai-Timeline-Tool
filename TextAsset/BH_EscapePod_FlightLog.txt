@@ -1,0 +1,41 @@
+<NomaiObject>
+	<TextBlock>
+		<ID>1</ID>
+		<Text>
+			BEGIN FLIGHTLOG: <![CDATA[<color=orange>Escape Pod 1</color>]]>. <![CDATA[<color=orange>Vessel</color>]]> has been mortally injured. Emergency sequence activated. Awaiting departure from <![CDATA[<color=orange>Vessel</color>]]>.
+		</Text>
+	</TextBlock>
+
+	<TextBlock>
+		<ID>2</ID>
+		<Text>
+			Launching <![CDATA[<color=orange>Escape Pod 3</color>]]>... Launching <![CDATA[<color=orange>Escape Pod 2</color>]]>... Now launching <![CDATA[<color=orange>Escape Pod 1</color>]]>.
+		</Text>
+	</TextBlock>
+
+	<TextBlock>
+		<ID>3</ID>
+		<Text>
+			ALERT. Collision imminent. Preparing for impact.
+		</Text>
+	</TextBlock>
+
+	<TextBlock>
+		<ID>4</ID>
+		<Text>
+			Scanning external environment... Scan complete. Minor structural instabilities detected. Pockets of breathable air detected. Adequate solar energy detected.
+			Verdict: HOSPITABLE.
+		</Text>
+	</TextBlock>
+
+	<ShipLogConditions>
+		<RevealFact>
+			<FactID>BH_ESCAPE_POD_X1</FactID>
+			<Condition></Condition>
+		</RevealFact>
+		<RevealFact>
+			<FactID>BH_ESCAPE_POD_X2</FactID>
+			<Condition></Condition>
+		</RevealFact>
+	</ShipLogConditions>
+</NomaiObject>

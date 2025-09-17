@@ -1,0 +1,41 @@
+<!--
+1 - 2 - 3 - 4 - 5
+-->
+
+<NomaiObject>
+	<TextBlock>
+		<ID>1</ID>
+		<Text>SOLANUM: I am here! After watching it wander the skies for so long, I am about to stand (for the first time) on the <![CDATA[<color=lightblue>Quantum Moon</color>]]>.</Text>
+	</TextBlock>
+	<TextBlock>
+		<ID>2</ID>
+		<Text>SOLANUM: As expected, my <![CDATA[<color=orange>shuttle</color>]]> has landed at the moon’s south pole. I will make the remainder of my journey on foot.</Text>
+	</TextBlock>
+	<TextBlock>
+		<ID>3</ID>
+		<Text>SOLANUM: We don’t know why the <![CDATA[<color=lightblue>Quantum Moon</color>]]> always welcomes its visitors at the south pole, just that this is true.</Text>
+	</TextBlock>
+	<TextBlock>
+		<ID>4</ID>
+		<Text>SOLANUM: As a child, I considered such unknowns sinister. Now, though, I understand they bear no ill will. The universe is, and we are.</Text>
+	</TextBlock>
+	<TextBlock>
+		<ID>5</ID>
+		<Text>SOLANUM: I am ready.</Text>
+	</TextBlock>
+
+	<ShipLogConditions>
+		<RevealFact>
+			<FactID>QM_SHUTTLE_X1</FactID>
+			<Condition>2</Condition>
+		</RevealFact>
+		<RevealFact>
+			<FactID>QM_SHUTTLE_X2</FactID>
+			<Condition>3</Condition>
+		</RevealFact>
+		<RevealFact>
+			<FactID>QUANTUM_MOON_R3</FactID>
+			<Condition></Condition>
+		</RevealFact>
+	</ShipLogConditions>
+</NomaiObject>

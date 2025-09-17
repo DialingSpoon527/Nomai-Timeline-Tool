@@ -1,0 +1,16 @@
+<!--
+
+
+-->
+
+<NomaiObject>
+	<TextBlock>
+		<ID>1</ID>
+		<Text>YARROW: We are halting our research into creating a supernova for this moment; a <![CDATA[<color=lightblue>comet</color>]]> has newly arrived in this solar system, and we’re anxious to explore it.</Text>
+	</TextBlock>
+	<TextBlock>
+		<ID>2</ID>
+		<ParentID>1</ParentID>
+		<Text>YARROW: It’s been a very long time since we last explored somewhere new, so we’re excited to welcome this <![CDATA[<color=lightblue>comet</color>]]>. Imagine what knowledge might be gained there!</Text>
+	</TextBlock>
+</NomaiObject>

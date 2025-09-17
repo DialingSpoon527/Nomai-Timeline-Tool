@@ -1,0 +1,49 @@
+<!--
+1 — 4 — 5 — 6
+|
+2 — 3
+-->
+
+<NomaiObject>
+	<TextBlock>
+		<ID>1</ID>
+		<Text>
+			Did the <![CDATA[<color=lightblue>Eye</color>]]> deliberately call out to us by sending the signal, or did we hear the signal by coincidence?
+		</Text>
+	</TextBlock>
+	<TextBlock>
+		<ID>2</ID>
+		<ParentID>1</ParentID>
+		<Text>
+			We could be seeing meaning where there is none. Suppose the signal was produced incidentally.
+		</Text>
+	</TextBlock>
+	<TextBlock>
+		<ID>3</ID>
+		<ParentID>2</ParentID>
+		<Text>
+			Does that mean the <![CDATA[<color=lightblue>Eye</color>]]> is any less important, though?
+		</Text>
+	</TextBlock>
+	<TextBlock>
+		<ID>4</ID>
+		<ParentID>1</ParentID>
+		<Text>
+			Perhaps the <![CDATA[<color=lightblue>Eye</color>]]> wanted to be found (could it be sentient?). Maybe it chose us.
+		</Text>
+	</TextBlock>
+	<TextBlock>
+		<ID>5</ID>
+		<ParentID>4</ParentID>
+		<Text>
+			Does the <![CDATA[<color=lightblue>Eye</color>]]> desire something from us? Could it need us in some way?
+		</Text>
+	</TextBlock>
+	<TextBlock>
+		<ID>6</ID>
+		<ParentID>5</ParentID>
+		<Text>
+			Maybe it doesn’t have to be us.
+		</Text>
+	</TextBlock>
+</NomaiObject>

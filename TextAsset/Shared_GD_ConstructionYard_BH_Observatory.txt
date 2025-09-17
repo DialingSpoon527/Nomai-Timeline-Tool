@@ -1,0 +1,59 @@
+<!--
+1 — 2 — 3 — 4 — 5
+|
+6
+-->
+
+<NomaiObject>
+	<TextBlock>
+		<ID>1</ID>
+		<LocationA/>
+		<Text>CASSAVA: Conoy, Daz and I were lifting <![CDATA[<color=orange>Orbital Probe Cannon</color>]]> components into orbit for assembly, and one somehow sank down down <![CDATA[<i>beneath</i>]]> the current.</Text>
+	</TextBlock>
+	<TextBlock>
+		<ID>2</ID>
+		<ParentID>1</ParentID>
+		<LocationA/>
+		<Text>DAZ: Cassava convinced me not to try to recreate the phenomenon myself using other cannon parts, but we’re very curious to know what happened! How could something pass through the current?</Text>
+	</TextBlock>
+	<TextBlock>
+		<ID>3</ID>
+		<ParentID>2</ParentID>
+		<LocationB/>
+		<Text>CONOY: My gratitude for your interesting question! This is exciting: Spire constructed a model of <![CDATA[<color=lightblue>Giant’s Deep</color>]]> here at <![CDATA[<color=lightblue>Brittle Hollow</color>]]>’s <![CDATA[<color=orange>Southern Observatory</color>]]>, and it's revealed how an object might sink below the current.</Text>
+	</TextBlock>
+	<TextBlock>
+		<ID>4</ID>
+		<ParentID>3</ParentID>
+		<LocationA/>
+		<Text>CASSAVA: Conoy, I’m unable to grasp the answer by looking through the <![CDATA[<color=orange>projection pool</color>]]>. If I visit the <![CDATA[<color=orange>observatory</color>]]>, would you kindly explain?</Text>
+	</TextBlock>
+	<TextBlock>
+		<ID>5</ID>
+		<ParentID>4</ParentID>
+		<LocationB/>
+		<Text>CONOY: If you don’t mind the trek beneath the surface to the south pole, I’d be delighted to see you! (There are two trailheads, one at <![CDATA[<color=lightblue>Brittle Hollow</color>]]>'s <![CDATA[<color=orange>gravity cannon</color>]]> and one at the <![CDATA[<color=orange>Tower of Quantum Knowledge</color>]]>.)</Text>
+	</TextBlock>
+	<TextBlock>
+		<ID>6</ID>
+		<ParentID>1</ParentID>
+		<LocationA/>
+		<Text>DAZ: Conoy, you should’ve seen it! We’d thought it was impossible for any cannon components to sink even partially below the current, but ours sank straight to the core!</Text>
+	</TextBlock>
+
+	<ShipLogConditions>
+		<LocationA/>
+		<RevealFact>
+			<FactID>BH_TORNADO_SIMULATION_R1</FactID>
+			<Condition>3</Condition>
+		</RevealFact>
+		<RevealFact>
+			<FactID>BH_OBSERVATORY_R2</FactID>
+			<Condition>5</Condition>
+		</RevealFact>
+		<RevealFact>
+			<FactID>GD_OCEAN_R2</FactID>
+			<Condition>6</Condition>
+		</RevealFact>
+	</ShipLogConditions>	
+</NomaiObject>

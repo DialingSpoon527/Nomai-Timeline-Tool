@@ -1,0 +1,70 @@
+<!--
+    1 — 2 — 3
+     |  \
+    4    7 — 8 — 9 — 10
+   /  \
+ 6    5
+-->
+
+<NomaiObject>
+	<TextBlock>
+		<ID>1</ID>
+		<Text>Should we build the <![CDATA[<color=orange>Sun Station</color>]]> to power the <![CDATA[<color=orange>Ash Twin Project</color>]]>?</Text>
+	</TextBlock>
+	<TextBlock>
+		<ID>2</ID>
+		<ParentID>1</ParentID>
+		<Text>IDAEA: I almost can’t comprehend this is being suggested seriously. The purpose of the <![CDATA[<color=orange>Sun Station</color>]]> goes against every standard we hold ourselves to and everything we believe in as a species!</Text>
+	</TextBlock>
+	<TextBlock>
+		<ID>3</ID>
+		<ParentID>2</ParentID>
+		<Text>PYE: Unsurprisingly, Idaea, I disagree. We’re pushing a possible new technology further than ever before. That, in my experience, is the defining characteristic of our species.</Text>
+	</TextBlock>
+	<TextBlock>
+		<ID>4</ID>
+		<ParentID>1</ParentID>
+		<Text>YARROW: Are there other ways to generate this level of power?</Text>
+	</TextBlock>
+	<TextBlock>
+		<ID>5</ID>
+		<ParentID>4</ParentID>
+		<Text>PYE: Theoretically, yes. Practically, no. I can’t imagine discovering them in our lifetimes...</Text>
+	</TextBlock>
+	<TextBlock>
+		<ID>6</ID>
+		<ParentID>4</ParentID>
+		<Text>RAMIE: I understand this proposal is unsettling, but the <![CDATA[<color=orange>Sun Station</color>]]> must be built if we hope to complete the <![CDATA[<color=orange>Ash Twin Project</color>]]>.</Text>
+	</TextBlock>
+	<TextBlock>
+		<ID>7</ID>
+		<ParentID>2</ParentID>
+		<Text>COLEUS: If we fail (and the probability of this is not insignificant), we will without question destroy ourselves, all life here, and the rest of this star system. I wish to protect these species.</Text>
+	</TextBlock>
+	<TextBlock>
+		<ID>8</ID>
+		<ParentID>7</ParentID>
+		<Text>IDAEA: The potential annihilation of an entire star system is too severe a cost. We shouldn’t build the <![CDATA[<color=orange>Sun Station</color>]]>, no matter how badly we want the knowledge that comes with it.</Text>
+	</TextBlock>
+	<TextBlock>
+		<ID>9</ID>
+		<ParentID>8</ParentID>
+		<Text>POKE: Fear of failure is a poor reason not to try. I believe, if we’re cautious, the <![CDATA[<color=orange>Sun Station</color>]]> will work. I believe in Pye.</Text>
+	</TextBlock>
+	<TextBlock>
+		<ID>10</ID>
+		<ParentID>9</ParentID>
+		<Text>PYE: Poke, I’m deeply honored. Idaea, I comprehend your position; however, if we aren’t all but certain the <![CDATA[<color=orange>Sun Station</color>]]> will not cause destruction once we’ve built it, then I won’t support the station’s use.</Text>
+	</TextBlock>
+
+	<ShipLogConditions>
+		<RevealFact>
+			<FactID>S_SUNSTATION_R2</FactID>
+			<Condition></Condition>
+		</RevealFact>
+		<RevealFact>
+			<FactID>CT_SUNLESS_CITY_X2</FactID>
+			<Condition>7</Condition>
+		</RevealFact>
+	</ShipLogConditions>
+</NomaiObject>

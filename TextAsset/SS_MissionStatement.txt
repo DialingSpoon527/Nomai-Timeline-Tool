@@ -1,0 +1,54 @@
+<!--
+1 — 3 — 4 — 5
+    |
+    2 — 6 — 7 — 8
+-->
+
+<NomaiObject>
+	<TextBlock>
+		<ID>1</ID>
+		<Text>PYE: Mission: Science compels us to explode the <![CDATA[<color=lightblue>sun</color>]]>!</Text>
+	</TextBlock>
+	<TextBlock>
+		<ID>2</ID>
+		<ParentID>3</ParentID>
+		<Text>IDAEA: Here’s a better one. Mission: Determine if it’s possible to prompt the <![CDATA[<color=lightblue>sun</color>]]> to explode.</Text>
+	</TextBlock>
+	<TextBlock>
+		<ID>3</ID>
+		<ParentID>1</ParentID>
+		<Text>IDAEA: Can’t we change this? I don’t enjoy working in view of such a morbid mission statement.</Text>
+	</TextBlock>
+	<TextBlock>
+		<ID>4</ID>
+		<ParentID>3</ParentID>
+		<Text>PYE: But it’s accurate. We’re going to create a supernova for the purpose of scientific progress. That’s our mission.</Text>
+	</TextBlock>
+	<TextBlock>
+		<ID>5</ID>
+		<ParentID>4</ParentID>
+		<Text>IDAEA: Our mission is to decide if such an irresponsible feat is even possible.</Text>
+	</TextBlock>
+	<TextBlock>
+		<ID>6</ID>
+		<ParentID>2</ParentID>
+		<Text>PYE: You lack a sense of humor.</Text>
+	</TextBlock>
+	<TextBlock>
+		<ID>7</ID>
+		<ParentID>6</ParentID>
+		<Text>IDAEA: At least I don’t lack a sense of ethics!</Text>
+	</TextBlock>
+	<TextBlock>
+		<ID>8</ID>
+		<ParentID>7</ParentID>
+		<Text>PYE: Kindly refrain from going supernova on me before the <![CDATA[<color=lightblue>sun</color>]]> does, Idaea.</Text>
+	</TextBlock>
+
+	<ShipLogConditions>
+		<RevealFact>
+			<FactID>S_SUNSTATION_X1</FactID>
+			<Condition></Condition>
+		</RevealFact>
+	</ShipLogConditions>
+</NomaiObject>

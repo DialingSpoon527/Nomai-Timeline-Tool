@@ -1,0 +1,61 @@
+<!--
+1 — 3 — 4 — 5
+|		|
+2		6 — 7
+
+-->
+
+<NomaiObject>
+	<TextBlock>
+		<ID>1</ID>
+		<LocationA/>
+		<Text>AVENS: Mallow, my better 50 percent! Cassava is sending the last of the <![CDATA[<color=orange>cannon</color>]]> components. Soon (relatively speaking), we’ll know the <![CDATA[<color=lightblue>Eye</color>]]>’s precise location!</Text>
+	</TextBlock>
+	<TextBlock>
+		<ID>2</ID>
+		<ParentID>1</ParentID>
+		<LocationB/>
+		<Text>MALLOW: The thought of concluding our elders’ curious and challenging search increases my heart’s temperature, my love!</Text>
+	</TextBlock>
+	<TextBlock>
+		<ID>3</ID>
+		<ParentID>1</ParentID>
+		<LocationA/>
+		<Text>AVENS: Cassava tells me he and the <![CDATA[<color=orange>Construction Yard</color>]]> crew have determined a power setting we are not, under any circumstances, to go above.</Text>
+	</TextBlock>
+	<TextBlock>
+		<ID>4</ID>
+		<ParentID>3</ParentID>
+		<LocationB/>
+		<Text>MALLOW: I see! And am I right to think that, consequently, we’ll be ignoring that setting?</Text>
+	</TextBlock>
+	<TextBlock>
+		<ID>5</ID>
+		<ParentID>4</ParentID>
+		<LocationA/>
+		<Text>AVENS: I can posit with nearly 100 percent certainty our friends have accounted for our natures, so I suggest we do!</Text>
+	</TextBlock>
+	<TextBlock>
+		<ID>6</ID>
+		<ParentID>4</ParentID>
+		<LocationA/>
+		<Text>AVENS: Giving the <![CDATA[<color=orange>Orbital Probe Cannon</color>]]> all the power it can structurally withstand creates the greatest chance of finding the <![CDATA[<color=lightblue>Eye of the universe</color>]]>.</Text>
+	</TextBlock>
+	<TextBlock>
+		<ID>7</ID>
+		<ParentID>6</ParentID>
+		<LocationB/>
+		<Text>MALLOW: Yes, the probe must travel as fast as it can, as far as it can. I’ll make some adjustments!</Text>
+	</TextBlock>
+
+	<ShipLogConditions>
+		<RevealFact>
+			<FactID>ORBITAL_PROBE_CANNON_X2</FactID>
+			<Condition>1</Condition>
+		</RevealFact>
+		<RevealFact>
+			<FactID>ORBITAL_PROBE_CANNON_X3</FactID>
+			<Condition>4, 6</Condition>
+		</RevealFact>
+	</ShipLogConditions>
+</NomaiObject>

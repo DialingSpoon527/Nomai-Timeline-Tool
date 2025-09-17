@@ -1,0 +1,12 @@
+
+<NomaiObject>
+	<TextBlock>
+		<ID>1</ID>
+		<Text>KOUSA: We can hear the other escape pods’ distress signals, which gives me hope. Foli, are you still here? I am unsure how to survive in this place without you.</Text>
+	</TextBlock>
+	<TextBlock>
+		<ID>2</ID>
+		<ParentID>1</ParentID>
+		<Text>KOUSA: (I am unsure how to be me without you.)</Text>
+	</TextBlock>
+</NomaiObject>

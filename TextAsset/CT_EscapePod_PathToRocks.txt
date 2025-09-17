@@ -1,0 +1,15 @@
+<NomaiObject>
+	<TextBlock>
+		<ID>1</ID>
+		<Text>
+			RHUS: Keep moving, friends: There is nothing of interest at the end of this passage but rocks.
+		</Text>
+	</TextBlock>
+	<TextBlock>
+		<ID>2</ID>
+		<ParentID>1</ParentID>
+		<Text>
+			RHUS: And while these rocks are interesting, they can wait until a less urgent time.
+		</Text>
+	</TextBlock>
+</NomaiObject>

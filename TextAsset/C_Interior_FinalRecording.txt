@@ -1,0 +1,61 @@
+<NomaiObject>
+	<TextBlock>
+		<ID>1</ID>
+		<Text>POKE: The spherical stone casing here seems to be the source of the energy readings... No, rather, the source is what’s within the stone. I’m detecting some form of exotic matter.</Text>
+	</TextBlock>
+
+	<TextBlock>
+		<ID>2</ID>
+		<Text>PYE: The stone is <![CDATA[<i>muting</i>]]> our energy readings; they should be ten times what we’re seeing, at least.</Text>
+	</TextBlock>
+
+	<TextBlock>
+		<ID>3</ID>
+		<Text>POKE: Pye, I don’t think we want this matter interacting with us. As far as I can tell, direct contact with it would almost certainly be fatal.</Text>
+	</TextBlock>
+
+	<TextBlock>
+		<ID>4</ID>
+		<Text>PYE: I’ve never encountered anything like this casing, but it’s all that’s protecting us from what’s inside. Worse still, this matter is disturbingly volatile.</Text>
+	</TextBlock>
+
+	<TextBlock>
+		<ID>5</ID>
+		<Text>POKE: ...Pye. Whatever the matter inside this stone casing is, it’s more than just profoundly unstable; it’s under tonnes of pressure. Look at this density scan. I’ve never seen <![CDATA[<i>anything</i>]]> this tightly compacted before! What <![CDATA[<i>is</i>]]> this?</Text>
+	</TextBlock>
+
+	<TextBlock>
+		<ID>6</ID>
+		<Text>PYE: This is orders of magnitude worse than I’d imagined. If this stone were to rupture, the lethal matter within would rapidly expand, completely blanketing this star system almost instantaneously. And the pressure is still building as the <![CDATA[<color=lightblue>comet</color>]]> approaches this star system...</Text>
+	</TextBlock>
+
+	<TextBlock>
+		<ID>7</ID>
+		<Text>PYE: Return to the shuttle, right now! The rest of our friends need to know they’re in terrible danger. Leave your equipment and run!</Text>
+	</TextBlock>
+
+	<TextBlock>
+		<ID>8</ID>
+		<Text>POKE: What are you doing, Pye?!</Text>
+	</TextBlock>
+
+	<TextBlock>
+		<ID>9</ID>
+		<Text>PYE: The more we know about this alien matter, the better our chances of survival. I will learn what I can here. Go, warn the others; maybe they can construct shelter somehow. ...<![CDATA[<i>Now</i>]]>, Poke!</Text>
+	</TextBlock>
+
+	<ShipLogConditions>
+		<RevealFact>
+			<FactID>COMET_INTERIOR_X2</FactID>
+			<Condition>1</Condition>
+		</RevealFact>
+		<RevealFact>
+			<FactID>COMET_INTERIOR_X3</FactID>
+			<Condition>6</Condition>
+		</RevealFact>
+		<RevealFact>
+			<FactID>COMET_INTERIOR_X4</FactID>
+			<Condition>9</Condition>
+		</RevealFact>
+	</ShipLogConditions>
+</NomaiObject>

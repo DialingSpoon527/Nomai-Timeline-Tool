@@ -1,0 +1,44 @@
+<!--
+1 — 4 — 5
+| \
+2   3
+
+So 2, 3, and 4 should all branch off of 1, in case that isn’t clear.
+-->
+
+<NomaiObject>
+	<TextBlock>
+		<ID>1</ID>
+		<Text>
+			What is the <![CDATA[<color=lightblue>Eye of the universe</color>]]>?
+		</Text>
+	</TextBlock>
+	<TextBlock>
+		<ID>2</ID>
+		<ParentID>1</ParentID>
+		<Text>
+			The <![CDATA[<color=lightblue>Eye</color>]]> is the source of the signal that brought us here.
+		</Text>
+	</TextBlock>
+	<TextBlock>
+		<ID>3</ID>
+		<ParentID>1</ParentID>
+		<Text>
+			Suppose the <![CDATA[<color=lightblue>Eye</color>]]> is a more advanced being.
+		</Text>
+	</TextBlock>
+	<TextBlock>
+		<ID>4</ID>
+		<ParentID>1</ParentID>
+		<Text>
+			The <![CDATA[<color=lightblue>Eye</color>]]> is older than this universe, so imagine how much it could teach us.
+		</Text>
+	</TextBlock>
+	<TextBlock>
+		<ID>5</ID>
+		<ParentID>4</ParentID>
+		<Text>
+			Perhaps it is a cosmic library!
+		</Text>
+	</TextBlock>
+</NomaiObject>

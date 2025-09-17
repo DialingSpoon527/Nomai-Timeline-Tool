@@ -1,0 +1,43 @@
+<NomaiObject>
+	<TextBlock>
+		<ID>1</ID>
+		<Text>
+			MELORAE: The heat from this star system’s <![CDATA[<color=lightblue>sun</color>]]> is more bearable below the surface.
+		</Text>
+	</TextBlock>
+
+	<TextBlock>
+		<ID>2</ID>
+		<Text>
+			MELORAE: When our <![CDATA[<color=orange>escape pod</color>]]> punctured this planet’s surface, it broke into what scans show is a cave system with much cooler air. I <![CDATA[<i>would</i>]]> recommend we seek a site down there to build a long-term shelter, Annona, but these passages are a maze!
+		</Text>
+	</TextBlock>
+
+	<TextBlock>
+		<ID>3</ID>
+		<Text>
+			ANNONA: Even with this danger, they are still our best chance for survival. We’ll form teams and descend into the caves to look for a shelter site. We can mark our findings on the walls to avoid becoming irreversibly lost.
+		</Text>
+	</TextBlock>
+
+	<TextBlock>
+		<ID>4</ID>
+		<Text>
+			ANNONA: Be cautious, everyone.
+		</Text>
+	</TextBlock>
+
+	<TextBlock>
+		<ID>5</ID>
+		<Text>
+			RHUS: And be aware of the sand as you search. It appears to be rising gradually.
+		</Text>
+	</TextBlock>
+
+	<ShipLogConditions>
+		<RevealFact>
+			<FactID>CT_SUNLESS_CITY_R1</FactID>
+			<Condition></Condition>
+		</RevealFact>
+	</ShipLogConditions>
+</NomaiObject>

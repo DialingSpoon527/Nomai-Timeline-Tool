@@ -1,0 +1,15 @@
+<!--
+1 - 2
+-->
+
+<NomaiObject>
+	<TextBlock>
+		<ID>1</ID>
+		<Text>SOLANUM: We do not have much connection, you and I.</Text>
+	</TextBlock>
+	<TextBlock>
+		<ID>2</ID>
+		<ParentID>1</ParentID>
+		<Text>SOLANUM: Still, this encounter feels special. I hope you won’t mind if I think of you as a friend.</Text>
+	</TextBlock>
+</NomaiObject>

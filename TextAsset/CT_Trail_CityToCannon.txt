@@ -1,0 +1,8 @@
+<NomaiObject>
+	<TextBlock>
+		<ID>1</ID>
+		<Text>
+			<![CDATA[<color=orange>Gravity Cannon</color>]]>\\n(120m)
+		</Text>
+	</TextBlock>
+</NomaiObject>

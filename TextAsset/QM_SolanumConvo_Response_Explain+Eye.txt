@@ -1,0 +1,35 @@
+<!--
+1 — 2 — 3 — 4
+-->
+<NomaiObject>
+  <TextBlock>
+    <ID>1</ID>
+    <Text>SOLANUM: There is fundamental uncertainty throughout the universe. Normally, this uncertainty is only observable on a very small scale. As one approaches the <![CDATA[<color=lightblue>Eye</color>]]>, however, that uncertainty grows <![CDATA[<i>enormously</i>]]>.</Text>
+  </TextBlock> 
+  <TextBlock>
+    <ID>2</ID>
+    <ParentID>1</ParentID>
+    <Text>SOLANUM: The <![CDATA[<color=lightblue>Quantum Moon</color>]]> probably exhibits macroscopic quantum behavior because of its proximity to the <![CDATA[<color=lightblue>Eye</color>]]>. Shards that broke off from the <![CDATA[<color=lightblue>Quantum Moon</color>]]> have a similar effect, as I imagine you’ve seen elsewhere in this star system.</Text>
+  </TextBlock>
+  <TextBlock>
+    <ID>3</ID>
+    <ParentID>2</ParentID>
+    <Text>SOLANUM: Conscious observation forces a quantum object to collapse to a single possibility. But what would happen if a conscious observer somehow entered the <![CDATA[<color=lightblue>Eye</color>]]> itself?</Text>
+  </TextBlock>
+  <TextBlock>
+    <ID>4</ID>
+    <ParentID>3</ParentID>
+    <Text>SOLANUM: Over time, this has become my clan’s greatest question.</Text>
+  </TextBlock>
+
+  <ShipLogConditions>
+    <RevealFact>
+      <FactID>QM_SIXTH_LOCATION_X2</FactID>
+      <Condition>3</Condition>
+    </RevealFact>
+    <RevealFact>
+      <FactID>QM_SIXTH_LOCATION_X4</FactID>
+      <Condition>2</Condition>
+    </RevealFact>
+  </ShipLogConditions>
+</NomaiObject>

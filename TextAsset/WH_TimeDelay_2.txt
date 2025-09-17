@@ -1,0 +1,97 @@
+<!--
+1 - 2 - 3
+|
+4 - 5 - 6
+| 
+7
+|
+8
+-->
+<NomaiObject>
+	
+	<TextBlock>
+		<ID>1</ID>
+		<LocationA/>
+		<Text>
+			PYE: Ramie and I reviewed the records you sent, Poke, and they appear to show Nomai are arriving at the warp receiver on <![CDATA[<color=lightblue>Brittle Hollow</color>]]> slightly <![CDATA[<i>before</i>]]> departing from the <![CDATA[<color=orange>White Hole Station</color>]]>.
+		</Text>
+	</TextBlock>
+
+	<TextBlock>
+		<ID>2</ID>
+		<ParentID>1</ParentID>
+		<LocationB/>
+		<Text>
+			POKE: I understand it’s exceedingly odd, but Clary and I have tested and retested the equipment, and the result is the same every time someone warps.
+		</Text>
+	</TextBlock>
+
+	<TextBlock>
+		<ID>3</ID>
+		<ParentID>2</ParentID>
+		<LocationA/>
+		<Text>
+			RAMIE: The interval is incredibly miniscule (roughly one hundred-thousandth of a second). Do you suppose our instruments can’t accurately measure time to such a small degree?
+		</Text>
+	</TextBlock>
+
+	<TextBlock>
+		<ID>4</ID>
+		<ParentID>1</ParentID>
+		<LocationA/>
+		<Text>
+			PYE: As I’ve already told Ramie, these measurements can’t be accurate. How can a Nomai arrive on <![CDATA[<color=lightblue>Brittle Hollow</color>]]> before he or she ever stepped into the teleporter? The implications are absurd.
+		</Text>
+	</TextBlock>
+
+	<TextBlock>
+		<ID>5</ID>
+		<ParentID>4</ParentID>
+		<LocationB/>
+		<Text>
+			POKE: I don’t disagree. It <![CDATA[<i>would</i>]]> mean I’ve inadvertently broken several fundamental theories regarding this universe. We would have to reconsider all of our beliefs about the nature of time.
+		</Text>
+	</TextBlock>
+
+	<TextBlock>
+		<ID>6</ID>
+		<ParentID>5</ParentID>
+		<LocationA/>
+		<Text>
+			RAMIE: Yes, I hope so, too!
+		</Text>
+	</TextBlock>
+
+	<TextBlock>
+		<ID>7</ID>
+		<ParentID>4</ParentID>
+		<LocationA/>
+		<Text>
+			RAMIE: Poke, as Pye is confident the reading is inaccurate, she’s kindly helping me attempt to recreate this phenomenon at the <![CDATA[<color=orange>High Energy Lab</color>]]>. We’re designing an experiment to take more data.
+		</Text>
+	</TextBlock>
+
+	<TextBlock>
+		<ID>8</ID>
+		<ParentID>7</ParentID>
+		<LocationA/>
+		<Text>
+			PYE: An update: Poke, the <![CDATA[<color=orange>High Energy Lab</color>]]> is in the canyon on <![CDATA[<color=lightblue>Ember Twin</color>]]>’s equator. <![CDATA[<i>Come here at once</i>]]>. You need to see this.
+		</Text>
+	</TextBlock>
+
+	<ShipLogConditions>
+		<RevealFact>
+			<FactID>CT_HIGH_ENERGY_LAB_R1</FactID>
+			<Condition>7</Condition>
+		</RevealFact>
+		<RevealFact>
+			<FactID>WHS_X2</FactID>
+			<Condition>1</Condition>
+		</RevealFact>
+		<RevealFact>
+			<FactID>WHS_X3</FactID>
+			<Condition>3</Condition>
+		</RevealFact>
+	</ShipLogConditions>
+</NomaiObject>

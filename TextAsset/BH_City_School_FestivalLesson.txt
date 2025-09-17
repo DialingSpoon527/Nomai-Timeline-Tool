@@ -1,0 +1,65 @@
+<!--
+    4
+    |
+1 - 2 - 5 - 6 - 7
+    |
+    3
+-->
+<NomaiObject>
+	
+	<TextBlock>
+		<ID>1</ID>
+		<Text>
+			LAMI: Explanation of Festivals
+		</Text>
+	</TextBlock>
+
+	<TextBlock>
+		<ID>2</ID>
+		<ParentID>1</ParentID>
+		<Text>
+			LAMI: All the Nomai clans from all over the universe meet in one place to share what they’ve learned in science and art. It’s called the festival!
+		</Text>
+	</TextBlock>
+
+	<TextBlock>
+		<ID>3</ID>
+		<ParentID>2</ParentID>
+		<Text>
+			FILIX: Don’t forget, festivals happen every ten years!
+		</Text>
+	</TextBlock>
+
+	<TextBlock>
+		<ID>4</ID>
+		<ParentID>2</ParentID>
+		<Text>
+			LAMI: We can’t go because we’re stuck here. But Filix says we used to go, too.
+		</Text>
+	</TextBlock>
+
+	<TextBlock>
+		<ID>5</ID>
+		<ParentID>2</ParentID>
+		<Text>
+			LAMI: At some festivals, one clan’s big discovery can mean all the Nomai get to advance, too. Like Annona’s warp core, which made it so everyone can warp long distances and explore more.
+		</Text>
+	</TextBlock>
+
+	<TextBlock>
+		<ID>6</ID>
+		<ParentID>5</ParentID>
+		<Text>
+			LAMI: Each clan has a festival envoy to show their most interesting work. (Our envoy was Thatch!)
+		</Text>
+	</TextBlock>
+
+	<TextBlock>
+		<ID>7</ID>
+		<ParentID>6</ParentID>
+		<Text>
+			LAMI: A single festival could last a long, long time!
+		</Text>
+	</TextBlock>
+
+</NomaiObject>

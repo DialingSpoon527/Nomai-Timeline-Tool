@@ -1,0 +1,41 @@
+<NomaiObject>
+	<TextBlock>
+		<ID>1</ID>
+		<Text>PHLOX: Yarrow, would you kindly step back so Daz is closest to the statue? When pairing, the statue will choose whoever is in closest proximity.</Text>
+	</TextBlock>
+	<TextBlock>
+		<ID>2</ID>
+		<Text>PHLOX: ...See how its eyes have opened? That tells us the statue has paired with Daz. Now, no matter where he is in this star system, Daz’s statue will record his memories and send them to the <![CDATA[<color=orange>Ash Twin Project</color>]]>.</Text>
+	</TextBlock>
+	<TextBlock>
+		<ID>3</ID>
+		<Text>YARROW: This is extraordinary sculpting work, Phlox!</Text>
+	</TextBlock>
+	<TextBlock>
+		<ID>4</ID>
+		<Text>DAZ: He has outdone himself again, hasn’t he? And now that we have our first successful pairing, we can test my memory storage prototype.</Text>
+	</TextBlock>
+	<TextBlock>
+		<ID>5</ID>
+		<Text>DAZ: Each statue will send a single Nomai’s memories to his or her own storage unit within <![CDATA[<color=lightblue>Ash Twin</color>]]>.</Text>
+	</TextBlock>
+	<TextBlock>
+		<ID>6</ID>
+		<Text>PHLOX: Each storage unit will be equipped with a mask, the statue’s counterpart, which will be able to send those stored memories back to the corresponding Nomai.</Text>
+	</TextBlock>
+
+	<ShipLogConditions>
+		<RevealFact>
+			<FactID>TT_TIME_LOOP_DEVICE_R3</FactID>
+			<Condition>2, 5</Condition>
+		</RevealFact>
+		<RevealFact>
+			<FactID>GD_STATUE_WORKSHOP_X1</FactID>
+			<Condition>2</Condition>
+		</RevealFact>
+		<RevealFact>
+			<FactID>GD_STATUE_WORKSHOP_X2</FactID>
+			<Condition>6</Condition>
+		</RevealFact>
+	</ShipLogConditions>
+</NomaiObject>

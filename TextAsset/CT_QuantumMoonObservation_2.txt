@@ -1,0 +1,73 @@
+<!--
+1 - 2 - 3
+    |
+    4 - 5 - 6
+-->
+<NomaiObject>
+	
+	<TextBlock>
+		<ID>1</ID>
+		<Text>
+			ANNONA: The <![CDATA[<color=orange>Quantum Moon locator</color>]]> is functioning. We have markers for each of the places the moon goes.
+		</Text>
+	</TextBlock>
+
+	<TextBlock>
+		<ID>2</ID>
+		<ParentID>1</ParentID>
+		<Text>
+			MELORAE: Annona, Bur, I just observed the <![CDATA[<color=lightblue>Quantum Moon</color>]]> in orbit around <![CDATA[<color=lightblue>Dark Bramble</color>]]>.
+		</Text>
+	</TextBlock>
+
+	<TextBlock>
+		<ID>3</ID>
+		<ParentID>2</ParentID>
+		<Text>
+			ANNONA: You have keen eyes, my friend. So this moon travels to a total of five locations, not four.
+		</Text>
+	</TextBlock>
+
+	<TextBlock>
+		<ID>4</ID>
+		<ParentID>2</ParentID>
+		<Text>
+			BUR: I added a marker for <![CDATA[<color=lightblue>Dark Bramble</color>]]>.
+		</Text>
+	</TextBlock>
+
+	<TextBlock>
+		<ID>5</ID>
+		<ParentID>4</ParentID>
+		<Text>
+			BUR: I thought the <![CDATA[<color=orange>locator</color>]]> now accounted for all of the <![CDATA[<color=lightblue>phantom moon</color>]]>’s locations, but sometimes the <![CDATA[<color=orange>locator</color>]]> can’t tell where the moon is. Perhaps there’s a problem with the device?
+		</Text>
+	</TextBlock>
+
+	<TextBlock>
+		<ID>6</ID>
+		<ParentID>5</ParentID>
+		<Text>
+			MELORAE: It’s also possible there exists a sixth place in this star system to which the <![CDATA[<color=lightblue>phantom moon</color>]]> travels.
+		</Text>
+	</TextBlock>
+
+	<ShipLogConditions>
+		<RevealFact>
+			<FactID>CT_QUANTUM_MOON_LOCATOR_X1</FactID>
+			<Condition></Condition>
+		</RevealFact>
+		<RevealFact>
+			<FactID>CT_QUANTUM_MOON_LOCATOR_X3</FactID>
+			<Condition>3, 5</Condition>
+		</RevealFact>
+		<RevealFact>
+			<FactID>QM_SIXTH_LOCATION_R1</FactID>
+			<Condition>5, 6</Condition>
+		</RevealFact>
+		<RevealFact>
+			<FactID>QUANTUM_MOON_R2</FactID> <!-- THIS FACT IS MOSTLY A BACKUP IN CASE PLAYERS HAVEN'T READ PART 1 YET -->
+			<Condition>5, 6</Condition>
+		</RevealFact>
+	</ShipLogConditions>
+</NomaiObject>

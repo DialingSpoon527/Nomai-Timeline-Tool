@@ -1,0 +1,38 @@
+<!--
+1 - 2 - 3 - 4
+-->
+
+
+<NomaiObject>
+	<TextBlock>
+		<ID>1</ID>
+		<LocationB/>
+		<Text>SOLANUM: I’m at the shuttle! I’m ready to make my first pilgrimage to the <![CDATA[<color=lightblue>Quantum Moon</color>]]>.</Text>
+	</TextBlock>
+	<TextBlock>
+		<ID>2</ID>
+		<ParentID>1</ParentID>
+		<LocationA/>
+		<Text>BELLS: That’s exciting! You’re <![CDATA[<i>almost</i>]]> ready, but there’s still one more rule you need to learn. Come see me at the <![CDATA[<color=orange>Tower of Quantum Knowledge</color>]]>.</Text>
+	</TextBlock>
+	<TextBlock>
+		<ID>3</ID>
+		<ParentID>2</ParentID>
+		<LocationA/>
+		<Text>BELLS: The tower is on the opposite side of <![CDATA[<color=lightblue>Brittle Hollow</color>]]>. If you follow the path west to the <![CDATA[<color=orange>Crossroads</color>]]>, you can reach the tower from there.</Text>
+	</TextBlock>
+	<TextBlock>
+		<ID>4</ID>
+		<ParentID>3</ParentID>
+		<LocationB/>
+		<Text>SOLANUM: My gratitude for the directions, Bells. I’ll see you soon!</Text>
+	</TextBlock>
+
+	<ShipLogConditions>
+		<LocationB/>
+		<RevealFact>
+			<FactID>BH_QUANTUM_RESEARCH_TOWER_R2</FactID>
+			<Condition>2</Condition>
+		</RevealFact>
+	</ShipLogConditions>
+</NomaiObject>

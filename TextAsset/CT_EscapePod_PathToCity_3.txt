@@ -1,0 +1,15 @@
+<NomaiObject>
+	<TextBlock>
+		<ID>1</ID>
+		<Text>
+			COLEUS: Be cautious crossing the chasm ahead. The bridge Melorae and I crafted will do its job, but it isn’t strong.
+		</Text>
+	</TextBlock>
+	<TextBlock>
+		<ID>2</ID>
+		<ParentID>1</ParentID>
+		<Text>
+			COLEUS: Once on the far side, look for the tunnel hidden behind the falling sand. Follow it, and you’ll reach the shelter site.
+		</Text>
+	</TextBlock>
+</NomaiObject>

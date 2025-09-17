@@ -1,0 +1,53 @@
+<!--
+1 — 2 — 4 - 5 - 6
+|
+3 — 7
+-->
+
+<NomaiObject>
+	<TextBlock>
+		<ID>1</ID>
+		<Text>ROOT: Where am I taking this first black hole core? (And where am I taking the remaining cores once they’re ready?)</Text>
+	</TextBlock>
+	<TextBlock>
+		<ID>2</ID>
+		<ParentID>1</ParentID>
+		<Text>CLARY: All of the warp towers are being constructed on <![CDATA[<color=lightblue>Ash Twin</color>]]>, so the black hole cores will go there.</Text>
+	</TextBlock>
+	<TextBlock>
+		<ID>3</ID>
+		<ParentID>1</ParentID>
+		<Text>POKE: The white hole cores are for the warp receivers. Each of the six receivers are being constructed at different locations, so those deliveries will be a greater pain in your cervical spine.</Text>
+	</TextBlock>
+	<TextBlock>
+		<ID>4</ID>
+		<ParentID>2</ParentID>
+		<Text>ROOT: My gratitude! In that case: Poke, Clary, I’m leaving for delivery! I’ll send Yarrow your regards.</Text>
+	</TextBlock>
+	<TextBlock>
+		<ID>5</ID>
+		<ParentID>4</ParentID>
+		<Text>CLARY: Poke, I’ll return to the <![CDATA[<color=orange>forge</color>]]> shortly; I’m going to catch up to Root and help him deliver the first core to <![CDATA[<color=lightblue>Ash Twin</color>]]>, just to make sure Yarrow receives it.</Text>
+	</TextBlock>
+	<TextBlock>
+		<ID>6</ID>
+		<ParentID>5</ParentID>
+		<Text>POKE: Of course you are.</Text>
+	</TextBlock>
+	<TextBlock>
+		<ID>7</ID>
+		<ParentID>3</ParentID>
+		<Text>POKE: The tower designs in the <![CDATA[<color=orange>High Energy Lab</color>]]> on <![CDATA[<color=lightblue>Ember Twin</color>]]> reveal each receiver's location. Ask Yarrow; he is familiar with them.</Text>
+	</TextBlock>
+
+	<ShipLogConditions>
+		<RevealFact>
+			<FactID>CT_WARP_TOWER_MAP_R1</FactID>
+			<Condition>7</Condition>
+		</RevealFact>
+		<RevealFact>
+			<FactID>BH_BLACK_HOLE_FORGE_X1</FactID>
+			<Condition>2, 3</Condition>
+		</RevealFact>
+	</ShipLogConditions>
+</NomaiObject>

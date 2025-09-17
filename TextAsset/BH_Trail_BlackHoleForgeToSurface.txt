@@ -1,0 +1,8 @@
+<NomaiObject>
+	<TextBlock>
+		<ID>1</ID>
+		<Text>
+			Exit to surface.
+		</Text>
+	</TextBlock>
+</NomaiObject>

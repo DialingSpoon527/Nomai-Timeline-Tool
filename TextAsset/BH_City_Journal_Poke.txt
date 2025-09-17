@@ -1,0 +1,41 @@
+<!--
+1 - 3 - 5
+|   |
+2   4
+-->
+<NomaiObject>
+	<TextBlock>
+		<ID>1</ID>
+		<Text>
+			POKE: I feel strange, trying to recreate Annona’s warp core without him. At times, it still feels strange to no longer be his (very young) apprentice, and for the <![CDATA[<color=orange>Black Hole Forge</color>]]> to be in my care and not his.
+		</Text>
+	</TextBlock>
+	<TextBlock>
+		<ID>2</ID>
+		<ParentID>1</ParentID>
+		<Text>
+			POKE: Hypothesis: This will always feel strange. Even though my time with him was short, I miss my old mentor, and deeply.
+		</Text>
+	</TextBlock>
+	<TextBlock>
+		<ID>3</ID>
+		<ParentID>1</ParentID>
+		<Text>
+			POKE: To have the chance to try is thrilling, but... I don’t want to disappoint everyone. I <![CDATA[<i>think</i>]]> I can do this (probably), but what if excitement has clouded my assessment of my own abilities?
+		</Text>
+	</TextBlock>
+	<TextBlock>
+		<ID>4</ID>
+		<ParentID>3</ParentID>
+		<Text>
+			POKE: Was I wrong in volunteering to build it...? I was born in this star system, and never saw Annona’s warp core with my own three eyes. I only know what he taught me. What if I’ve bitten off a larger portion than I can consume?
+		</Text>
+	</TextBlock>
+	<TextBlock>
+		<ID>5</ID>
+		<ParentID>3</ParentID>
+		<Text>
+			POKE: Still, all I can give is my best. And as Annona would say, should my best prove insufficient, then we will find another way to achieve what’s needed. I have Clary and Root in the forge, and I have my clan. I am not alone!
+		</Text>
+	</TextBlock>
+</NomaiObject>

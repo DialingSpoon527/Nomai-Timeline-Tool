@@ -1,0 +1,7 @@
+
+<NomaiObject>
+	<TextBlock>
+		<ID>1</ID>
+		<Text>SOLANUM: These are the two tenets of Nomai philosophy; to seek out and to understand is our way of living.</Text>
+	</TextBlock>
+</NomaiObject>

@@ -1,0 +1,61 @@
+<!--
+1 — 3 — 4 — 5
+|       |
+2       6 — 7 — 8
+-->
+<NomaiObject>
+	<TextBlock>
+		<ID>1</ID>
+		<Text>CONOY: How should our methods change as we continue our search for the <![CDATA[<color=lightblue>Eye of the universe</color>]]>?</Text>
+	</TextBlock>
+	<TextBlock>
+		<ID>2</ID>
+		<ParentID>1</ParentID>
+		<Text>PRIVET: As we couldn’t find the <![CDATA[<color=lightblue>Eye</color>]]>’s signal using two different devices built for this exact purpose, we should discontinue this search method.</Text>
+	</TextBlock>
+	<TextBlock>
+		<ID>3</ID>
+		<ParentID>1</ParentID>
+		<Text>MALLOW: We know what the <![CDATA[<color=lightblue>Eye</color>]]> looks like thanks to the <![CDATA[<color=lightblue>Quantum Moon</color>]]>, so what if we try to find the <![CDATA[<color=lightblue>Eye</color>]]> visually, instead? Let’s send out a probe!</Text>
+	</TextBlock>
+	<TextBlock>
+		<ID>4</ID>
+		<ParentID>3</ParentID>
+		<Text>CASSAVA: Mallow’s idea is clever, but we have no idea where the <![CDATA[<color=lightblue>Eye</color>]]> is in relation to here. The probability of launching a probe in the correct direction would be absurdly small.</Text>
+	</TextBlock>
+	<TextBlock>
+		<ID>5</ID>
+		<ParentID>4</ParentID>
+		<Text>CONOY: I believe I have a solution for that problem! Have you spoken with Ramie and Pye about the technology they’re developing?</Text>
+	</TextBlock>
+	<TextBlock>
+		<ID>6</ID>
+		<ParentID>3</ParentID>
+		<Text>AVENS: We’d need to build a probe-launching mechanism to cover those long distances quickly. A cannon in orbit around a celestial body would circumvent the need to escape gravity’s pull.</Text>
+	</TextBlock>
+	<TextBlock>
+		<ID>7</ID>
+		<ParentID>6</ParentID>
+		<Text>CASSAVA: <![CDATA[<color=lightblue>Giant’s Deep</color>]]> would be a good choice. It’s furthest from the <![CDATA[<color=lightblue>sun</color>]]>, so it would provide the best angles for launch. And it’s moonless (except when the <![CDATA[<color=lightblue>Quantum Moon</color>]]> is visiting).</Text>
+	</TextBlock>
+	<TextBlock>
+		<ID>8</ID>
+		<ParentID>7</ParentID>
+		<Text>AVENS: Yes, let’s build the cannon in orbit around <![CDATA[<color=lightblue>Giant’s Deep</color>]]>!</Text>
+	</TextBlock>
+
+	<ShipLogConditions>
+		<RevealFact>
+			<FactID>BH_OBSERVATORY_X3</FactID>
+			<Condition>3</Condition>
+		</RevealFact>
+		<RevealFact>
+			<FactID>BH_OBSERVATORY_X4</FactID>
+			<Condition>4</Condition>
+		</RevealFact>
+		<RevealFact>
+			<FactID>ORBITAL_PROBE_CANNON_R4</FactID>
+			<Condition>8</Condition>
+		</RevealFact>
+	</ShipLogConditions>
+</NomaiObject>

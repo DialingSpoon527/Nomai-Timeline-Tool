@@ -1,0 +1,22 @@
+<NomaiObject>
+	<TextBlock>
+		<ID>1</ID>
+		<Text>
+			BELLS: Beneath your feet lies the <![CDATA[<color=orange>Tower of Quantum Knowledge</color>]]>.
+		</Text>
+	</TextBlock>
+	<TextBlock>
+		<ID>2</ID>
+		<ParentID>1</ParentID>
+		<Text>
+			BELLS: If you are preparing to make your first pilgrimage to the <![CDATA[<color=lightblue>Quantum Moon</color>]]>, descend the steps to the entrance below. The knowledge held within will help you on your journey.
+		</Text>
+	</TextBlock>
+
+	<ShipLogConditions>
+		<RevealFact>
+			<FactID>BH_QUANTUM_RESEARCH_TOWER_R1</FactID>
+			<Condition>2</Condition>
+		</RevealFact>
+	</ShipLogConditions>
+</NomaiObject>

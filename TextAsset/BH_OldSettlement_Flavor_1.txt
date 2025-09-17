@@ -1,0 +1,12 @@
+
+<NomaiObject>
+	<TextBlock>
+		<ID>1</ID>
+		<Text>PLUME: The pain of your absence is sharp and haunting, and I would give anything not to know it; anything but never knowing you at all (which would be worse).</Text>
+	</TextBlock>
+	<TextBlock>
+		<ID>2</ID>
+		<ParentID>1</ParentID>
+		<Text>PLUME: I can only hope that you are safe, Keek, wherever you are.</Text>
+	</TextBlock>
+</NomaiObject>

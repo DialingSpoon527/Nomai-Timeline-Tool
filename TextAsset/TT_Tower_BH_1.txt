@@ -1,0 +1,83 @@
+<!--
+1 - 3 - 4 - 5 - 6 - 7
+|               |
+2               8
+Not Final
+-->
+
+<NomaiObject>
+	<TextBlock>
+		<ID>1</ID>
+		<Text>
+			CLARY: Here’s our first delivery, Yarrow: one warp core, fresh from the <![CDATA[<color=orange>Black Hole Forge</color>]]>! Root is installing this core’s sibling on <![CDATA[<color=lightblue>Brittle Hollow</color>]]> as I write this.
+		</Text>
+	</TextBlock>
+	<TextBlock>
+		<ID>2</ID>
+		<ParentID>1</ParentID>
+		<Text>
+			CLARY: I wish I could wait here for you to arrive, but the forge (and my unfinished work there) is calling. I’ll return with more materials soon.
+		</Text>
+	</TextBlock>
+	<TextBlock>
+		<ID>3</ID>
+		<ParentID>1</ParentID>
+		<Text>
+			YARROW: My gratitude, Clary! With this, the <![CDATA[<color=orange>Ash Twin Project</color>]]> is underway!
+		</Text>
+	</TextBlock>
+	<TextBlock>
+		<ID>4</ID>
+		<ParentID>3</ParentID>
+		<Text>
+			YARROW: I confess, I’m deeply curious about what you and Poke found on the <![CDATA[<color=orange>White Hole Station</color>]]> that started this project. Could I visit sometime to learn more?
+		</Text>
+	</TextBlock>
+	<TextBlock>
+		<ID>5</ID>
+		<ParentID>4</ParentID>
+		<Text>
+			CLARY: I recommend you do! The <![CDATA[<color=orange>White Hole Station</color>]]> is the model for the towers being built for the <![CDATA[<color=orange>Ash Twin Project</color>]]>, so a visit to the station would be doubly useful.
+		</Text>
+	</TextBlock>
+	<TextBlock>
+		<ID>6</ID>
+		<ParentID>5</ParentID>
+		<Text>
+			YARROW: I suppose, more precisely, I would like to visit the <![CDATA[<color=orange>White Hole Station</color>]]> with <![CDATA[<i>you</i>]]>, Clary.
+		</Text>
+	</TextBlock>
+		<TextBlock>
+		<ID>7</ID>
+		<ParentID>6</ParentID>
+		<Text>
+			CLARY: I’d be happy to explain our findings!
+		</Text>
+	</TextBlock>
+		<TextBlock>
+		<ID>8</ID>
+		<ParentID>6</ParentID>
+		<Text>
+			POKE: Yarrow, stop using this scroll wall to flirt with my sister (in romantic matters, her density rivals a neutron star’s) and go meet her on the <![CDATA[<color=orange>White Hole Station</color>]]>.
+		</Text>
+	</TextBlock>
+
+	<ShipLogConditions>
+		<RevealFact>
+			<FactID>WHS_R4</FactID>
+			<Condition>5</Condition>
+		</RevealFact>
+		<RevealFact>
+			<FactID>BH_BLACK_HOLE_FORGE_R4</FactID>
+			<Condition>1</Condition>
+		</RevealFact>
+		<RevealFact>
+			<FactID>TT_WARP_TOWERS_X1</FactID>
+			<Condition></Condition>
+		</RevealFact>
+		<RevealFact>
+			<FactID>TT_WARP_TOWERS_X2</FactID>
+			<Condition>5</Condition>
+		</RevealFact>
+	</ShipLogConditions>
+</NomaiObject>

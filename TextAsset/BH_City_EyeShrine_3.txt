@@ -1,0 +1,35 @@
+<!--
+1 — 2 — 3
+|
+4
+-->
+
+<NomaiObject>
+	<TextBlock>
+		<ID>1</ID>
+		<Text>
+			How can the <![CDATA[<color=lightblue>Eye</color>]]> be older than the universe itself?
+		</Text>
+	</TextBlock>
+	<TextBlock>
+		<ID>2</ID>
+		<ParentID>1</ParentID>
+		<Text>
+			Suppose it is a relic from a previous universe.
+		</Text>
+	</TextBlock>
+	<TextBlock>
+		<ID>3</ID>
+		<ParentID>2</ParentID>
+		<Text>
+			The early universe was unimaginably hot and dense. If anything existed before, it would have been destroyed.
+		</Text>
+	</TextBlock>
+	<TextBlock>
+		<ID>4</ID>
+		<ParentID>3</ParentID>
+		<Text>
+			Suppose the universe is older than previously assumed.
+		</Text>
+	</TextBlock>
+</NomaiObject>

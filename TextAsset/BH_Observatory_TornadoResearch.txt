@@ -1,0 +1,58 @@
+<!--
+1 - 2 - 3 - 4
+        |
+        5 - 6 - 7 - 8
+-->
+<NomaiObject>
+	<TextBlock>
+		<ID>1</ID>
+		<Text>CONOY: Cassava’s <![CDATA[<color=orange>Construction Yard</color>]]> has been using the cyclones on <![CDATA[<color=lightblue>Giant’s Deep</color>]]> to lift <![CDATA[<color=orange>Orbital Probe Cannon</color>]]> parts into orbit, but one component was pushed down past the current that usually prevents anything from sinking.</Text>
+	</TextBlock>
+	<TextBlock>
+		<ID>2</ID>
+		<ParentID>1</ParentID>
+		<Text>CONOY: Spire and I are crafting a model to determine why this happened.</Text>
+	</TextBlock>
+	<TextBlock>
+		<ID>3</ID>
+		<ParentID>2</ParentID>
+		<Text>SPIRE: An update: It’s now clear there are two different types of cyclone.</Text>
+	</TextBlock>
+	<TextBlock>
+		<ID>4</ID>
+		<ParentID>3</ParentID>
+		<Text>SPIRE: Most cyclones on <![CDATA[<color=lightblue>Giant’s Deep</color>]]> rotate clockwise. These are the cyclones Cassava typically uses to send components into orbit.</Text>
+	</TextBlock>
+	<TextBlock>
+		<ID>5</ID>
+		<ParentID>3</ParentID>
+		<Text>SPIRE: There also exists a rarer type of cyclone that spins the opposite direction and pushes objects beneath the waters and below the current.</Text>
+	</TextBlock>
+	<TextBlock>
+		<ID>6</ID>
+		<ParentID>5</ParentID>
+		<Text>CASSAVA: My gratitude, Spire. Conoy is showing me your handiwork, and I’m intrigued by this secondary type of cyclone. But was it really necessary to build a model to tell me that?</Text>
+	</TextBlock>
+	<TextBlock>
+		<ID>7</ID>
+		<ParentID>6</ParentID>
+		<Text>SPIRE: The model will be useful as we continue monitoring <![CDATA[<color=lightblue>Giant’s Deep</color>]]>.</Text>
+	</TextBlock>
+	<TextBlock>
+		<ID>8</ID>
+		<ParentID>7</ParentID>
+		<Text>SPIRE: Also I very much wanted to make a model.</Text>
+	</TextBlock>
+
+
+	<ShipLogConditions>
+		<RevealFact>
+			<FactID>BH_TORNADO_SIMULATION_X1</FactID>
+			<Condition>4</Condition>
+		</RevealFact>
+		<RevealFact>
+			<FactID>BH_TORNADO_SIMULATION_X2</FactID>
+			<Condition>5</Condition>
+		</RevealFact>
+	</ShipLogConditions>	
+</NomaiObject>

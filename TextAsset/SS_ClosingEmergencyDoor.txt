@@ -1,0 +1,14 @@
+<NomaiObject>
+	<TextBlock>
+		<ID>1</ID>
+		<Text>
+		    281,042 YEARS AGO: No user commands received for 10 minutes. All systems entering sleep.
+		</Text>
+	</TextBlock>
+	<TextBlock>
+		<ID>2</ID>
+		<Text>
+		    <![CDATA[<TimeMinutes>]]> MINUTES, <![CDATA[<TimeSeconds>]]> SECONDS AGO: Increased solar activity detected. <![CDATA[<color=orange>Sun Station</color>]]> hull integrity approaching critical levels. Closing emergency doors.
+		</Text>
+	</TextBlock>
+</NomaiObject>

@@ -1,0 +1,8 @@
+<NomaiObject>
+	<TextBlock>
+		<ID>1</ID>
+		<Text>
+			1: <![CDATA[<color=orange>High Energy Lab</color>]]> Trailhead
+		</Text>
+	</TextBlock>
+</NomaiObject>

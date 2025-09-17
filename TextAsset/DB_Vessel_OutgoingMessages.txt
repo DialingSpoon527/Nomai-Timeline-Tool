@@ -1,0 +1,28 @@
+<NomaiObject>
+	<TextBlock>
+		<ID>1</ID>
+		<Text>FILIX: This is Escall’s <![CDATA[<color=orange>Vessel</color>]]>; something went badly wrong during our warp, and our <![CDATA[<color=orange>Vessel</color>]]> is mortally wounded. We need help as quickly as possible!</Text>
+	</TextBlock>
+	<TextBlock>
+		<ID>2</ID>
+		<ParentID>1</ParentID>
+		<Text>FILIX: Our <![CDATA[<color=orange>Vessel</color>]]> appears to have... has it <![CDATA[<i>fused</i>]]> with the local environment, somehow? There are vines that are now part of the <![CDATA[<color=orange>Vessel</color>]]>! It’s been torn apart from inside itself!</Text>
+	</TextBlock>
+	<TextBlock>
+		<ID>3</ID>
+		<ParentID>2</ParentID>
+		<Text>FILIX: We... we are abandoning our <![CDATA[<color=orange>Vessel</color>]]>. Any Nomai clans or spaceflight-capable species receiving this message, I implore you, we need your help!</Text>
+	</TextBlock>
+	<TextBlock>
+		<ID>4</ID>
+		<ParentID>3</ParentID>
+		<Text>FILIX: Is this broken? Can anyone hear me? Our <![CDATA[<color=orange>Vessel</color>]]> is dying! We need immediate assistance!</Text>
+	</TextBlock>
+
+	<ShipLogConditions>
+		<RevealFact>
+			<FactID>DB_VESSEL_X4</FactID>
+			<Condition>4</Condition>
+		</RevealFact>
+	</ShipLogConditions>
+</NomaiObject>

@@ -1,0 +1,69 @@
+<!--
+NO LAYOUT FOR IT IS A RECORDING
+-->
+
+<NomaiObject>
+	<TextBlock>
+		<ID>1</ID>
+		<Text>THATCH: Is everyone unharmed?</Text>
+	</TextBlock>
+	<TextBlock>
+		<ID>2</ID>
+		<Text>PLUME: No one was badly injured from the <![CDATA[<color=orange>escape pod’s</color>]]> impact. We’re incredibly fortunate.</Text>
+	</TextBlock>
+	<TextBlock>
+		<ID>3</ID>
+		<Text>THATCH: This is good news, at least. Have we heard from <![CDATA[<color=orange>Escape Pod 2</color>]]> or <![CDATA[<color=orange>Escape Pod 3</color>]]>?</Text>
+	</TextBlock>
+	<TextBlock>
+		<ID>4</ID>
+		<Text>FILIX: No, I... I’m unable to make contact. My equipment can hear the other two escape pods’ distress signals, however. If it’s any comfort, both pods must be structurally intact.</Text>
+	</TextBlock>
+	<TextBlock>
+		<ID>5</ID>
+		<Text>FILIX: I’ll continue calling for them.</Text>
+	</TextBlock>
+	<TextBlock>
+		<ID>6</ID>
+		<Text>THATCH: My gratitude. If we can —</Text>
+	</TextBlock>
+	<TextBlock>
+		<ID>7</ID>
+		<Text>PLUME: Thatch, the moon is approaching again!</Text>
+	</TextBlock>
+	<TextBlock>
+		<ID>8</ID>
+		<Text>THATCH: Everyone brace yourselves, swiftly! The <![CDATA[<color=lightblue>volcanic moon</color>]]> has returned!</Text>
+	</TextBlock>
+	<TextBlock>
+		<ID>9</ID>
+		<Text>THATCH: Be cautious of falling ash and debris!</Text>
+	</TextBlock>
+	<TextBlock>
+		<ID>10</ID>
+		<Text>PLUME: ...I believe the moon has passed.</Text>
+	</TextBlock>
+	<TextBlock>
+		<ID>11</ID>
+		<Text>FILIX: This planet doesn’t appear eager to have guests. We are certainly unwelcome on its surface.</Text>
+	</TextBlock>
+	<TextBlock>
+		<ID>12</ID>
+		<Text>THATCH: We need to find shelter, and quickly. The <![CDATA[<color=lightblue>volcanic moon</color>]]> won’t be gone for long.</Text>
+	</TextBlock>
+	<TextBlock>
+		<ID>13</ID>
+		<Text>PLUME: I observed several promising sites below the surface, but we’ll need to construct a way for everyone to climb safely down this cliff. Perhaps we could build platforms?</Text>
+	</TextBlock>
+
+	<ShipLogConditions>
+		<RevealFact>
+			<FactID>BH_ESCAPE_POD_X1</FactID>
+			<Condition>2</Condition>
+		</RevealFact>
+		<RevealFact>
+			<FactID>BH_OLD_SETTLEMENT_R1</FactID>
+			<Condition>13</Condition>
+		</RevealFact>
+	</ShipLogConditions>
+</NomaiObject>

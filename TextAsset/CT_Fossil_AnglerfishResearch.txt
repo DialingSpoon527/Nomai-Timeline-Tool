@@ -1,0 +1,45 @@
+<!--
+4 — 1 — 2 — 3
+   / \
+  5   6
+
+-->
+
+<NomaiObject>
+	<TextBlock>
+		<ID>1</ID>
+		<Text>MELORAE: Anglerfish study</Text>
+	</TextBlock>
+	<TextBlock>
+		<ID>2</ID>
+		<ParentID>1</ParentID>
+		<Text>COLEUS: An update: Melorae, while I was here making sketches of the anglerfish, I observed the children I saw earlier playing here again. They’ve added a rule to their game that incorporates our research (it’s wonderful)!</Text>
+	</TextBlock>
+	<TextBlock>
+		<ID>3</ID>
+		<ParentID>2</ParentID>
+		<Text>MELORAE: I’m entirely delighted! It’s never too early to appreciate biology!</Text>
+	</TextBlock>
+	<TextBlock>
+		<ID>4</ID>
+		<ParentID>1</ParentID>
+		<Text>COLEUS: This anglerfish’s digestive tract suggests death by starvation.</Text>
+	</TextBlock>
+	<TextBlock>
+		<ID>5</ID>
+		<ParentID>1</ParentID>
+		<Text>MELORAE: Visually, the specimen appears to be of the same species as the anglerfish in <![CDATA[<color=lightblue>Dark Bramble</color>]]>. We don’t believe it originated from this planet.</Text>
+	</TextBlock>
+	<TextBlock>
+		<ID>6</ID>
+		<ParentID>1</ParentID>
+		<Text>MELORAE: The long growth protruding from its head is bioluminescent. Perhaps it used this growth to attract prey (a lure?).</Text>
+	</TextBlock>
+
+	<ShipLogConditions>
+		<RevealFact>
+			<FactID>CT_ANGLERFISH_FOSSIL_X3</FactID>
+			<Condition>2</Condition>
+		</RevealFact>
+	</ShipLogConditions>
+</NomaiObject>

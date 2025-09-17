@@ -1,0 +1,8 @@
+<NomaiObject>
+	<TextBlock>
+		<ID>1</ID>
+		<Text>
+			<![CDATA[<color=orange>Meltwater District</color>]]>
+		</Text>
+	</TextBlock>
+</NomaiObject>

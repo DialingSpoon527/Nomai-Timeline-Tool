@@ -1,0 +1,54 @@
+<!--
+ 1 - 2 - 3 - 4
+	 |
+	 5 - 6 - 7
+-->
+
+<NomaiObject>
+
+	<TextBlock>
+		<ID>1</ID>
+		<Text>RAMIE: An update: Our experiment here reproduced the anomaly in arrival and departure times, but Pye is unconvinced it’s more than an equipment error. I hope to strengthen the effect to render it visible to the unaided eyes.</Text>
+	</TextBlock>
+	<TextBlock>
+		<ID>2</ID>
+		<ParentID>1</ParentID>
+		<Text>PYE: To that end, we’ve decided to try adding more energy. I imagine the <![CDATA[<color=orange>Sunless City</color>]]>’s energy supply should prove sufficient.</Text>
+	</TextBlock>
+	<TextBlock>
+		<ID>3</ID>
+		<ParentID>2</ParentID>
+		<Text>PYE: Of note, Ramie: Yarrow requests that we let him know before we reroute energy to the experiment.</Text>
+	</TextBlock>
+	<TextBlock>
+		<ID>4</ID>
+		<ParentID>3</ParentID>
+		<Text>RAMIE: I’d hate to leave him in the dark!</Text>
+	</TextBlock>
+	<TextBlock>
+		<ID>5</ID>
+		<ParentID>2</ParentID>
+		<Text>PYE: All available energy has been rerouted from the city to our experiment. Ramie and I are about to run a new test.</Text>
+	</TextBlock>
+	<TextBlock>
+		<ID>6</ID>
+		<ParentID>5</ParentID>
+		<Text>RAMIE: Hypothesis confirmed! Hypothesis confirmed! I saw it! Pye saw it! <![CDATA[<i>Hypothesis confirmed</i>]]>!</Text>
+	</TextBlock>
+	<TextBlock>
+		<ID>7</ID>
+		<ParentID>6</ParentID>
+		<Text>PYE: This is beyond extraordinary! This changes <![CDATA[<i>everything</i>]]>! What a beautiful day for the intersection of abstract theory and practical application!</Text>
+	</TextBlock>
+
+	<ShipLogConditions>
+		<RevealFact>
+			<FactID>CT_HIGH_ENERGY_LAB_X1</FactID>
+			<Condition>1</Condition>
+		</RevealFact>
+		<RevealFact>
+			<FactID>CT_HIGH_ENERGY_LAB_X2</FactID>
+			<Condition>6</Condition>
+		</RevealFact>
+	</ShipLogConditions>
+</NomaiObject>

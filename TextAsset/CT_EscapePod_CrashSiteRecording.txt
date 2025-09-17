@@ -1,0 +1,28 @@
+<NomaiObject>
+	<TextBlock>
+		<ID>1</ID>
+		<Text>ANNONA: We need status reports for all systems, but initial things first: Is everyone unharmed?</Text>
+	</TextBlock>
+
+	<TextBlock>
+		<ID>2</ID>
+		<Text>RHUS: Our <![CDATA[color=orange>escape pod</color>]]>’s passengers are afraid, but physically well, Annona; everyone survived the crash.</Text>
+	</TextBlock>
+
+	<TextBlock>
+		<ID>3</ID>
+		<Text>ANNONA: This is a relief, at least. You have my gratitude. Bur, were you able to find the other escape pods’ distress signals?</Text>
+	</TextBlock>
+
+	<TextBlock>
+		<ID>4</ID>
+		<Text>BUR: I can hear both signals somewhere in this star system, but I don’t believe either escape pod crashed on the same planet as us.</Text>
+	</TextBlock>
+
+	<ShipLogConditions>
+		<RevealFact>
+			<FactID>CT_ESCAPE_POD_X1</FactID>
+			<Condition></Condition>
+		</RevealFact>
+	</ShipLogConditions>
+</NomaiObject>

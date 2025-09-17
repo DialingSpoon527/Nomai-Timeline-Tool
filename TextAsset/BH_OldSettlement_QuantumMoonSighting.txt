@@ -1,0 +1,81 @@
+<!--
+1 - - - - 4
+|        / \
+2   6 - 5   9
+|      /    |
+3     7    10
+      |
+      8
+-->
+
+<NomaiObject>
+	<TextBlock>
+		<ID>1</ID>
+		<Text>FILIX: Has anyone observed the <![CDATA[<color=lightblue>phantom moon</color>]]> that sometimes greets us in the night sky? Your thoughts interest me.</Text>
+	</TextBlock>
+
+	<TextBlock>
+		<ID>2</ID>
+		<ParentID>1</ParentID>
+		<Text>THATCH: I compliment your eyes! How do you imagine it disappears? Hypothesis: Could it be a shift in the light spectrum?</Text>
+	</TextBlock>
+
+	<TextBlock>
+		<ID>3</ID>
+		<ParentID>2</ParentID>
+		<Text>PLUME: Suppose this moon is too shy to show us its face.</Text>
+	</TextBlock>
+
+	<TextBlock>
+		<ID>4</ID>
+		<ParentID>1</ParentID>
+		<Text>PLUME: I’m interested in your playful moon. Is it much like its violent friend (<![CDATA[<color=lightblue>Hollow’s Lantern</color>]]>)?</Text>
+	</TextBlock>
+
+	<TextBlock>
+		<ID>5</ID>
+		<ParentID>4</ParentID>
+		<Text>THATCH: Imagine if there were <![CDATA[<i>]]>two<![CDATA[</i>]]> volcanic moons.</Text>
+	</TextBlock>
+
+	<TextBlock>
+		<ID>6</ID>
+		<ParentID>5</ParentID>
+		<Text>PLUME: Then I imagine there’d be none of us left!</Text>
+	</TextBlock>
+
+	<TextBlock>
+		<ID>7</ID>
+		<ParentID>5</ParentID>
+		<Text>FILIX: Hypothesis: There can exist too much lava.</Text>
+	</TextBlock>
+
+	<TextBlock>
+		<ID>8</ID>
+		<ParentID>7</ParentID>
+		<Text>THATCH: I’d strongly prefer we test the null hypothesis.</Text>
+	</TextBlock>
+
+	<TextBlock>
+		<ID>9</ID>
+		<ParentID>4</ParentID>
+		<Text>FILIX: This moon isn’t volcanic (to my unaided eyes). Sometimes it leaves its friend <![CDATA[<color=lightblue>Hollow’s Lantern</color>]]> for nights at a time.</Text>
+	</TextBlock>
+
+	<TextBlock>
+		<ID>10</ID>
+		<ParentID>9</ParentID>
+		<Text>PLUME: The nights the moon circles this planet appear random. It seems to travel as it likes.</Text>
+	</TextBlock>
+
+	<ShipLogConditions>
+		<RevealFact>
+			<FactID>QUANTUM_MOON_R1</FactID>
+			<Condition></Condition>
+		</RevealFact>
+		<RevealFact>
+			<FactID>BH_WARP_RECEIVER_X1</FactID>
+			<Condition></Condition>
+		</RevealFact>
+	</ShipLogConditions>
+</NomaiObject>

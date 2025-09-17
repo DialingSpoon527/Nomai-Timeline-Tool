@@ -1,0 +1,43 @@
+<NomaiObject>
+	<TextBlock>
+		<ID>1</ID>
+		<Text>
+			CLARY: This is troublesome: It seems the <![CDATA[<color=lightblue>comet</color>]]> wishes to submerge our <![CDATA[<color=orange>shuttle</color>]]> in ice. If we stay on the surface too long, the <![CDATA[<color=orange>shuttle</color>]]> may freeze entirely.
+		</Text>
+	</TextBlock>
+
+	<TextBlock>
+		<ID>2</ID>
+		<Text>POKE: Even if it did, couldn’t someone call it back home to the <![CDATA[<color=orange>gravity cannon</color>]]> on <![CDATA[<color=lightblue>Ember Twin</color>]]>?</Text>
+	</TextBlock>
+
+	<TextBlock>
+		<ID>3</ID>
+		<Text>PYE: Yes, but the exploration of the <![CDATA[<color=lightblue>comet</color>]]> would be more difficult if we were without the <![CDATA[<color=orange>shuttle</color>]]> until someone recalled it. Perhaps we shouldn’t have landed on the dark side of the <![CDATA[<color=lightblue>comet</color>]]>...</Text>
+	</TextBlock>
+
+	<TextBlock>
+		<ID>4</ID>
+		<Text>CLARY: Suppose one of us remained in the <![CDATA[<color=orange>shuttle</color>]]> to keep it warm and continue monitoring the surface.</Text>
+	</TextBlock>
+
+	<TextBlock>
+		<ID>5</ID>
+		<Text>PYE: This would be wise, I think, Clary. If you don’t mind waiting here with it, Poke and I can continue to investigate the surface.</Text>
+	</TextBlock>
+
+	<ShipLogConditions>
+		<RevealFact>
+			<FactID>COMET_SHUTTLE_X1</FactID>
+			<Condition></Condition>
+		</RevealFact>
+		<RevealFact>
+			<FactID>COMET_SHUTTLE_X3</FactID>
+			<Condition>5</Condition>
+		</RevealFact>
+		<RevealFact>
+			<FactID>CT_GRAVITY_CANNON_R1</FactID>
+			<Condition>2</Condition>
+		</RevealFact>
+	</ShipLogConditions>
+</NomaiObject>

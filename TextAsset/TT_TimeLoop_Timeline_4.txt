@@ -1,0 +1,33 @@
+<!--
+Linear
+
+-->
+
+<NomaiObject>
+	<TextBlock>
+		<ID>1</ID>
+		<Text>YARROW: We’re nearly ready to activate the <![CDATA[<color=orange>Ash Twin Project</color>]]>! Here is what will happen: First, the <![CDATA[<color=orange>Sun Station</color>]]> will receive the order to fire at the <![CDATA[<color=lightblue>sun</color>]]>, prompting it to explode.</Text>
+	</TextBlock>
+	<TextBlock>
+		<ID>2</ID>
+		<ParentID>1</ParentID>
+		<Text>YARROW: Using the energy from the resulting supernova, the <![CDATA[<color=orange>Ash Twin Project</color>]]> will send the order for the <![CDATA[<color=orange>Orbital Probe Cannon</color>]]> to fire back in time by 22 minutes.</Text>
+	</TextBlock>
+	<TextBlock>
+		<ID>3</ID>
+		<ParentID>2</ParentID>
+		<Text>YARROW: Exactly 22 minutes after these orders are received, the <![CDATA[<color=orange>Sun Station</color>]]> will again trigger the supernova to send the probe data from this cannon launch back in time.</Text>
+	</TextBlock>
+	<TextBlock>
+		<ID>4</ID>
+		<ParentID>3</ParentID>
+		<Text>YARROW: In total, each cycle created by the <![CDATA[<color=orange>Ash Twin Project</color>]]> will last precisely 22 minutes. We can end this cycle at will.</Text>
+	</TextBlock>
+
+	<ShipLogConditions>
+		<RevealFact>
+			<FactID>TT_TIME_LOOP_DEVICE_X3</FactID>
+			<Condition>1, 2, 3, 4</Condition>
+		</RevealFact>
+	</ShipLogConditions>
+</NomaiObject>

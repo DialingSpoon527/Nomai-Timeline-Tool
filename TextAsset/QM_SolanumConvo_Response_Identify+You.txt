@@ -1,0 +1,7 @@
+
+<NomaiObject>
+	<TextBlock>
+		<ID>1</ID>
+		<Text>SOLANUM: I am Solanum, a Nomai. My clan arrived in this star system before my birth, and we now call it home.</Text>
+	</TextBlock>
+</NomaiObject>

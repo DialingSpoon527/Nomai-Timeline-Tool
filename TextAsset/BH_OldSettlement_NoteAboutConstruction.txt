@@ -1,0 +1,18 @@
+<NomaiObject>
+	<TextBlock>
+		<ID>1</ID>
+		<Text>PLUME: Of note: Be sure not to wander far from here. Though this area is somewhat unstable, it’s safer than any we’ve found so far.</Text>
+	</TextBlock>
+	<TextBlock>
+		<ID>2</ID>
+		<ParentID>1</ParentID>
+		<Text>PLUME: The temporary settlement is finished, but remember to be cautious of falling rocks and dust created by meteor impacts.</Text>
+	</TextBlock>
+
+	<ShipLogConditions>
+		<RevealFact>
+			<FactID>BH_OLD_SETTLEMENT_X1</FactID>
+			<Condition>2</Condition>
+		</RevealFact>
+	</ShipLogConditions>
+</NomaiObject>

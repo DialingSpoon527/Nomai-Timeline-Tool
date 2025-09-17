@@ -1,0 +1,27 @@
+<!--
+1 - 3 - 4 
+|	            
+2	         
+-->
+
+<NomaiObject>
+	<TextBlock>
+		<ID>1</ID>
+		<Text>PYE: Records show Nomai arriving at the warp receiver on <![CDATA[<color=lightblue>Brittle Hollow</color>]]> very slightly before departing from the <![CDATA[<color=orange>White Hole Station</color>]]>. Ramie and I are devising an experiment to test if this is a real phenomenon or simple machine error.</Text>
+	</TextBlock>
+	<TextBlock>
+		<ID>2</ID>
+		<ParentID>1</ParentID>
+		<Text>RAMIE: In theory, what we want to try to reproduce is a negative amount of time elapsing between something entering the black hole and exiting the white hole at its destination.</Text>
+	</TextBlock>
+	<TextBlock>
+		<ID>3</ID>
+		<ParentID>1</ParentID>
+		<Text>PYE: Initial things first: Our experiment setup will first pair a small black hole core with a small white hole core to mimic the setup on the <![CDATA[<color=orange>White Hole Station</color>]]>.</Text>
+	</TextBlock>
+	<TextBlock>
+		<ID>4</ID>
+		<ParentID>3</ParentID>
+		<Text>RAMIE: Hypothesis: It is possible for an object to exit a white hole <em>before</em> entering the corresponding black hole.</Text>
+	</TextBlock>
+</NomaiObject>

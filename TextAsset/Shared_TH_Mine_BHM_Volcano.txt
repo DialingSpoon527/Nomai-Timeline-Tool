@@ -1,0 +1,71 @@
+<!--
+REWRITE (NOTE, map is different!):
+
+1 - 2 - 3 - 5 - 6 - 7
+		|
+		4
+
+-->
+
+<NomaiObject>
+	<TextBlock>
+		<ID>1</ID>
+		<LocationB/>
+		<Text>ROOT: Friends in the <![CDATA[<color=orange>Timber Hearth Mines</color>]]>, the last type of ore you sent us survives the longest in direct heat.</Text>
+	</TextBlock>
+	<TextBlock>
+		<ID>2</ID>
+		<ParentID>1</ParentID>
+		<LocationB/>
+		<Text>ROOT: Can you send us more of the same for additional testing? We’re attempting to improve its durability, and our forge has already burned through everything you sent!</Text>
+	</TextBlock>
+	<TextBlock>
+		<ID>3</ID>
+		<ParentID>2</ParentID>
+		<LocationA/>
+		<Text>OENO: We’ll deliver more ore to <![CDATA[<color=lightblue>Hollow’s Lantern</color>]]> immediately. You must be fired up about crafting the <![CDATA[<color=orange>Ash Twin Project</color>]]>’s protective shell!</Text>
+	</TextBlock>
+	<TextBlock>
+		<ID>4</ID>
+		<ParentID>3</ParentID>
+		<LocationB/>
+		<Text>ROOT: Yes, the idea of an encasement that’s supernova-proof, however briefly, has kindled my curiosity!</Text>
+	</TextBlock>
+	<TextBlock>
+		<ID>5</ID>
+		<ParentID>3</ParentID>
+		<LocationB/>
+		<Text>ROOT: My gratitude! I imagine we’ll also have an updated estimate soon of how much ore is needed to seal off the <![CDATA[<color=orange>Ash Twin Project</color>]]>.</Text>
+	</TextBlock>
+	<TextBlock>
+		<ID>6</ID>
+		<ParentID>5</ParentID>
+		<LocationA/>
+		<Text>OENO: Will it be more than we initially thought?</Text>
+	</TextBlock>
+	<TextBlock>
+		<ID>7</ID>
+		<ParentID>6</ParentID>
+		<LocationB/>
+		<Text>ROOT: It will be <![CDATA[<i>significantly</i>]]> more. The smallest crack or opening in the protective shell would destroy everything.</Text>
+	</TextBlock>
+
+	<ShipLogConditions>
+		<RevealFact>
+			<FactID>TH_NOMAI_MINE_R1</FactID>
+			<Condition></Condition>
+		</RevealFact>
+		<RevealFact>
+			<FactID>VM_VOLCANO_X1</FactID>
+			<Condition>1, 2</Condition>
+		</RevealFact>
+		<RevealFact>
+			<FactID>VM_VOLCANO_X2</FactID>
+			<Condition>3, 4</Condition>
+		</RevealFact>
+		<RevealFact>
+			<FactID>VM_VOLCANO_X3</FactID>
+			<Condition>7</Condition>
+		</RevealFact>
+	</ShipLogConditions>
+</NomaiObject>

@@ -1,0 +1,12 @@
+<NomaiObject>
+	<TextBlock>
+		<ID>1</ID>
+		<Text>Probe Tracking Module</Text>
+	</TextBlock>
+	<ShipLogConditions>
+		<RevealFact>
+			<FactID>OPC_SUNKEN_MODULE_R1</FactID>
+			<Condition></Condition>
+		</RevealFact>
+	</ShipLogConditions>
+</NomaiObject>

@@ -1,0 +1,45 @@
+<!--
+1 — 4 — 5 — 6
+|
+2 — 3
+
+-->
+
+<NomaiObject>
+	<TextBlock>
+		<ID>1</ID>
+		<Text>THATCH: I can’t understand. Why did the <![CDATA[<color=orange>Vessel</color>]]> crash in that place?</Text>
+	</TextBlock>
+	<TextBlock>
+		<ID>2</ID>
+		<ParentID>1</ParentID>
+		<Text>PLUME: Was the <![CDATA[<color=orange>Vessel</color>]]> unwell in some way?</Text>
+	</TextBlock>
+	<TextBlock>
+		<ID>3</ID>
+		<ParentID>2</ParentID>
+		<Text>FILIX: No, Annona and I checked before the warp, and the warp core and navigation systems were both well.</Text>
+	</TextBlock>
+	<TextBlock>
+		<ID>4</ID>
+		<ParentID>1</ParentID>
+		<Text>FILIX: We warped to follow that curious signal from the <![CDATA[<color=lightblue>Eye of the universe</color>]]>. Where we arrived was wrong; it wasn’t where we tried to go.</Text>
+	</TextBlock>
+	<TextBlock>
+		<ID>5</ID>
+		<ParentID>4</ParentID>
+		<Text>THATCH: Suppose it wasn’t a problem with the <![CDATA[<color=orange>Vessel</color>]]>, but with our destination.</Text>
+	</TextBlock>
+	<TextBlock>
+		<ID>6</ID>
+		<ParentID>5</ParentID>
+		<Text>FILIX: I’m afraid for our friends in <![CDATA[<color=orange>Escape Pod 3</color>]]>....</Text>
+	</TextBlock>
+
+	<ShipLogConditions>
+		<RevealFact>
+			<FactID>DB_VESSEL_R1</FactID>
+			<Condition>4</Condition>
+		</RevealFact>
+	</ShipLogConditions>
+</NomaiObject>

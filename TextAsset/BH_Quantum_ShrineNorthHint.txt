@@ -1,0 +1,48 @@
+<NomaiObject>
+	<TextBlock>
+		<ID>1</ID>
+		<Text>
+			BELLS: Welcome, Solanum! Your arrival here means you’ve completed your preparations on <![CDATA[<color=lightblue>Giant’s Deep</color>]]> and are ready to depart for the <![CDATA[<color=lightblue>Quantum Moon</color>]]>.
+		</Text>
+	</TextBlock>
+	<TextBlock>
+		<ID>2</ID>
+		<ParentID>1</ParentID>
+		<Text>
+			BELLS: On your pilgrimage, the <![CDATA[<color=lightblue>Quantum Moon</color>]]> will carry you, just as it carried me and many in our clan before me, to the moon’s sixth and most secret location.
+		</Text>
+	</TextBlock>
+	<TextBlock>
+		<ID>3</ID>
+		<ParentID>2</ParentID>
+		<Text>
+			BELLS: You’ll be aided in your pilgrimage by the shrine our clan built on the <![CDATA[<color=lightblue>Quantum Moon</color>]]>. But remember this final rule: To explore the sixth location, the shrine must be on the moon’s north pole.
+		</Text>
+	</TextBlock>
+	<TextBlock>
+		<ID>4</ID>
+		<ParentID>3</ParentID>
+		<Text>
+			BELLS: Be curious on your journey!
+		</Text>
+	</TextBlock>
+
+	<ShipLogConditions>
+		<RevealFact>
+			<FactID>QM_SIXTH_LOCATION_R2</FactID>
+			<Condition>2</Condition>
+		</RevealFact>
+		<RevealFact>
+			<FactID>QM_SIXTH_LOCATION_R3</FactID>
+			<Condition>3</Condition>
+		</RevealFact>
+		<RevealFact>
+			<FactID>QM_SHRINE_R1</FactID>
+			<Condition>3</Condition>
+		</RevealFact>
+		<RevealFact>
+			<FactID>BH_QUANTUM_RESEARCH_TOWER_X1</FactID>
+			<Condition>3</Condition>
+		</RevealFact>
+	</ShipLogConditions>
+</NomaiObject>

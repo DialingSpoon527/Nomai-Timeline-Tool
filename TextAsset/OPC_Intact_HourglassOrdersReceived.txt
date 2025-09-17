@@ -1,0 +1,17 @@
+<NomaiObject>
+	<TextBlock>
+		<ID>1</ID>
+		<Text><![CDATA[<TimeMinutes>]]> MINUTES, <![CDATA[<TimeSeconds>]]> SECONDS AGO: Request to launch probe received from <![CDATA[<color=orange>Ash Twin Project</color>]]>.</Text>
+	</TextBlock>
+	<TextBlock>
+		<ID>2</ID>
+		<Text>Cannon aligned with randomly selected probe trajectory. Gravity field activated.</Text>
+	</TextBlock>
+
+	<ShipLogConditions>
+		<RevealFact>
+			<FactID>OPC_INTACT_MODULE_X1</FactID>
+			<Condition>1, 2</Condition>
+		</RevealFact>
+	</ShipLogConditions>
+</NomaiObject>

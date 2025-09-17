@@ -1,0 +1,15 @@
+<!--
+1 - 2 - 3
+-->
+
+<NomaiObject>
+	<TextBlock>
+		<ID>1</ID>
+		<Text>SOLANUM: I’ve never met one of your kind before. It’s an honor to speak with you! I particularly admire your four eyes.</Text>
+	</TextBlock>
+	<TextBlock>
+		<ID>2</ID>
+		<ParentID>1</ParentID>
+		<Text>SOLANUM: There are many questions I would ask, if I could comprehend your language. You have my gratitude for understanding mine.</Text>
+	</TextBlock>
+</NomaiObject>

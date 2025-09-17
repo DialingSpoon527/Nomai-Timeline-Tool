@@ -1,0 +1,11 @@
+<NomaiObject>
+	<TextBlock>
+		<ID>1</ID>
+		<Text>PHLOX: Welcome to Giant’s Deep, friends! I’m excited for you to meet the statues!</Text>
+	</TextBlock>
+	<TextBlock>
+		<ID>2</ID>
+		<ParentID>1</ParentID>
+		<Text>PHLOX: If I’m not in my dwelling, I’m likely in my <![CDATA[<color=orange>workshop</color>]]> below (inside the island).</Text>
+	</TextBlock>
+</NomaiObject>

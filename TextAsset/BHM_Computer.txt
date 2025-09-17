@@ -1,0 +1,20 @@
+<NomaiObject>
+	<TextBlock>
+		<ID>1</ID>
+		<Text>
+		    WARNING: Increased solar activity detected.
+		</Text>
+	</TextBlock>
+	<TextBlock>
+		<ID>2</ID>
+		<Text>
+		    WARNING: Increased volcanic activity detected.
+		</Text>
+	</TextBlock>
+	<TextBlock>
+		<ID>3</ID>
+		<Text>
+		    VERDICT: Location is now inhospitable. Evacuation recommended.
+		</Text>
+	</TextBlock>
+</NomaiObject>

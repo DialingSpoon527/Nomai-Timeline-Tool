@@ -1,0 +1,40 @@
+<!--
+1 - 2 - 3 - 4
+
+-->
+
+<NomaiObject>
+	<TextBlock>
+		<ID>1</ID>
+		<Text>
+			MELORAE: We have found an enormous cavern at the end of this passage that appears promising! I believe we could construct long-term shelter there.
+		</Text>
+	</TextBlock>
+	<TextBlock>
+		<ID>2</ID>
+		<ParentID>1</ParentID>
+		<Text>
+			ANNONA: The cavern Melorae found is a wise choice for shelter. Could one of you mark directions for the others to follow?
+		</Text>
+	</TextBlock>
+	<TextBlock>
+		<ID>3</ID>
+		<ParentID>2</ParentID>
+		<Text>
+			COLEUS: This is the start of the path to the shelter site. I’ve left directions to guide you there.
+		</Text>
+	</TextBlock>
+	<TextBlock>
+		<ID>4</ID>
+		<ParentID>3</ParentID>
+		<Text>
+			MELORAE: Of note: We must hurry, as the pathway there is filling with sand. Do not allow yourself to be buried by sand, and make sure no one is lost!
+		</Text>
+	</TextBlock>
+
+	<ShipLogConditions>
+		<RevealFact>
+			<FactID>CT_SUNLESS_CITY_R3</FactID>
+		</RevealFact>
+	</ShipLogConditions>
+</NomaiObject>

@@ -1,0 +1,9 @@
+<NomaiObject>
+	<TextBlock>
+		<ID>1</ID>
+		<Text>
+			<![CDATA[<color=orange>Gravity Cannon</color>]]> Controls\\n(90m)<!-- \\n
+			Launch Platform (below 80m) -->
+		</Text>
+	</TextBlock>
+</NomaiObject>

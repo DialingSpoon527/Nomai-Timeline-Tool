@@ -1,0 +1,57 @@
+<!--
+1 — 2 — 3 
+    |
+    4 - 5 - 6
+-->
+
+<NomaiObject>
+	<TextBlock>
+		<ID>1</ID>
+		<Text>
+			PLUME: The <![CDATA[<i>trees</i>]]> are moving! The trees in this grove wander about freely (the entire plant, roots and all)! This is <![CDATA[<i>not normal</i>]]>, even for this alien planet. And I never see them move! Is that even possible?!
+		</Text>
+	</TextBlock>
+	<TextBlock>
+		<ID>2</ID>
+		<ParentID>1</ParentID>
+		<Text>
+			PLUME: If anyone else witnesses this disturbing behavior, I implore you, record your observations here. Either these trees are aberrant, or my brain must be!
+		</Text>
+	</TextBlock>
+	<TextBlock>
+		<ID>3</ID>
+		<ParentID>2</ParentID>
+		<Text>
+			THATCH: Plume is right; the trees <![CDATA[<i>do</i>]]> move! I confess I didn’t notice until I read his notes.
+		</Text>
+	</TextBlock>
+	<TextBlock>
+		<ID>4</ID>
+		<ParentID>2</ParentID>
+		<Text>
+			THATCH: Alarmingly, it isn’t only the trees: There is other matter in this area (such as that unusual shard of rock) moving in this same eerie way.
+		</Text>
+	</TextBlock>
+	<TextBlock>
+		<ID>5</ID>
+		<ParentID>4</ParentID>
+		<Text>
+			FILIX: That rock is unusual for another reason, too, Thatch: It possesses color and texture I’ve never seen elsewhere on this planet!
+		</Text>
+	</TextBlock>
+	<TextBlock>
+		<ID>6</ID>
+		<ParentID>5</ParentID>
+		<Text>
+			FILIX: Hypothesis: This rock shard’s presence is significant. We should study it! (Could it be what is causing other nearby objects to also move about this area?)
+		</Text>
+	</TextBlock>
+
+
+	<ShipLogConditions>
+		<RevealFact>
+			<FactID>BH_QUANTUM_SHARD_R1</FactID>
+			<Condition>4</Condition>
+		</RevealFact>
+	</ShipLogConditions>
+</NomaiObject>

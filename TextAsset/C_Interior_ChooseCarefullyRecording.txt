@@ -1,0 +1,27 @@
+<NomaiObject>
+	<TextBlock>
+		<ID>1</ID>
+		<Text>PYE: I’m receiving much stronger energy readings now that we’re beneath the crust. Whatever it is must lie somewhere below, closer to the <![CDATA[<color=lightblue>comet</color>]]>’s center. And I’m starting to think it’s more dangerous than we realized.</Text>
+	</TextBlock>
+
+	<TextBlock>
+		<ID>2</ID>
+		<Text>PYE: Clary, can you hear us?</Text>
+	</TextBlock>
+
+	<TextBlock>
+		<ID>3</ID>
+		<Text>CLARY: Yes, but your voices are faint. I fear we will lose communication entirely if you continue any deeper.</Text>
+	</TextBlock>
+
+	<TextBlock>
+		<ID>4</ID>
+		<Text>POKE: Keep the <![CDATA[<color=orange>shuttle</color>]]> warm for us, Clary. We’ll return the moment we identify the source of the energy readings!</Text>
+	</TextBlock>
+
+	<TextBlock>
+		<ID>5</ID>
+		<Text>CLARY: I understand, but... Be cautious, both of you.</Text>
+	</TextBlock>
+
+</NomaiObject>

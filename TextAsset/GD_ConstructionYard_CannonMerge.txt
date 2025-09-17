@@ -1,0 +1,54 @@
+<!--
+1 — 2 — 3 — 4
+|   \
+5     6 — 7
+
+-->
+
+<NomaiObject>
+	<TextBlock>
+		<ID>1</ID>
+		<Text>CASSAVA: This is it: We’ve finished building the final <![CDATA[<color=orange>Orbital Probe Cannon</color>]]> module and are ready to send it into orbit around <![CDATA[<color=lightblue>Giant’s Deep</color>]]> for assembly!</Text>
+	</TextBlock>
+	<TextBlock>
+		<ID>2</ID>
+		<ParentID>1</ParentID>
+		<Text>CASSAVA: To all my friends here at the <![CDATA[<color=orange>Construction Yard</color>]]>, my gratitude for your tireless work. I had given up hope, but I truly believe this cannon may actually succeed where many other attempts have not.</Text>
+	</TextBlock>
+	<TextBlock>
+		<ID>3</ID>
+		<ParentID>2</ParentID>
+		<Text>DAZ: Are you going gelatinous on us, love? I’m delighted by your words, but they’re atypical for you!</Text>
+	</TextBlock>
+	<TextBlock>
+		<ID>4</ID>
+		<ParentID>3</ParentID>
+		<Text>CASSAVA: If I’m ever half as gooey as Mallow and Avens behave together, Daz, you may launch <![CDATA[<i>me</i>]]> from the <![CDATA[<color=orange>Orbital Probe Cannon</color>]]>.</Text>
+	</TextBlock>
+	<TextBlock>
+		<ID>5</ID>
+		<ParentID>1</ParentID>
+		<Text>CASSAVA: Our next step will be to send Privet up to the <![CDATA[<color=orange>Orbital Probe Cannon</color>]]> to install the probe tracking system.</Text>
+	</TextBlock>
+	<TextBlock>
+		<ID>6</ID>
+		<ParentID>2</ParentID>
+		<Text>DAZ: If I know my brother, Avens (and his spouse) will want to launch the probe with as much power as possible. I’m worried the cannon would break under the strain.</Text>
+	</TextBlock>
+	<TextBlock>
+		<ID>7</ID>
+		<ParentID>6</ParentID>
+		<Text>DAZ: I propose we give Avens and Mallow a slightly lower maximum power setting than the absolute maximum possible to create room for their enthusiasm.</Text>
+	</TextBlock>
+
+	<ShipLogConditions>
+		<RevealFact>
+			<FactID>GD_CONSTRUCTION_YARD_X1</FactID>
+			<Condition>1</Condition>
+		</RevealFact>
+		<RevealFact>
+			<FactID>ORBITAL_PROBE_CANNON_R1</FactID>
+			<Condition>1</Condition>
+		</RevealFact>
+	</ShipLogConditions>
+</NomaiObject>

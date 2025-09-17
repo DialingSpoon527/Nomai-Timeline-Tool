@@ -1,0 +1,6 @@
+<NomaiObject>
+	<TextBlock>
+		<ID>1</ID>
+		<Text>Enter this place without friends, however; these are lessons to learn for yourself.</Text>
+	</TextBlock>
+</NomaiObject>

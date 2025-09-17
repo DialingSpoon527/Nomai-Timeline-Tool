@@ -1,0 +1,49 @@
+<!--
+1 - 2
+|
+3
+|
+4
+-->
+
+<NomaiObject>
+	<TextBlock>
+		<ID>1</ID>
+		<LocationB/>
+		<Text>YARROW: My gratitude for the latest shipment, Oeno! This ore should be the last we’ll need for the <![CDATA[<color=orange>Ash Twin Project</color>]]>.</Text>
+	</TextBlock>
+	<TextBlock>
+		<ID>2</ID>
+		<ParentID>1</ParentID>
+		<LocationB/>
+		<Text>YARROW: Once we’ve finished the shell that seals off the central chamber, we’ll check to ensure there are no longer any physical entrances. Ramie and I will be checking the interior and then the exterior for cracks (our final safety check).</Text>
+	</TextBlock>
+	<TextBlock>
+		<ID>3</ID>
+		<ParentID>1</ParentID>
+		<LocationA/>
+		<Text>OENO: This is exciting news! Can I offer an extra set of eyes for this final check (specifically, mine)? If my work here is complete, I’d be delighted to help.</Text>
+	</TextBlock>
+	<TextBlock>
+		<ID>4</ID>
+		<ParentID>3</ParentID>
+		<LocationB/>
+		<Text>YARROW: We’d be grateful if you would! The more eyes, the better, as the smallest flaw or opening in the shell that protects the <![CDATA[<color=orange>Ash Twin Project</color>]]> could lead to disaster.</Text>
+	</TextBlock>
+
+	<ShipLogConditions>
+		<LocationA/>
+		<RevealFact>
+			<FactID>TT_TIME_LOOP_DEVICE_R1</FactID>
+			<Condition>2</Condition>
+		</RevealFact>
+		<RevealFact>
+			<FactID>TH_NOMAI_MINE_X1</FactID>
+			<Condition>2</Condition>
+		</RevealFact>
+		<RevealFact>
+			<FactID>TH_NOMAI_MINE_X2</FactID>
+			<Condition>2</Condition>
+		</RevealFact>
+	</ShipLogConditions>
+</NomaiObject>

@@ -1,0 +1,8 @@
+<NomaiObject>
+	<TextBlock>
+		<ID>1</ID>
+		<Text>
+			The <![CDATA[<color=orange>Crossroads</color>]]>\\n(west 350m)
+		</Text>
+	</TextBlock>
+</NomaiObject>

@@ -1,0 +1,26 @@
+
+<NomaiObject>
+	<TextBlock>
+		<ID>1</ID>
+		<Text>BEGIN LAUNCH LOG: <![CDATA[<color=orange>Orbital Probe Cannon</color>]]>. Launch request received. Probe launch successful.</Text>
+	</TextBlock>
+	<TextBlock>
+		<ID>2</ID>
+		<Text><![CDATA[<color=orange>Probe Tracking Module</color>]]> is receiving data from probe.</Text>
+	</TextBlock>
+	<TextBlock>
+		<ID>3</ID>
+		<Text>WARNING: <![CDATA[<color=orange>Orbital Probe Cannon</color>]]> structure compromised during launch. Damage to multiple modules detected.</Text>
+	</TextBlock>
+
+	<ShipLogConditions>
+		<RevealFact>
+			<FactID>OPC_INTACT_MODULE_X2</FactID>
+			<Condition>1, 3</Condition>
+		</RevealFact>
+		<RevealFact>
+			<FactID>OPC_SUNKEN_MODULE_R5</FactID>
+			<Condition>2</Condition>
+		</RevealFact>
+	</ShipLogConditions>
+</NomaiObject>

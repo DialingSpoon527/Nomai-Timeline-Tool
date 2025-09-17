@@ -1,0 +1,6 @@
+<NomaiObject>
+	<TextBlock>
+		<ID>1</ID>
+		<Text>Call the <![CDATA[<color=orange>shuttle</color>]]> home</Text>
+	</TextBlock>
+</NomaiObject>

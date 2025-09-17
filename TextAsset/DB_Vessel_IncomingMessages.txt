@@ -1,0 +1,108 @@
+<!--
+	These read linearly (1 - 2 - 3 etc.), not as a normal spiral (this is a recording, of sorts, and not a normal "whiteboard").
+-->
+
+<NomaiObject>
+	<TextBlock>
+		<ID>1</ID>
+		<LocationB/>
+		<Text>CANNA: To any Nomai clans whose Vessels can hear this message:</Text>
+	</TextBlock>
+	<TextBlock>
+		<ID>2</ID>
+		<ParentID>1</ParentID>
+		<LocationB/>
+		<Text>CANNA: It’s clear the universe is dying. There are fewer and fewer resources and safe places within space now, so my clan and I believe the best option is for all of our clans to stay together.</Text>
+	</TextBlock>
+	<TextBlock>
+		<ID>3</ID>
+		<ParentID>2</ParentID>
+		<LocationB/>
+		<Text>CANNA: If you can reach the Gloaming Galaxy, we’ve found that Blackrock’s suns are fairly stable, and life in this star system is (comparatively) thriving. We live in relative safety.</Text>
+	</TextBlock>
+	<TextBlock>
+		<ID>4</ID>
+		<ParentID>3</ParentID>
+		<LocationB/>
+		<Text>CANNA: If you prefer to continue exploring alone, know you will be on your own.</Text>
+	</TextBlock>
+	<TextBlock>
+		<ID>5</ID>
+		<ParentID>4</ParentID>
+		<LocationB/>
+		<Text>BROMI: Canna, we’re making our way to you.</Text>
+	</TextBlock>
+	<TextBlock>
+		<ID>6</ID>
+		<ParentID>5</ParentID>
+		<LocationB/>
+		<Text>CANNA: It’s good to hear from you, Bromi! We’ll watch for your Vessel.</Text>
+	</TextBlock>
+	<TextBlock>
+		<ID>7</ID>
+		<ParentID>6</ParentID>
+		<LocationB/>
+		<Text>CANNA: Has anyone heard from Neem? His clan was on its way to our Vessel, but they never arrived, and he hasn’t sent any messages. I’m beginning to worry.</Text>
+	</TextBlock>
+	<TextBlock>
+		<ID>8</ID>
+		<ParentID>7</ParentID>
+		<LocationB/>
+		<Text>BROMI: That <![CDATA[<i>is</i>]]> unsettling. It reminds me of that old myth my grandfather used to tell, the Disappearance of Escall.</Text>
+	</TextBlock>
+	<TextBlock>
+		<ID>9</ID>
+		<ParentID>8</ParentID>
+		<LocationB/>
+		<Text>CLEM: I remember hearing that story as a child! One day, Escall’s <![CDATA[<color=orange>Vessel</color>]]> simply stopped responding. The other clans searched and searched, but found no trace. It was as if their missing friends had warped out of existence.</Text>
+	</TextBlock>
+	<TextBlock>
+		<ID>10</ID>
+		<ParentID>9</ParentID>
+		<LocationB/>
+		<Text>HYSSOP: That’s no myth, friends; Escall’s clan existed, and their story was real.</Text>
+	</TextBlock>
+	<TextBlock>
+		<ID>11</ID>
+		<ParentID>10</ParentID>
+		<LocationB/>
+		<Text>BROMI: What a curious event to have passed into myth! Our ancestors’ ancestors were told that story when they were young. Are you sure it’s true, Hyssop?</Text>
+	</TextBlock>
+	<TextBlock>
+		<ID>12</ID>
+		<ParentID>11</ParentID>
+		<LocationB/>
+		<Text>HYSSOP: It was a very long time ago, but yes. My clan’s ancestors searched for Escall’s clan for a long time, but in the end, none of them were ever seen again. (It’s the only time in our history a Vessel has ever disappeared this way.)</Text>
+	</TextBlock>
+	<TextBlock>
+		<ID>13</ID>
+		<ParentID>12</ParentID>
+		<LocationB/>
+		<Text>NEEM: Hyssop, I hope you aren’t comparing Escall’s story to my clan’s Vessel!</Text>
+	</TextBlock>
+	<TextBlock>
+		<ID>14</ID>
+		<ParentID>13</ParentID>
+		<LocationB/>
+		<Text>CLEM: Neem, my friend! We feared you were gone!</Text>
+	</TextBlock>
+	<TextBlock>
+		<ID>15</ID>
+		<ParentID>14</ParentID>
+		<LocationB/>
+		<Text>NEEM: Not yet, we aren’t, but nearly. We found trouble during our warp: The triple suns of the Bright Spark star system exploded, and it was only a lucky coincidence we weren’t caught in the blast. We’ll meet you soon, Canna!</Text>
+	</TextBlock>
+	<TextBlock>
+		<ID>16</ID>
+		<ParentID>15</ParentID>
+		<LocationB/>
+		<Text>CANNA: I’m relieved your clan is safe, Neem! It’s good to hear your words. Any Vessels nearby, remember to be extremely cautious of potentially unstable stars (which is most of them, now).</Text>
+	</TextBlock>
+
+	<ShipLogConditions>
+		<RevealFact>
+			<FactID>DB_VESSEL_X5</FactID>
+			<Condition>2</Condition>
+		</RevealFact>
+	</ShipLogConditions>
+</NomaiObject>

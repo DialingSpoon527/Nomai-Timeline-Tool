@@ -1,0 +1,32 @@
+<!--
+1 - 2 - 3 - 4
+-->
+<NomaiObject>
+	<TextBlock>
+		<ID>1</ID>
+		<Text>
+			CASSAVA: I imagine I’ve been hard on Poke, again. This in turn means I’ve made things difficult for her sister (Clary).
+		</Text>
+	</TextBlock>
+	<TextBlock>
+		<ID>2</ID>
+		<ParentID>1</ParentID>
+		<Text>
+			CASSAVA: If Poke and I are oil and water, Clary is our emulsifier. She certainly makes us a better team than would mixing through shaking (although sometimes I would like to shake Poke!).
+		</Text>
+	</TextBlock>
+	<TextBlock>
+		<ID>3</ID>
+		<ParentID>2</ParentID>
+		<Text>
+			CASSAVA: Jokes aside, suppose my own fear of never finding the <![CDATA[<color=lightblue>Eye</color>]]> prompted my argument with Poke. That would be immature of me.
+		</Text>
+	</TextBlock>
+	<TextBlock>
+		<ID>4</ID>
+		<ParentID>3</ParentID>
+		<Text>
+			CASSAVA: I should apologize... At least to Clary, who could then tell Poke.
+		</Text>
+	</TextBlock>
+</NomaiObject>

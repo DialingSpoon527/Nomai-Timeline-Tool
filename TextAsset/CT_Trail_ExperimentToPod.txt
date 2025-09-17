@@ -1,0 +1,8 @@
+<NomaiObject>
+	<TextBlock>
+		<ID>1</ID>
+		<Text>
+			<![CDATA[<color=orange>Crash Site Caves</color>]]>\\n(60m)
+		</Text>
+	</TextBlock>
+</NomaiObject>

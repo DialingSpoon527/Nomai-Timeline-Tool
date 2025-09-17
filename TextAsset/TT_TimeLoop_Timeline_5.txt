@@ -1,0 +1,47 @@
+<!--
+1 — 2
+|
+3 — 4 — 5
+|
+6
+
+-->
+
+<NomaiObject>
+	<TextBlock>
+		<ID>1</ID>
+		<Text>YARROW: These words are difficult to write: The <![CDATA[<color=orange>Sun Station</color>]]> did not work.</Text>
+	</TextBlock>
+	<TextBlock>
+		<ID>2</ID>
+		<ParentID>1</ParentID>
+		<Text>YARROW: However, this is the closest we have ever been. The <![CDATA[<color=orange>Ash Twin Project</color>]]> is theoretically sound; we were only unable to power it. Perhaps there is another way.</Text>
+	</TextBlock>
+	<TextBlock>
+		<ID>3</ID>
+		<ParentID>1</ParentID>
+		<Text>PYE: Suppose we redesign the <![CDATA[<color=orange>Sun Station</color>]]>. To generate power of that magnitude, a supernova is still our only viable option.</Text>
+	</TextBlock>
+	<TextBlock>
+		<ID>4</ID>
+		<ParentID>3</ParentID>
+		<Text>IDAEA: This is easier expressed than accomplished.</Text>
+	</TextBlock>
+	<TextBlock>
+		<ID>5</ID>
+		<ParentID>4</ParentID>
+		<Text>PYE: You can wait for the <![CDATA[<color=lightblue>sun</color>]]> to explode on its natural timeline if you prefer, Idaea, but you’ll need to find some way to halt our aging process.</Text>
+	</TextBlock>
+	<TextBlock>
+		<ID>6</ID>
+		<ParentID>3</ParentID>
+		<Text>RAMIE: I believe we can still find a way to create a supernova, my friend. Don’t lose hope!</Text>
+	</TextBlock>
+
+	<ShipLogConditions>
+		<RevealFact>
+			<FactID>TT_TIME_LOOP_DEVICE_X4</FactID>
+			<Condition>1, 2</Condition>
+		</RevealFact>
+	</ShipLogConditions>
+</NomaiObject>

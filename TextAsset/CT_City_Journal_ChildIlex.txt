@@ -1,0 +1,38 @@
+<!--
+    1
+    |
+    2 - 4
+    |
+    3
+
+-->
+
+<NomaiObject>
+	<TextBlock>
+		<ID>1</ID>
+		<Text>
+			SOLANUM: I don’t know why everyone says the <![CDATA[<color=lightblue>Eye</color>]]> is important.
+		</Text>
+	</TextBlock>
+	<TextBlock>
+		<ID>2</ID>
+		<ParentID>1</ParentID>
+		<Text>
+			SOLANUM: They say it brought us to this solar system, but is that good? Dad told me lots of Nomai died when our clan came here.
+		</Text>
+	</TextBlock>
+	<TextBlock>
+		<ID>3</ID>
+		<ParentID>2</ParentID>
+		<Text>
+			SOLANUM: What if the <![CDATA[<color=lightblue>Eye</color>]]> wanted that to happen?
+		</Text>
+	</TextBlock>
+	<TextBlock>
+		<ID>4</ID>
+		<ParentID>2</ParentID>
+		<Text>
+			SOLANUM: What if the <![CDATA[<color=lightblue>Eye</color>]]> isn’t something good?
+		</Text>
+	</TextBlock>
+</NomaiObject>

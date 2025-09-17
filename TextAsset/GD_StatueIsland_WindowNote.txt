@@ -1,0 +1,40 @@
+<!--
+1 - 2 - 3
+    |
+    4
+-->
+
+<NomaiObject>
+  <TextBlock>
+    <ID>1</ID>
+    <Text>LAMI: They’re going to test the memory statues tonight! Phlox says it could be dangerous, so we can’t come.</Text>
+  </TextBlock>
+  <TextBlock>
+    <ID>2</ID>
+    <ParentID>1</ParentID>
+    <Text>LAMI: <![CDATA[<i>But</i>]]>, what if we didn’t use the door and snuck in the <![CDATA[<i>other</i>]]> way? Does anyone want to?</Text>
+  </TextBlock>
+  <TextBlock>
+    <ID>3</ID>
+    <ParentID>2</ParentID>
+    <Text>TAGET: Phlox <![CDATA[<i>specifically</i>]]> told us not to do that.</Text>
+  </TextBlock>
+  <TextBlock>
+    <ID>4</ID>
+    <ParentID>2</ParentID>
+    <Text>LAEVI: I really want to see the test, too, Lami, but that’s a huge risk to take. We probably shouldn’t. Maybe Phlox’ll let us see a later test.</Text>
+  </TextBlock>
+
+
+  <ShipLogConditions>
+    <RevealFact>
+      <FactID>GD_STATUE_WORKSHOP_R2</FactID>
+      <Condition>2, 4</Condition>
+    </RevealFact>
+    <RevealFact>
+      <FactID>GD_STATUE_ISLAND_X1</FactID>
+      <Condition></Condition>
+    </RevealFact>
+  </ShipLogConditions>
+  
+</NomaiObject>

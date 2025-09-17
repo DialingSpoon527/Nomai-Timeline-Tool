@@ -1,0 +1,6 @@
+<NomaiObject>
+	<TextBlock>
+		<ID>1</ID>
+		<Text>The arch and the crystal do not naturally meet.</Text>
+	</TextBlock>
+</NomaiObject>

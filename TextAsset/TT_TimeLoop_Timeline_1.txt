@@ -1,0 +1,28 @@
+<!--
+1 - 2 - 3
+|
+4
+
+-->
+
+<NomaiObject>
+	<TextBlock>
+		<ID>1</ID>
+		<Text>YARROW: Today we finished the excavation of <![CDATA[<color=lightblue>Ash Twin</color>]]>. Here, in this space we carved, we will craft our most ambitious project yet: the <![CDATA[<color=orange>Ash Twin Project</color>]]>, powerful enough to send information back in time.</Text>
+	</TextBlock>
+	<TextBlock>
+		<ID>2</ID>
+		<ParentID>1</ParentID>
+		<Text>COLEUS: We’ve also finished relocating all subterranean plants we met while digging.</Text>
+	</TextBlock>
+	<TextBlock>
+		<ID>3</ID>
+		<ParentID>2</ParentID>
+		<Text>RAMIE: We’ll need to keep our eyes on how significantly we’ve altered the environment here.</Text>
+	</TextBlock>
+	<TextBlock>
+		<ID>4</ID>
+		<ParentID>1</ParentID>
+		<Text>PYE: How far we’ve come since our experiments at the <![CDATA[<color=orange>High Energy Lab</color>]]>! I still can hardly believe Ramie’s hypothesis was true.</Text>
+	</TextBlock>
+</NomaiObject>

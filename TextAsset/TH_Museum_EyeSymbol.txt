@@ -1,0 +1,18 @@
+<NomaiObject>
+	<TextBlock>
+		<ID>1</ID>
+		<Text>CASSAVA: We’re nearly ready! Filix and I have finished construction, and she says calibrating the device won’t take long.</Text>
+	</TextBlock>
+	<TextBlock>
+		<ID>2</ID>
+		<ParentID>1</ParentID>
+		<Text>FILIX: Fortunately, the <![CDATA[<color=lightblue>Attlerock</color>]]>’s lack of atmosphere will make calibration simple. After all this time, I’m thrilled to finally resume our search!</Text>
+	</TextBlock>
+
+	<ShipLogConditions>
+		<RevealFact>
+			<FactID>TM_EYE_LOCATOR_R2</FactID>
+			<Condition>2</Condition>
+		</RevealFact>
+	</ShipLogConditions>
+</NomaiObject>

@@ -1,0 +1,53 @@
+<!--
+1 — 2 — 3 — 5 — 6 — 7
+	    |
+	    4
+-->
+
+<NomaiObject>
+	<TextBlock>
+		<ID>1</ID>
+		<Text>OENO: I’m still amazed by how much ore the <![CDATA[<color=orange>Ash Twin Project</color>]]> requires!</Text>
+	</TextBlock>
+	<TextBlock>
+		<ID>2</ID>
+		<ParentID>1</ParentID>
+		<Text>CYCAD: Isn’t this the ore for the remaining towers being built on <![CDATA[<color=lightblue>Ash Twin</color>]]>? The completed towers I’ve seen are quite large!</Text>
+	</TextBlock>
+	<TextBlock>
+		<ID>3</ID>
+		<ParentID>2</ParentID>
+		<Text>OENO: No, the material for those towers is all being taken from <![CDATA[<color=lightblue>Ash Twin</color>]]>. The ore we’re mining here will be used to craft an immensely thick protective shell that will physically seal off the chamber inside <![CDATA[<color=lightblue>Ash Twin</color>]]>’s core.</Text>
+	</TextBlock>
+	<TextBlock>
+		<ID>4</ID>
+		<ParentID>3</ParentID>
+		<Text>COLEUS: I’m relieved by our clan’s decision to use <![CDATA[<color=lightblue>Timber Hearth</color>]]>’s ore only for constructing the shell. If, eventually, life on this planet were to evolve to the point of advanced metallurgy, I’m confident we won’t have destroyed their ability to create!</Text>
+	</TextBlock>
+	<TextBlock>
+		<ID>5</ID>
+		<ParentID>3</ParentID>
+		<Text>CYCAD: If they're sealing off all entrances, I hope they've planned a-<![CDATA[<i>core</i>]]>-dingly!</Text>
+	</TextBlock>
+	<TextBlock>
+		<ID>6</ID>
+		<ParentID>5</ParentID>
+		<Text>OENO: I thought you had forbidden your apprentice from making puns, Coleus.</Text>
+	</TextBlock>
+	<TextBlock>
+		<ID>7</ID>
+		<ParentID>6</ParentID>
+		<Text>COLEUS: How else would he improve?</Text>
+	</TextBlock>
+	
+	<ShipLogConditions>
+		<RevealFact>
+			<FactID>TT_TIME_LOOP_DEVICE_R1</FactID>
+			<Condition>3</Condition>
+		</RevealFact>
+		<RevealFact>
+			<FactID>TH_NOMAI_MINE_X1</FactID>
+			<Condition>3</Condition>
+		</RevealFact>
+	</ShipLogConditions>
+</NomaiObject>

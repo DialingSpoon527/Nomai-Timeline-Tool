@@ -1,0 +1,32 @@
+
+<NomaiObject>
+	<TextBlock>
+		<ID>1</ID>
+		<Text>
+			Retrieving previous launch data from <![CDATA[<color=lightblue>Ash Twin</color>]]>.
+		</Text>
+	</TextBlock>
+	<TextBlock>
+		<ID>2</ID>
+		<Text>
+			Total number of probes launched: <![CDATA[<NbTimeloops>]]>
+		</Text>
+	</TextBlock>
+	<TextBlock>
+		<ID>3</ID>
+		<Text>
+			Deep space anomaly matching all known criteria for the <![CDATA[<color=lightblue>Eye of the universe</color>]]> found by probe <![CDATA[<FirstLoop>]]>.
+		</Text>
+	</TextBlock>
+
+	<ShipLogConditions>
+		<RevealFact>
+			<FactID>OPC_SUNKEN_MODULE_X1</FactID>
+			<Condition>2</Condition>
+		</RevealFact>
+		<RevealFact>
+			<FactID>OPC_SUNKEN_MODULE_X2</FactID>
+			<Condition>3</Condition>
+		</RevealFact>
+	</ShipLogConditions>
+</NomaiObject>

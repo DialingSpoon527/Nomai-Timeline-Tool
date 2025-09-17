@@ -1,0 +1,43 @@
+<!--
+1 — 3 — 4 — 5
+|
+2
+-->
+<NomaiObject>
+	<TextBlock>
+		<ID>1</ID>
+		<Text>THATCH: This knowledge is too dear to lose: Here is everything we can recall about the signal we encountered while aboard the <![CDATA[<color=orange>Vessel</color>]]>.</Text>
+	</TextBlock>
+	<TextBlock>
+		<ID>2</ID>
+		<ParentID>1</ParentID>
+		<Text>FILIX: The signal looked like an eye: round, with a circle at the center much like a pupil. (Suppose the signal was looking for something.)</Text>
+	</TextBlock>
+	<TextBlock>
+		<ID>3</ID>
+		<ParentID>1</ParentID>
+		<Text>FILIX: The signal was older than the universe itself! This is the most significant detail.</Text>
+	</TextBlock>
+	<TextBlock>
+		<ID>4</ID>
+		<ParentID>3</ParentID>
+		<Text>PLUME: No Nomai clan has ever encountered anything like it! How can anything in this universe be older than the universe itself?</Text>
+	</TextBlock>
+	<TextBlock>
+		<ID>5</ID>
+		<ParentID>4</ParentID>
+		<Text>THATCH: Imagine what rare and profound knowledge it might offer. We <![CDATA[<i>]]>must<![CDATA[</i>]]> find this <![CDATA[<color=lightblue>Eye of the universe</color>]]>.</Text>
+	</TextBlock>
+
+
+	<ShipLogConditions>
+		<RevealFact>
+			<FactID>BH_OLD_SETTLEMENT_X2</FactID>
+			<Condition>1, 2</Condition>
+		</RevealFact>
+		<RevealFact>
+			<FactID>BH_OLD_SETTLEMENT_X3</FactID>
+			<Condition>3, 5</Condition>
+		</RevealFact>
+	</ShipLogConditions>
+</NomaiObject>

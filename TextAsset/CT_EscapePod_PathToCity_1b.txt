@@ -1,0 +1,12 @@
+<!--
+1
+-->
+
+<NomaiObject>
+	<TextBlock>
+		<ID>1</ID>
+		<Text>
+			COLEUS: The path to the shelter site is somewhat convoluted, so follow the instructions ahead closely!
+		</Text>
+	</TextBlock>
+</NomaiObject>

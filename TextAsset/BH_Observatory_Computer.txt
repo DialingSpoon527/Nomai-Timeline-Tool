@@ -1,0 +1,8 @@
+<NomaiObject>
+	<TextBlock>
+		<ID>1</ID>
+		<Text>
+		    ERROR: Unable to determine orbit. No signal detected matching any known criteria for the Eye of the universe.
+		</Text>
+	</TextBlock>
+</NomaiObject>

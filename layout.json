@@ -1,0 +1,2184 @@
+{
+  "nodes": [
+    {
+      "file": "TextAsset\\BHM_Computer.txt",
+      "x": 2051.8180108917522,
+      "y": -912.8947804486571,
+      "color": 4286866636
+    },
+    {
+      "file": "TextAsset\\BH_Cannon_LaunchLog.txt",
+      "x": 681.6298258759683,
+      "y": 6364.5963353948155,
+      "color": 4286866636
+    },
+    {
+      "file": "TextAsset\\BH_City_BlackholeForgeControls.txt",
+      "x": 1264.1977470402514,
+      "y": -893.5289962946547,
+      "color": 4286866636
+    },
+    {
+      "file": "TextAsset\\BH_City_EyeShrine_1.txt",
+      "x": 1278.7199999999998,
+      "y": -888.4799999999997,
+      "color": 4286866636
+    },
+    {
+      "file": "TextAsset\\BH_City_EyeShrine_2.txt",
+      "x": 1264.32,
+      "y": -895.3919999999997,
+      "color": 4286866636
+    },
+    {
+      "file": "TextAsset\\BH_City_EyeShrine_3.txt",
+      "x": 1291.3919999999998,
+      "y": -897.9839999999999,
+      "color": 4286866636
+    },
+    {
+      "file": "TextAsset\\BH_City_EyeShrine_Entrance.txt",
+      "x": 1289.3760000000002,
+      "y": -887.6159999999996,
+      "color": 4286866636
+    },
+    {
+      "file": "TextAsset\\BH_City_Forum_1.txt",
+      "x": -1320.0177744160349,
+      "y": 2851.1840432377007,
+      "color": 4286866636
+    },
+    {
+      "file": "TextAsset\\BH_City_Forum_2.txt",
+      "x": -1328.023127452874,
+      "y": 2916.1700120492405,
+      "color": 4286866636
+    },
+    {
+      "file": "TextAsset\\BH_City_Forum_3.txt",
+      "x": -1313.7285391885907,
+      "y": 2972.984587403752,
+      "color": 4286866636
+    },
+    {
+      "file": "TextAsset\\BH_City_Journal_Cassava.txt",
+      "x": -836.6516704393617,
+      "y": 2291.8745558689393,
+      "color": 4286866636
+    },
+    {
+      "file": "TextAsset\\BH_City_Journal_OlderIlex.txt",
+      "x": 790.9039873966077,
+      "y": 5770.918471315452,
+      "color": 4286866636
+    },
+    {
+      "file": "TextAsset\\BH_City_Journal_Poke.txt",
+      "x": -1339.3507331250553,
+      "y": 3043.4342488217976,
+      "color": 4286866636
+    },
+    {
+      "file": "TextAsset\\BH_City_School_BigBangLesson.txt",
+      "x": 469.4496857415678,
+      "y": 5364.971618185213,
+      "color": 4286866636
+    },
+    {
+      "file": "TextAsset\\BH_City_School_FestivalLesson.txt",
+      "x": 2744.338400698368,
+      "y": 5379.312696016896,
+      "color": 4286866636
+    },
+    {
+      "file": "TextAsset\\BH_City_School_VesselLesson.txt",
+      "x": 2238.626485813248,
+      "y": 5386.852300455936,
+      "color": 4286866636
+    },
+    {
+      "file": "TextAsset\\BH_EscapePod_BlackHoleWarning.txt",
+      "x": -1174.4855764991994,
+      "y": 126.67957544960052,
+      "color": 4286866636
+    },
+    {
+      "file": "TextAsset\\BH_EscapePod_CrashSiteRecording.txt",
+      "x": -1168.6598945791993,
+      "y": 21.366725529599876,
+      "color": 4286866636
+    },
+    {
+      "file": "TextAsset\\BH_EscapePod_EmergencyExit.txt",
+      "x": -39.396818534399955,
+      "y": -861.6593099980792,
+      "color": 4286866636
+    },
+    {
+      "file": "TextAsset\\BH_EscapePod_FlightLog.txt",
+      "x": -1158.4474324991997,
+      "y": -94.8188565503998,
+      "color": 4286866636
+    },
+    {
+      "file": "TextAsset\\BH_Forge_AlignmentWindow.txt",
+      "x": -1243.0540243845114,
+      "y": 3297.5917533020142,
+      "color": 4286866636
+    },
+    {
+      "file": "TextAsset\\BH_Forge_BlackHoleCoreShipment.txt",
+      "x": -1458.0564200325114,
+      "y": 3262.925882966015,
+      "color": 4286866636
+    },
+    {
+      "file": "TextAsset\\BH_Forge_EntryClue.txt",
+      "x": 1272.1430981836793,
+      "y": -879.2350387814392,
+      "color": 4286866636
+    },
+    {
+      "file": "TextAsset\\BH_Forge_HourglassAlignment.txt",
+      "x": -1019.6415218565108,
+      "y": 3279.653589590015,
+      "color": 4286866636
+    },
+    {
+      "file": "TextAsset\\BH_Observatory_Computer.txt",
+      "x": 2042.0500108917524,
+      "y": -914.6947804486564,
+      "color": 4286866636
+    },
+    {
+      "file": "TextAsset\\BH_Observatory_EyeSearch_1.txt",
+      "x": 212.68632927436806,
+      "y": 2543.328920150015,
+      "color": 4286866636
+    },
+    {
+      "file": "TextAsset\\BH_Observatory_EyeSearch_2.txt",
+      "x": -41.38792209203194,
+      "y": 2611.111489314817,
+      "color": 4286866636
+    },
+    {
+      "file": "TextAsset\\BH_Observatory_TornadoResearch.txt",
+      "x": 74.24175752396863,
+      "y": 2923.545201135612,
+      "color": 4286866636
+    },
+    {
+      "file": "TextAsset\\BH_OldSettlement_ChildrensRhyme.txt",
+      "x": 54.50601327820996,
+      "y": 5383.08580722278,
+      "color": 4286866636
+    },
+    {
+      "file": "TextAsset\\BH_OldSettlement_EyeCarving.txt",
+      "x": -532.5491410943997,
+      "y": 655.7840209919997,
+      "color": 4286866636
+    },
+    {
+      "file": "TextAsset\\BH_OldSettlement_Flavor_1.txt",
+      "x": -1162.7803090944,
+      "y": 666.0502609919989,
+      "color": 4286866636
+    },
+    {
+      "file": "TextAsset\\BH_OldSettlement_Flavor_2.txt",
+      "x": -1368.2452690944006,
+      "y": 664.7869009919999,
+      "color": 4286866636
+    },
+    {
+      "file": "TextAsset\\BH_OldSettlement_Flavor_3.txt",
+      "x": -766.5729490944,
+      "y": 662.2505809920002,
+      "color": 4286866636
+    },
+    {
+      "file": "TextAsset\\BH_OldSettlement_Flavor_4.txt",
+      "x": -960.5582290943998,
+      "y": 661.0621009919995,
+      "color": 4286866636
+    },
+    {
+      "file": "TextAsset\\BH_OldSettlement_MigrationPlan.txt",
+      "x": -1804.9089490943998,
+      "y": 681.9555409919993,
+      "color": 4286866636
+    },
+    {
+      "file": "TextAsset\\BH_OldSettlement_NoteAboutConstruction.txt",
+      "x": -2205.4440658943995,
+      "y": 706.6504273920002,
+      "color": 4286866636
+    },
+    {
+      "file": "TextAsset\\BH_OldSettlement_QuantumMoonSighting.txt",
+      "x": -307.4659026944004,
+      "y": 602.7168721919996,
+      "color": 4286866636
+    },
+    {
+      "file": "TextAsset\\BH_OldSettlement_WhyDidWeCrash.txt",
+      "x": -1589.5940050943996,
+      "y": 668.5485649919996,
+      "color": 4286866636
+    },
+    {
+      "file": "TextAsset\\BH_Quantum_PilgrimageHistory.txt",
+      "x": 1277.8719999999998,
+      "y": -911.0239999999995,
+      "color": 4286866636
+    },
+    {
+      "file": "TextAsset\\BH_Quantum_ShardDiscovery.txt",
+      "x": -368.3575537663998,
+      "y": 888.5955811327995,
+      "color": 4286866636
+    },
+    {
+      "file": "TextAsset\\BH_Quantum_ShardDiscovery_2.txt",
+      "x": -394.8883932159995,
+      "y": 1139.0451946495991,
+      "color": 4286866636
+    },
+    {
+      "file": "TextAsset\\BH_Quantum_ShrineNorthHint.txt",
+      "x": 1154.1880300871678,
+      "y": 5906.7484749660125,
+      "color": 4286866636
+    },
+    {
+      "file": "TextAsset\\BH_Quantum_TowerEntrance.txt",
+      "x": 1261.44,
+      "y": -913.2479999999995,
+      "color": 4286866636
+    },
+    {
+      "file": "TextAsset\\BH_Quantum_WindowNote.txt",
+      "x": 1248.1919999999996,
+      "y": -912.0959999999997,
+      "color": 4286866636
+    },
+    {
+      "file": "TextAsset\\BH_Trail_BlackholeForge.txt",
+      "x": 1235.1167999999993,
+      "y": -902.15424,
+      "color": 4286866636
+    },
+    {
+      "file": "TextAsset\\BH_Trail_BlackHoleForgeToSurface.txt",
+      "x": 1257.119999999999,
+      "y": -888.6643200000001,
+      "color": 4286866636
+    },
+    {
+      "file": "TextAsset\\BH_Trail_CannonToCrossroads.txt",
+      "x": 1257.1199999999992,
+      "y": -904.76928,
+      "color": 4286866636
+    },
+    {
+      "file": "TextAsset\\BH_Trail_CannonToObservatory.txt",
+      "x": 1267.4649599999989,
+      "y": -900.44928,
+      "color": 4286866636
+    },
+    {
+      "file": "TextAsset\\BH_Trail_CrossroadsToArbor.txt",
+      "x": 1244.2867199999994,
+      "y": -888.2726399999999,
+      "color": 4286866636
+    },
+    {
+      "file": "TextAsset\\BH_Trail_CrossroadsToCannon.txt",
+      "x": 1245.335039999999,
+      "y": -907.9142399999996,
+      "color": 4286866636
+    },
+    {
+      "file": "TextAsset\\BH_Trail_CrossroadsToCity.txt",
+      "x": 1236.6950399999992,
+      "y": -912.8908799999997,
+      "color": 4286866636
+    },
+    {
+      "file": "TextAsset\\BH_Trail_CrossroadsToQuantumTower.txt",
+      "x": 1233.9417599999992,
+      "y": -903.5942399999997,
+      "color": 4286866636
+    },
+    {
+      "file": "TextAsset\\BH_Trail_DownToHangingCity.txt",
+      "x": 1267.464959999999,
+      "y": -901.1059200000004,
+      "color": 4286866636
+    },
+    {
+      "file": "TextAsset\\BH_Trail_EyeShrineDistrict.txt",
+      "x": 1258.559999999999,
+      "y": -903.5942399999999,
+      "color": 4286866636
+    },
+    {
+      "file": "TextAsset\\BH_Trail_ForumDistrict.txt",
+      "x": 1278.8582399999991,
+      "y": -887.616,
+      "color": 4286866636
+    },
+    {
+      "file": "TextAsset\\BH_Trail_LeftToBlackholeForge.txt",
+      "x": 1265.633279999999,
+      "y": -901.4975999999999,
+      "color": 4286866636
+    },
+    {
+      "file": "TextAsset\\BH_Trail_QuantumToCrossroads.txt",
+      "x": 1283.051519999999,
+      "y": -893.64096,
+      "color": 4286866636
+    },
+    {
+      "file": "TextAsset\\BH_Trail_QuantumToObservatory.txt",
+      "x": 1269.561599999999,
+      "y": -906.0825599999998,
+      "color": 4286866636
+    },
+    {
+      "file": "TextAsset\\BH_Trail_SchoolDistrict.txt",
+      "x": 1258.041599999999,
+      "y": -899.00928,
+      "color": 4286866636
+    },
+    {
+      "file": "TextAsset\\BH_Trail_ToCannonControls.txt",
+      "x": 1271.0015999999991,
+      "y": -897.8092799999995,
+      "color": 4286866636
+    },
+    {
+      "file": "TextAsset\\BH_Trail_ToLowerQuantumTower.txt",
+      "x": 1260.2649599999993,
+      "y": -907.1308799999999,
+      "color": 4286866636
+    },
+    {
+      "file": "TextAsset\\BH_Trail_TowerToBlackHoleForge.txt",
+      "x": 1258.7532799999992,
+      "y": -907.00928,
+      "color": 4286866636
+    },
+    {
+      "file": "TextAsset\\CT_Cannon_LaunchShuttle.txt",
+      "x": 974.1043199999995,
+      "y": -751.8105599999997,
+      "color": 4294944000
+    },
+    {
+      "file": "TextAsset\\CT_Cannon_RetrieveShuttle.txt",
+      "x": 970.0300799999989,
+      "y": -739.1231999999998,
+      "color": 4294944000
+    },
+    {
+      "file": "TextAsset\\CT_Cannon_ShuttleLocation.txt",
+      "x": -855.5415192453117,
+      "y": 6067.271818838013,
+      "color": 4294944000
+    },
+    {
+      "file": "TextAsset\\CT_City_EyeShrine_1.txt",
+      "x": 981.2044799999992,
+      "y": -742.2451199999996,
+      "color": 4294944000
+    },
+    {
+      "file": "TextAsset\\CT_City_EyeShrine_2.txt",
+      "x": 983.4278399999988,
+      "y": -753.8462207999996,
+      "color": 4294944000
+    },
+    {
+      "file": "TextAsset\\CT_City_EyeShrine_3.txt",
+      "x": 967.3228799999995,
+      "y": -748.5004799999997,
+      "color": 4294944000
+    },
+    {
+      "file": "TextAsset\\CT_City_EyeShrine_Entrance.txt",
+      "x": 976.4812799999994,
+      "y": -753.1891199999995,
+      "color": 4294944000
+    },
+    {
+      "file": "TextAsset\\CT_City_Journal_ChildIlex.txt",
+      "x": 870.4441957116579,
+      "y": 5368.3268280265365,
+      "color": 4294944000
+    },
+    {
+      "file": "TextAsset\\CT_City_KidDirectionToFossil_1.txt",
+      "x": 1316.286315823103,
+      "y": 5356.370160510562,
+      "color": 4294944000
+    },
+    {
+      "file": "TextAsset\\CT_City_KidDirectionToFossil_2.txt",
+      "x": 1733.2916436516844,
+      "y": 5379.676635557065,
+      "color": 4294944000
+    },
+    {
+      "file": "TextAsset\\CT_City_LightSwitch_1.txt",
+      "x": 983.8540799999994,
+      "y": -741.1737599999997,
+      "color": 4294944000
+    },
+    {
+      "file": "TextAsset\\CT_City_LightSwitch_2.txt",
+      "x": 993.1507199999995,
+      "y": -738.6047999999997,
+      "color": 4294944000
+    },
+    {
+      "file": "TextAsset\\CT_City_LightSwitch_3.txt",
+      "x": 986.4694399999994,
+      "y": -739.8281599999999,
+      "color": 4294944000
+    },
+    {
+      "file": "TextAsset\\CT_City_LightSwitch_4.txt",
+      "x": 982.3961599999996,
+      "y": -742.0815999999996,
+      "color": 4294944000
+    },
+    {
+      "file": "TextAsset\\CT_City_SunStationHint.txt",
+      "x": -1930.4398240440325,
+      "y": 4945.856185491449,
+      "color": 4294944000
+    },
+    {
+      "file": "TextAsset\\CT_EscapePod_CrashSiteRecording.txt",
+      "x": 981.8577524735996,
+      "y": -31.097587507199478,
+      "color": 4294944000
+    },
+    {
+      "file": "TextAsset\\CT_EscapePod_CrashSiteRecording_2.txt",
+      "x": 999.2283764736,
+      "y": 78.64001249280045,
+      "color": 4294944000
+    },
+    {
+      "file": "TextAsset\\CT_EscapePod_FlightLog.txt",
+      "x": 998.5928564735995,
+      "y": -160.49137950720035,
+      "color": 4294944000
+    },
+    {
+      "file": "TextAsset\\CT_EscapePod_FossilDiscovery.txt",
+      "x": 2127.0687584255998,
+      "y": 604.2935556095995,
+      "color": 4294944000
+    },
+    {
+      "file": "TextAsset\\CT_EscapePod_PathToCity_1.txt",
+      "x": 1202.5245179903998,
+      "y": 335.6898256896001,
+      "color": 4294944000
+    },
+    {
+      "file": "TextAsset\\CT_EscapePod_PathToCity_1b.txt",
+      "x": 979.8042777599999,
+      "y": 522.7742975999997,
+      "color": 4294944000
+    },
+    {
+      "file": "TextAsset\\CT_EscapePod_PathToCity_2.txt",
+      "x": 1776.1953177599999,
+      "y": 581.3554175999996,
+      "color": 4294944000
+    },
+    {
+      "file": "TextAsset\\CT_EscapePod_PathToCity_3.txt",
+      "x": 1479.40427776,
+      "y": 572.0094976000005,
+      "color": 4294944000
+    },
+    {
+      "file": "TextAsset\\CT_EscapePod_PathToCity_4.txt",
+      "x": 1230.4522777600005,
+      "y": 542.6574976,
+      "color": 4294944000
+    },
+    {
+      "file": "TextAsset\\CT_EscapePod_PathToFossil.txt",
+      "x": 186.31888373760012,
+      "y": 307.31988664319965,
+      "color": 4294944000
+    },
+    {
+      "file": "TextAsset\\CT_EscapePod_PathToOxygen_1.txt",
+      "x": 938.4245628928003,
+      "y": 322.39518433280057,
+      "color": 4294944000
+    },
+    {
+      "file": "TextAsset\\CT_EscapePod_PathToOxygen_2.txt",
+      "x": 729.1760508927995,
+      "y": 322.8694883327994,
+      "color": 4294944000
+    },
+    {
+      "file": "TextAsset\\CT_EscapePod_PathToRocks.txt",
+      "x": 491.2158588928004,
+      "y": 322.56459233279986,
+      "color": 4294944000
+    },
+    {
+      "file": "TextAsset\\CT_Fossil_AnglerfishResearch.txt",
+      "x": 2180.660965859331,
+      "y": 1104.1999997583357,
+      "color": 4294944000
+    },
+    {
+      "file": "TextAsset\\CT_Fossil_ExitHint.txt",
+      "x": 1786.9775046082552,
+      "y": -907.0793332162535,
+      "color": 4294944000
+    },
+    {
+      "file": "TextAsset\\CT_Fossil_GameRules.txt",
+      "x": 3190.543603089406,
+      "y": 5401.909035565054,
+      "color": 4294944000
+    },
+    {
+      "file": "TextAsset\\CT_QuantumMoonObservation.txt",
+      "x": 267.586032844799,
+      "y": 936.8114171903992,
+      "color": 4294944000
+    },
+    {
+      "file": "TextAsset\\CT_QuantumMoonObservation_2.txt",
+      "x": -181.63206942720007,
+      "y": 1097.5559380992001,
+      "color": 4294944000
+    },
+    {
+      "file": "TextAsset\\CT_Quantum_ColeusTrapped.txt",
+      "x": -20.84131430400106,
+      "y": 1449.2470265855989,
+      "color": 4294944000
+    },
+    {
+      "file": "TextAsset\\CT_Quantum_EntanglementHint.txt",
+      "x": 224.81417727999968,
+      "y": 1404.5270681599989,
+      "color": 4294944000
+    },
+    {
+      "file": "TextAsset\\CT_Quantum_WanderingRock_1a.txt",
+      "x": 177.59958527999999,
+      "y": 1122.1385164799985,
+      "color": 4294944000
+    },
+    {
+      "file": "TextAsset\\CT_Quantum_WanderingRock_1b.txt",
+      "x": -7.832432639999382,
+      "y": 1213.4102630399984,
+      "color": 4294944000
+    },
+    {
+      "file": "TextAsset\\CT_Quantum_WanderingRock_2.txt",
+      "x": 220.43586047999827,
+      "y": 1273.8636134399985,
+      "color": 4294944000
+    },
+    {
+      "file": "TextAsset\\CT_SunStationDebate.txt",
+      "x": -2593.2042645995507,
+      "y": 4167.220003946493,
+      "color": 4294944000
+    },
+    {
+      "file": "TextAsset\\CT_TLE_CityToExperimentHint.txt",
+      "x": -1359.1513709445123,
+      "y": 2550.830458454014,
+      "color": 4294944000
+    },
+    {
+      "file": "TextAsset\\CT_TLE_Entrance.txt",
+      "x": 991.6777599999992,
+      "y": -742.6131199999995,
+      "color": 4294944000
+    },
+    {
+      "file": "TextAsset\\CT_TLE_TimeLoopEnergyRequirements1.txt",
+      "x": -2488.225667653632,
+      "y": 3289.8978447196137,
+      "color": 4294944000
+    },
+    {
+      "file": "TextAsset\\CT_TLE_TimeLoopEnergyRequirements2.txt",
+      "x": -1300.0500925317126,
+      "y": 3102.5797463900144,
+      "color": 4294944000
+    },
+    {
+      "file": "TextAsset\\CT_TLE_TimeTravelConfirmed1.txt",
+      "x": -1378.5888856965137,
+      "y": 2633.9453169500166,
+      "color": 4294944000
+    },
+    {
+      "file": "TextAsset\\CT_TLE_TimeTravelConfirmed2.txt",
+      "x": -1364.8107998085113,
+      "y": 2700.3524951900145,
+      "color": 4294944000
+    },
+    {
+      "file": "TextAsset\\CT_Trail_CannonToCity.txt",
+      "x": 983.5545599999995,
+      "y": -737.5449599999997,
+      "color": 4294944000
+    },
+    {
+      "file": "TextAsset\\CT_Trail_CityToCannon.txt",
+      "x": 992.3327999999996,
+      "y": -737.2799999999999,
+      "color": 4294944000
+    },
+    {
+      "file": "TextAsset\\CT_Trail_CityToExperiment.txt",
+      "x": 983.5660799999995,
+      "y": -740.1599999999996,
+      "color": 4294944000
+    },
+    {
+      "file": "TextAsset\\CT_Trail_CityToFossilOverlook.txt",
+      "x": 997.3094399999992,
+      "y": -745.7932799999999,
+      "color": 4294944000
+    },
+    {
+      "file": "TextAsset\\CT_Trail_CityToFossilSite.txt",
+      "x": 996.2726399999996,
+      "y": -746.8415999999997,
+      "color": 4294944000
+    },
+    {
+      "file": "TextAsset\\CT_Trail_ExperimentToCity.txt",
+      "x": 985.9161599999993,
+      "y": -742.2566399999996,
+      "color": 4294944000
+    },
+    {
+      "file": "TextAsset\\CT_Trail_ExperimentToPod.txt",
+      "x": 993.0009599999994,
+      "y": -738.3283199999996,
+      "color": 4294944000
+    },
+    {
+      "file": "TextAsset\\CT_Trail_UpperExperimentToCity.txt",
+      "x": 996.3993599999991,
+      "y": -744.0883199999998,
+      "color": 4294944000
+    },
+    {
+      "file": "TextAsset\\C_Interior_ChooseCarefullyRecording.txt",
+      "x": -998.4137986949124,
+      "y": 6674.237333692412,
+      "color": 4284995814
+    },
+    {
+      "file": "TextAsset\\C_Interior_FinalRecording.txt",
+      "x": 105.27041600716726,
+      "y": 7120.6744440668135,
+      "color": 4284995814
+    },
+    {
+      "file": "TextAsset\\C_Shuttle_InsideRecording.txt",
+      "x": -401.9430295429123,
+      "y": 6653.1132729180135,
+      "color": 4284995814
+    },
+    {
+      "file": "TextAsset\\C_Shuttle_OutsideRecording.txt",
+      "x": -658.7369180037125,
+      "y": 6268.486000828412,
+      "color": 4284995814
+    },
+    {
+      "file": "TextAsset\\DB_EscapePod_BrambleSeedRecording.txt",
+      "x": 1438.6763634032636,
+      "y": -344.6321248567296,
+      "color": 4278225803
+    },
+    {
+      "file": "TextAsset\\DB_EscapePod_CrashSiteRecording_1.txt",
+      "x": 835.4826694655998,
+      "y": -494.59155959807947,
+      "color": 4278225803
+    },
+    {
+      "file": "TextAsset\\DB_EscapePod_CrashSiteRecording_2.txt",
+      "x": 1139.4402809855999,
+      "y": -426.92252663807915,
+      "color": 4278225803
+    },
+    {
+      "file": "TextAsset\\DB_EscapePod_FlightLog.txt",
+      "x": 502.9968838655999,
+      "y": -566.1740287180796,
+      "color": 4278225803
+    },
+    {
+      "file": "TextAsset\\DB_Vessel_IncomingMessages.txt",
+      "x": 102.80538439444072,
+      "y": 7292.905629706415,
+      "color": 4278225803
+    },
+    {
+      "file": "TextAsset\\DB_Vessel_OutgoingMessages.txt",
+      "x": -60.36321853440009,
+      "y": -550.0433099980797,
+      "color": 4278225803
+    },
+    {
+      "file": "TextAsset\\DB_Vessel_SignalFirstContact.txt",
+      "x": -40.212818534399986,
+      "y": -713.23370999808,
+      "color": 4278225803
+    },
+    {
+      "file": "TextAsset\\GD_ConstructionYard_CannonMerge.txt",
+      "x": 140.47230645043217,
+      "y": 3135.2260733829125,
+      "color": 4286611456
+    },
+    {
+      "file": "TextAsset\\GD_ConstructionYard_LaunchReport.txt",
+      "x": 2041.063383041512,
+      "y": -916.5159164844966,
+      "color": 4286611456
+    },
+    {
+      "file": "TextAsset\\GD_Quantum_Entrance_1.txt",
+      "x": 996.6425058607097,
+      "y": -912.8454031835141,
+      "color": 4286611456
+    },
+    {
+      "file": "TextAsset\\GD_Quantum_Entrance_2.txt",
+      "x": 1004.0728364679157,
+      "y": -904.9693828939779,
+      "color": 4286611456
+    },
+    {
+      "file": "TextAsset\\GD_Quantum_FinalRoom.txt",
+      "x": 997.3553367711735,
+      "y": -907.3287980679166,
+      "color": 4286611456
+    },
+    {
+      "file": "TextAsset\\GD_Quantum_PuzzleHint_1.txt",
+      "x": 972.4269711358627,
+      "y": -906.3920631212709,
+      "color": 4286611456
+    },
+    {
+      "file": "TextAsset\\GD_Quantum_PuzzleHint_2.txt",
+      "x": 989.5465913647097,
+      "y": -903.5745320337401,
+      "color": 4286611456
+    },
+    {
+      "file": "TextAsset\\GD_Quantum_PuzzleHint_3.txt",
+      "x": 987.1833599999994,
+      "y": -901.18656,
+      "color": 4286611456
+    },
+    {
+      "file": "TextAsset\\GD_Quantum_PuzzleHint_4.txt",
+      "x": 999.7942090235902,
+      "y": -904.566435279666,
+      "color": 4286611456
+    },
+    {
+      "file": "TextAsset\\GD_StatueIsland_ConsciousnessDebate.txt",
+      "x": -2464.2885444075514,
+      "y": 4607.262602702848,
+      "color": 4286611456
+    },
+    {
+      "file": "TextAsset\\GD_StatueIsland_FirstMemoryStatueTest.txt",
+      "x": -2494.7223244062707,
+      "y": 4904.425010573312,
+      "color": 4286611456
+    },
+    {
+      "file": "TextAsset\\GD_StatueIsland_WarpReceiverNote.txt",
+      "x": -2195.4303996723193,
+      "y": 4649.797061836798,
+      "color": 4286611456
+    },
+    {
+      "file": "TextAsset\\GD_StatueIsland_WindowNote.txt",
+      "x": -2377.4002085027823,
+      "y": 4773.573722988545,
+      "color": 4286611456
+    },
+    {
+      "file": "TextAsset\\GD_StatueIsland_WorkshopSign.txt",
+      "x": 995.3452799999993,
+      "y": -911.1743999999995,
+      "color": 4286611456
+    },
+    {
+      "file": "TextAsset\\jeffdidwhatnow.txt",
+      "x": 1782.8583807999994,
+      "y": -907.3730687999996,
+      "color": 4290822336
+    },
+    {
+      "file": "TextAsset\\laradidthis.txt",
+      "x": 1781.3215615999993,
+      "y": -909.9726335999999,
+      "color": 4290822336
+    },
+    {
+      "file": "TextAsset\\OPC_Intact_DamageReport.txt",
+      "x": 2046.1307788917522,
+      "y": -907.4632924486535,
+      "color": 4286611456
+    },
+    {
+      "file": "TextAsset\\OPC_Intact_HourglassOrdersReceived.txt",
+      "x": 2051.0928268917523,
+      "y": -901.9214044486574,
+      "color": 4286611456
+    },
+    {
+      "file": "TextAsset\\OPC_Intact_LaunchReport.txt",
+      "x": 2043.6747148917523,
+      "y": -906.3142876486576,
+      "color": 4286611456
+    },
+    {
+      "file": "TextAsset\\OPC_ModuleSign_1.txt",
+      "x": 1000.9670399999995,
+      "y": -901.07904,
+      "color": 4286611456
+    },
+    {
+      "file": "TextAsset\\OPC_ModuleSign_2.txt",
+      "x": 994.0204799999995,
+      "y": -908.4556799999999,
+      "color": 4286611456
+    },
+    {
+      "file": "TextAsset\\OPC_ModuleSign_3.txt",
+      "x": 997.7107660799995,
+      "y": -903.5039999999998,
+      "color": 4286611456
+    },
+    {
+      "file": "TextAsset\\OPC_Sunken_AllLaunchesData.txt",
+      "x": 2050.2747148917524,
+      "y": -907.5670108486532,
+      "color": 4286611456
+    },
+    {
+      "file": "TextAsset\\OPC_Sunken_EyeCoordinates.txt",
+      "x": 2052.059616011751,
+      "y": -909.7159593286555,
+      "color": 4286611456
+    },
+    {
+      "file": "TextAsset\\OPC_Sunken_LastLaunchData.txt",
+      "x": 2049.0646580853518,
+      "y": -905.536796397458,
+      "color": 4286611456
+    },
+    {
+      "file": "TextAsset\\QM_Shrine_QuantumClues_1.txt",
+      "x": 749.7792,
+      "y": -1015.6492799999996,
+      "color": 4290822336
+    },
+    {
+      "file": "TextAsset\\QM_Shrine_QuantumClues_2.txt",
+      "x": 753.6038400000004,
+      "y": -1024.4390399999993,
+      "color": 4290822336
+    },
+    {
+      "file": "TextAsset\\QM_Shrine_QuantumClues_3.txt",
+      "x": 752.7283199999999,
+      "y": -1019.0707199999997,
+      "color": 4290822336
+    },
+    {
+      "file": "TextAsset\\QM_Shuttle_IlexRecording.txt",
+      "x": 669.2063996231674,
+      "y": 6658.184395554812,
+      "color": 4290822336
+    },
+    {
+      "file": "TextAsset\\QM_SolanumConvo_Response_Explain+Eye.txt",
+      "x": 2037.302841918952,
+      "y": -911.9155537222563,
+      "color": 4290822336
+    },
+    {
+      "file": "TextAsset\\QM_SolanumConvo_Response_Explain+Me.txt",
+      "x": 2049.317338686952,
+      "y": -908.7958172998564,
+      "color": 4290822336
+    },
+    {
+      "file": "TextAsset\\QM_SolanumConvo_Response_Explain+QuantumMoon.txt",
+      "x": 2048.359974462951,
+      "y": -904.2853987654538,
+      "color": 4290822336
+    },
+    {
+      "file": "TextAsset\\QM_SolanumConvo_Response_Explain+You.txt",
+      "x": 2053.9791373941516,
+      "y": -906.8810888518541,
+      "color": 4290822336
+    },
+    {
+      "file": "TextAsset\\QM_SolanumConvo_Response_Eye+Me.txt",
+      "x": 2056.6687188597516,
+      "y": -909.5237246278551,
+      "color": 4290822336
+    },
+    {
+      "file": "TextAsset\\QM_SolanumConvo_Response_Eye+QuantumMoon.txt",
+      "x": 2038.8135095925525,
+      "y": -912.7439418694579,
+      "color": 4290822336
+    },
+    {
+      "file": "TextAsset\\QM_SolanumConvo_Response_Eye+You.txt",
+      "x": 2057.9156645493513,
+      "y": -904.8737869126556,
+      "color": 4290822336
+    },
+    {
+      "file": "TextAsset\\QM_SolanumConvo_Response_Identify+Explain.txt",
+      "x": 2062.3190128245524,
+      "y": -908.6510265670544,
+      "color": 4290822336
+    },
+    {
+      "file": "TextAsset\\QM_SolanumConvo_Response_Identify+Eye.txt",
+      "x": 2042.9847651957523,
+      "y": -913.3726862662573,
+      "color": 4290822336
+    },
+    {
+      "file": "TextAsset\\QM_SolanumConvo_Response_Identify+Me.txt",
+      "x": 2039.9507492469518,
+      "y": -913.5174769990539,
+      "color": 4290822336
+    },
+    {
+      "file": "TextAsset\\QM_SolanumConvo_Response_Identify+QuantumMoon.txt",
+      "x": 2062.4089505397515,
+      "y": -909.435104800655,
+      "color": 4290822336
+    },
+    {
+      "file": "TextAsset\\QM_SolanumConvo_Response_Identify+You.txt",
+      "x": 2061.2988882549516,
+      "y": -907.7524690246549,
+      "color": 4290822336
+    },
+    {
+      "file": "TextAsset\\QM_SolanumConvo_Response_QuantumMoon+Me.txt",
+      "x": 2062.8810432117507,
+      "y": -908.0380968262556,
+      "color": 4290822336
+    },
+    {
+      "file": "TextAsset\\QM_SolanumConvo_Response_QuantumMoon+You.txt",
+      "x": 2060.242361099751,
+      "y": -906.6906703174549,
+      "color": 4290822336
+    },
+    {
+      "file": "TextAsset\\QM_SolanumConvo_Response_You+Me.txt",
+      "x": 2060.9140975221508,
+      "y": -907.8867166534559,
+      "color": 4290822336
+    },
+    {
+      "file": "TextAsset\\Shared_BH_Cannon_BH_Quantum.txt",
+      "x": 405.86737177804815,
+      "y": 6028.023893405694,
+      "color": 4286866636
+    },
+    {
+      "file": "TextAsset\\Shared_BH_Forge_TT_TimeLoopInterior.txt",
+      "x": -903.7565204889601,
+      "y": 4721.398914736122,
+      "color": 4293186208
+    },
+    {
+      "file": "TextAsset\\Shared_GD_ConstructionYard_BH_Observatory.txt",
+      "x": 31.548234887168007,
+      "y": 2792.8901906268106,
+      "color": 4286866636
+    },
+    {
+      "file": "TextAsset\\Shared_GD_ConstructionYard_OPC_Intact.txt",
+      "x": -1284.0236022005768,
+      "y": 5662.928603750393,
+      "color": 4286611456
+    },
+    {
+      "file": "TextAsset\\Shared_GD_StatueIsland_TT_TimeLoopInterior.txt",
+      "x": -2199.4342448824323,
+      "y": 4974.726594134014,
+      "color": 4293186208
+    },
+    {
+      "file": "TextAsset\\Shared_OPC_Damaged_OPC_Sunken.txt",
+      "x": -778.792805654527,
+      "y": 4422.242578382841,
+      "color": 4286611456
+    },
+    {
+      "file": "TextAsset\\Shared_OPC_Intact_OPC_Damaged.txt",
+      "x": 333.3568881663994,
+      "y": 3891.3381560729567,
+      "color": 4286611456
+    },
+    {
+      "file": "TextAsset\\Shared_OPC_Sunken_TT_TimeLoopInterior.txt",
+      "x": -1346.494645813248,
+      "y": 4994.272239796222,
+      "color": 4293186208
+    },
+    {
+      "file": "TextAsset\\Shared_SS_SunStation_TT_TimeLoopInterior.txt",
+      "x": -1632.157633142783,
+      "y": 5376.6007677911,
+      "color": 4293186208
+    },
+    {
+      "file": "TextAsset\\Shared_TH_Mine_BHM_Volcano.txt",
+      "x": -757.33748256768,
+      "y": 2871.623496105982,
+      "color": 4286866636
+    },
+    {
+      "file": "TextAsset\\Shared_TH_Mine_TT_TimeLoopInterior.txt",
+      "x": -798.0635624325116,
+      "y": 4211.540777558013,
+      "color": 4293186208
+    },
+    {
+      "file": "TextAsset\\SS_ApproximateTime.txt",
+      "x": 2049.332847371753,
+      "y": -910.5228815686572,
+      "color": 4293185536
+    },
+    {
+      "file": "TextAsset\\SS_ClosingEmergencyDoor.txt",
+      "x": 2041.2366988917522,
+      "y": -908.9430748486533,
+      "color": 4293185536
+    },
+    {
+      "file": "TextAsset\\SS_EmergencyDoorLabel.txt",
+      "x": 726.0453320294407,
+      "y": -746.7561800908807,
+      "color": 4293185536
+    },
+    {
+      "file": "TextAsset\\SS_MissionStatement.txt",
+      "x": -1734.0840889534009,
+      "y": 4901.054066589126,
+      "color": 4293185536
+    },
+    {
+      "file": "TextAsset\\THM_SignalDish_1.txt",
+      "x": 316.0608389447678,
+      "y": 2145.8371723100154,
+      "color": 4278222848
+    },
+    {
+      "file": "TextAsset\\THM_SignalDish_2.txt",
+      "x": 459.11648865143303,
+      "y": 2314.941136043347,
+      "color": 4278222848
+    },
+    {
+      "file": "TextAsset\\TH_Mine_FindingHearthianLife.txt",
+      "x": -506.7501581557762,
+      "y": 2780.67611079475,
+      "color": 4278222848
+    },
+    {
+      "file": "TextAsset\\TH_Mine_SizeOfProject.txt",
+      "x": -448.7632838819835,
+      "y": 3011.270120587263,
+      "color": 4278222848
+    },
+    {
+      "file": "TextAsset\\TH_Museum_EyeSymbol.txt",
+      "x": -108.00029214856526,
+      "y": 1918.4843245233503,
+      "color": 4278222848
+    },
+    {
+      "file": "TextAsset\\TH_Trail_MiningSite.txt",
+      "x": 735.4574186373125,
+      "y": -904.8043125432316,
+      "color": 4278222848
+    },
+    {
+      "file": "TextAsset\\TowerStatusComputer.txt",
+      "x": 2049.058010891753,
+      "y": -910.6147804486576,
+      "color": 4293186208
+    },
+    {
+      "file": "TextAsset\\TT_TimeLoop_CoreRemovalWarning.txt",
+      "x": 2046.7729461679944,
+      "y": -911.7418020232402,
+      "color": 4293186208
+    },
+    {
+      "file": "TextAsset\\TT_TimeLoop_MaskActivationStatus.txt",
+      "x": 2050.043881444235,
+      "y": -910.8213608169757,
+      "color": 4293186208
+    },
+    {
+      "file": "TextAsset\\TT_TimeLoop_RingShutdownLabel.txt",
+      "x": 1259.2871678853119,
+      "y": -748.9305398476797,
+      "color": 4293186208
+    },
+    {
+      "file": "TextAsset\\TT_TimeLoop_Timeline_1.txt",
+      "x": -1589.4124328828932,
+      "y": 4128.314337995978,
+      "color": 4293186208
+    },
+    {
+      "file": "TextAsset\\TT_TimeLoop_Timeline_2.txt",
+      "x": -2198.0074248342157,
+      "y": 4481.754960183297,
+      "color": 4293186208
+    },
+    {
+      "file": "TextAsset\\TT_TimeLoop_Timeline_3a.txt",
+      "x": -611.5550125916154,
+      "y": 4725.889185742849,
+      "color": 4293186208
+    },
+    {
+      "file": "TextAsset\\TT_TimeLoop_Timeline_3b.txt",
+      "x": -1638.4098309242875,
+      "y": 4713.314545065983,
+      "color": 4293186208
+    },
+    {
+      "file": "TextAsset\\TT_TimeLoop_Timeline_3c.txt",
+      "x": -2059.263223791616,
+      "y": 4541.33737899622,
+      "color": 4293186208
+    },
+    {
+      "file": "TextAsset\\TT_TimeLoop_Timeline_4.txt",
+      "x": -1567.6547399516153,
+      "y": 5030.027501617146,
+      "color": 4293186208
+    },
+    {
+      "file": "TextAsset\\TT_TimeLoop_Timeline_5.txt",
+      "x": -1630.8152015831026,
+      "y": 5734.725663596542,
+      "color": 4293186208
+    },
+    {
+      "file": "TextAsset\\TT_TimeLoop_Timeline_7.txt",
+      "x": -1095.7863994245115,
+      "y": 5943.7084395356105,
+      "color": 4293186208
+    },
+    {
+      "file": "TextAsset\\TT_Tower_BH_1.txt",
+      "x": -1923.1075642245107,
+      "y": 3737.912594006013,
+      "color": 4293186208
+    },
+    {
+      "file": "TextAsset\\TT_Tower_CT.txt",
+      "x": -1350.3394433925112,
+      "y": 2776.1981968220152,
+      "color": 4293186208
+    },
+    {
+      "file": "TextAsset\\TT_Tower_SS_1.txt",
+      "x": -2903.5096403845114,
+      "y": 5118.760706646012,
+      "color": 4293186208
+    },
+    {
+      "file": "TextAsset\\WH_TimeDelay_1.txt",
+      "x": -1375.1451839365116,
+      "y": 2375.3754333020147,
+      "color": 4294967295
+    },
+    {
+      "file": "TextAsset\\WH_TimeDelay_2.txt",
+      "x": -1371.2327543685112,
+      "y": 2477.5840098140147,
+      "color": 4294967295
+    },
+    {
+      "file": "TextAsset\\WH_WarpTowerInstructions.txt",
+      "x": 1237.481213499803,
+      "y": -1021.5612979396606,
+      "color": 4294967295
+    },
+    {
+      "file": "TextAsset\\sun station construction.txt",
+      "x": -1851.1958688645107,
+      "y": 4698.331356758012,
+      "color": 4290822336
+    },
+    {
+      "file": "TextAsset\\black hole forge construction.txt",
+      "x": 2038.2226854682601,
+      "y": -822.7724610199549,
+      "color": 4290822336
+    },
+    {
+      "file": "TextAsset\\reconvened.txt",
+      "x": -809.982639194112,
+      "y": 1636.0301018972152,
+      "color": 4290822336
+    },
+    {
+      "file": "TextAsset\\sunless inhabited.txt",
+      "x": 343.13739263999946,
+      "y": 781.2916531199985,
+      "color": 4290822336
+    },
+    {
+      "file": "TextAsset\\moon reached.txt",
+      "x": -41.26754302115959,
+      "y": 1747.145615917055,
+      "color": 4290822336
+    },
+    {
+      "file": "TextAsset\\delete.txt",
+      "x": 2051.529634740633,
+      "y": -827.699431292927,
+      "color": 4290822336
+    },
+    {
+      "file": "TextAsset\\southern observatory constructed.txt",
+      "x": 432.5022280089602,
+      "y": 2439.2614310952936,
+      "color": 4290822336
+    },
+    {
+      "file": "TextAsset\\hanging city constructed.txt",
+      "x": -1577.4260210565112,
+      "y": 1497.9564580700153,
+      "color": 4290822336
+    },
+    {
+      "file": "TextAsset\\youngest of the children group born.txt",
+      "x": 1666.6735845703674,
+      "y": 4734.8468490239975,
+      "color": 4290822336
+    }
+  ],
+  "edges": [
+    {
+      "start": 124,
+      "end": 19,
+      "color": 4294967295
+    },
+    {
+      "start": 124,
+      "end": 79,
+      "color": 4294967295
+    },
+    {
+      "start": 124,
+      "end": 122,
+      "color": 4294967295
+    },
+    {
+      "start": 18,
+      "end": 125,
+      "color": 4294967295
+    },
+    {
+      "start": 125,
+      "end": 124,
+      "color": 4294967295
+    },
+    {
+      "start": 122,
+      "end": 120,
+      "color": 4294967295
+    },
+    {
+      "start": 120,
+      "end": 121,
+      "color": 4294967295
+    },
+    {
+      "start": 121,
+      "end": 119,
+      "color": 4294967295
+    },
+    {
+      "start": 19,
+      "end": 17,
+      "color": 4294967295
+    },
+    {
+      "start": 17,
+      "end": 16,
+      "color": 4294967295
+    },
+    {
+      "start": 16,
+      "end": 33,
+      "color": 4294967295
+    },
+    {
+      "start": 16,
+      "end": 31,
+      "color": 4294967295
+    },
+    {
+      "start": 16,
+      "end": 32,
+      "color": 4294967295
+    },
+    {
+      "start": 16,
+      "end": 29,
+      "color": 4294967295
+    },
+    {
+      "start": 16,
+      "end": 37,
+      "color": 4294967295
+    },
+    {
+      "start": 16,
+      "end": 36,
+      "color": 4294967295
+    },
+    {
+      "start": 16,
+      "end": 35,
+      "color": 4294967295
+    },
+    {
+      "start": 16,
+      "end": 34,
+      "color": 4294967295
+    },
+    {
+      "start": 79,
+      "end": 77,
+      "color": 4294967295
+    },
+    {
+      "start": 77,
+      "end": 78,
+      "color": 4294967295
+    },
+    {
+      "start": 78,
+      "end": 89,
+      "color": 4294967295
+    },
+    {
+      "start": 78,
+      "end": 87,
+      "color": 4294967295
+    },
+    {
+      "start": 78,
+      "end": 88,
+      "color": 4294967295
+    },
+    {
+      "start": 78,
+      "end": 86,
+      "color": 4294967295
+    },
+    {
+      "start": 81,
+      "end": 82,
+      "color": 4294967295
+    },
+    {
+      "start": 81,
+      "end": 83,
+      "color": 4294967295
+    },
+    {
+      "start": 81,
+      "end": 85,
+      "color": 4294967295
+    },
+    {
+      "start": 81,
+      "end": 84,
+      "color": 4294967295
+    },
+    {
+      "start": 118,
+      "end": 115,
+      "color": 4294967295
+    },
+    {
+      "start": 118,
+      "end": 117,
+      "color": 4294967295
+    },
+    {
+      "start": 117,
+      "end": 116,
+      "color": 4294967295
+    },
+    {
+      "start": 115,
+      "end": 116,
+      "color": 4294967295
+    },
+    {
+      "start": 185,
+      "end": 186,
+      "color": 4294967295
+    },
+    {
+      "start": 154,
+      "end": 116,
+      "color": 4294967295
+    },
+    {
+      "start": 99,
+      "end": 96,
+      "color": 4294967295
+    },
+    {
+      "start": 97,
+      "end": 95,
+      "color": 4294967295
+    },
+    {
+      "start": 93,
+      "end": 97,
+      "color": 4294967295
+    },
+    {
+      "start": 93,
+      "end": 94,
+      "color": 4294967295
+    },
+    {
+      "start": 1,
+      "end": 154,
+      "color": 4294967295
+    },
+    {
+      "start": 206,
+      "end": 207,
+      "color": 4294967295
+    },
+    {
+      "start": 7,
+      "end": 8,
+      "color": 4294967295
+    },
+    {
+      "start": 8,
+      "end": 9,
+      "color": 4294967295
+    },
+    {
+      "start": 105,
+      "end": 106,
+      "color": 4294967295
+    },
+    {
+      "start": 104,
+      "end": 21,
+      "color": 4294967295
+    },
+    {
+      "start": 104,
+      "end": 20,
+      "color": 4294967295
+    },
+    {
+      "start": 104,
+      "end": 23,
+      "color": 4294967295
+    },
+    {
+      "start": 21,
+      "end": 203,
+      "color": 4294967295
+    },
+    {
+      "start": 106,
+      "end": 204,
+      "color": 4294967295
+    },
+    {
+      "start": 204,
+      "end": 7,
+      "color": 4294967295
+    },
+    {
+      "start": 64,
+      "end": 118,
+      "color": 4294967295
+    },
+    {
+      "start": 202,
+      "end": 64,
+      "color": 4294967295
+    },
+    {
+      "start": 187,
+      "end": 188,
+      "color": 4294967295
+    },
+    {
+      "start": 179,
+      "end": 188,
+      "color": 4294967295
+    },
+    {
+      "start": 39,
+      "end": 40,
+      "color": 4294967295
+    },
+    {
+      "start": 36,
+      "end": 39,
+      "color": 4294967295
+    },
+    {
+      "start": 170,
+      "end": 1,
+      "color": 4294967295
+    },
+    {
+      "start": 41,
+      "end": 1,
+      "color": 4294967295
+    },
+    {
+      "start": 12,
+      "end": 104,
+      "color": 4294967295
+    },
+    {
+      "start": 12,
+      "end": 103,
+      "color": 4294967295
+    },
+    {
+      "start": 103,
+      "end": 100,
+      "color": 4294967295
+    },
+    {
+      "start": 101,
+      "end": 105,
+      "color": 4294967295
+    },
+    {
+      "start": 195,
+      "end": 174,
+      "color": 4294967295
+    },
+    {
+      "start": 195,
+      "end": 177,
+      "color": 4294967295
+    },
+    {
+      "start": 195,
+      "end": 171,
+      "color": 4294967295
+    },
+    {
+      "start": 195,
+      "end": 196,
+      "color": 4294967295
+    },
+    {
+      "start": 195,
+      "end": 200,
+      "color": 4294967295
+    },
+    {
+      "start": 195,
+      "end": 197,
+      "color": 4294967295
+    },
+    {
+      "start": 126,
+      "end": 176,
+      "color": 4294967295
+    },
+    {
+      "start": 176,
+      "end": 175,
+      "color": 4294967295
+    },
+    {
+      "start": 138,
+      "end": 136,
+      "color": 4294967295
+    },
+    {
+      "start": 100,
+      "end": 205,
+      "color": 4294967295
+    },
+    {
+      "start": 209,
+      "end": 184,
+      "color": 4294967295
+    },
+    {
+      "start": 199,
+      "end": 209,
+      "color": 4294967295
+    },
+    {
+      "start": 209,
+      "end": 76,
+      "color": 4294967295
+    },
+    {
+      "start": 137,
+      "end": 138,
+      "color": 4294967295
+    },
+    {
+      "start": 196,
+      "end": 135,
+      "color": 4294967295
+    },
+    {
+      "start": 196,
+      "end": 137,
+      "color": 4294967295
+    },
+    {
+      "start": 184,
+      "end": 178,
+      "color": 4294967295
+    },
+    {
+      "start": 76,
+      "end": 178,
+      "color": 4294967295
+    },
+    {
+      "start": 205,
+      "end": 178,
+      "color": 4294967295
+    },
+    {
+      "start": 178,
+      "end": 201,
+      "color": 4294967295
+    },
+    {
+      "start": 176,
+      "end": 197,
+      "color": 4294967295
+    },
+    {
+      "start": 175,
+      "end": 177,
+      "color": 4294967295
+    },
+    {
+      "start": 13,
+      "end": 11,
+      "color": 4294967295
+    },
+    {
+      "start": 70,
+      "end": 11,
+      "color": 4294967295
+    },
+    {
+      "start": 71,
+      "end": 11,
+      "color": 4294967295
+    },
+    {
+      "start": 28,
+      "end": 11,
+      "color": 4294967295
+    },
+    {
+      "start": 69,
+      "end": 11,
+      "color": 4294967295
+    },
+    {
+      "start": 15,
+      "end": 11,
+      "color": 4294967295
+    },
+    {
+      "start": 189,
+      "end": 185,
+      "color": 4294967295
+    },
+    {
+      "start": 11,
+      "end": 170,
+      "color": 4294967295
+    },
+    {
+      "start": 90,
+      "end": 92,
+      "color": 4294967295
+    },
+    {
+      "start": 78,
+      "end": 81,
+      "color": 4294967295
+    },
+    {
+      "start": 82,
+      "end": 212,
+      "color": 4294967295
+    },
+    {
+      "start": 83,
+      "end": 212,
+      "color": 4294967295
+    },
+    {
+      "start": 84,
+      "end": 212,
+      "color": 4294967295
+    },
+    {
+      "start": 85,
+      "end": 212,
+      "color": 4294967295
+    },
+    {
+      "start": 37,
+      "end": 211,
+      "color": 4294967295
+    },
+    {
+      "start": 32,
+      "end": 211,
+      "color": 4294967295
+    },
+    {
+      "start": 33,
+      "end": 211,
+      "color": 4294967295
+    },
+    {
+      "start": 16,
+      "end": 30,
+      "color": 4294967295
+    },
+    {
+      "start": 30,
+      "end": 211,
+      "color": 4294967295
+    },
+    {
+      "start": 31,
+      "end": 211,
+      "color": 4294967295
+    },
+    {
+      "start": 87,
+      "end": 212,
+      "color": 4294967295
+    },
+    {
+      "start": 88,
+      "end": 212,
+      "color": 4294967295
+    },
+    {
+      "start": 86,
+      "end": 212,
+      "color": 4294967295
+    },
+    {
+      "start": 89,
+      "end": 212,
+      "color": 4294967295
+    },
+    {
+      "start": 212,
+      "end": 93,
+      "color": 4294967295
+    },
+    {
+      "start": 211,
+      "end": 187,
+      "color": 4294967295
+    },
+    {
+      "start": 188,
+      "end": 180,
+      "color": 4294967295
+    },
+    {
+      "start": 186,
+      "end": 215,
+      "color": 4294967295
+    },
+    {
+      "start": 215,
+      "end": 25,
+      "color": 4294967295
+    },
+    {
+      "start": 206,
+      "end": 26,
+      "color": 4294967295
+    },
+    {
+      "start": 26,
+      "end": 172,
+      "color": 4294967295
+    },
+    {
+      "start": 34,
+      "end": 216,
+      "color": 4294967295
+    },
+    {
+      "start": 35,
+      "end": 216,
+      "color": 4294967295
+    },
+    {
+      "start": 14,
+      "end": 11,
+      "color": 4294967295
+    },
+    {
+      "start": 212,
+      "end": 217,
+      "color": 4294967295
+    },
+    {
+      "start": 217,
+      "end": 14,
+      "color": 4294967295
+    },
+    {
+      "start": 217,
+      "end": 15,
+      "color": 4294967295
+    },
+    {
+      "start": 217,
+      "end": 71,
+      "color": 4294967295
+    },
+    {
+      "start": 217,
+      "end": 70,
+      "color": 4294967295
+    },
+    {
+      "start": 217,
+      "end": 69,
+      "color": 4294967295
+    },
+    {
+      "start": 217,
+      "end": 13,
+      "color": 4294967295
+    },
+    {
+      "start": 217,
+      "end": 28,
+      "color": 4294967295
+    },
+    {
+      "start": 201,
+      "end": 202,
+      "color": 4294967295
+    },
+    {
+      "start": 203,
+      "end": 196,
+      "color": 4294967295
+    },
+    {
+      "start": 136,
+      "end": 174,
+      "color": 4294967295
+    },
+    {
+      "start": 177,
+      "end": 178,
+      "color": 4294967295
+    },
+    {
+      "start": 200,
+      "end": 178,
+      "color": 4294967295
+    },
+    {
+      "start": 93,
+      "end": 186,
+      "color": 4294967295
+    },
+    {
+      "start": 211,
+      "end": 206,
+      "color": 4294967295
+    },
+    {
+      "start": 136,
+      "end": 178,
+      "color": 4294967295
+    },
+    {
+      "start": 195,
+      "end": 199,
+      "color": 4294967295
+    },
+    {
+      "start": 100,
+      "end": 199,
+      "color": 4294967295
+    },
+    {
+      "start": 195,
+      "end": 198,
+      "color": 4294967295
+    },
+    {
+      "start": 174,
+      "end": 178,
+      "color": 4294967295
+    },
+    {
+      "start": 9,
+      "end": 12,
+      "color": 4294967295
+    },
+    {
+      "start": 11,
+      "end": 41,
+      "color": 4294967295
+    },
+    {
+      "start": 92,
+      "end": 11,
+      "color": 4294967295
+    },
+    {
+      "start": 217,
+      "end": 92,
+      "color": 4294967295
+    },
+    {
+      "start": 8,
+      "end": 90,
+      "color": 4294967295
+    },
+    {
+      "start": 97,
+      "end": 99,
+      "color": 4294967295
+    },
+    {
+      "start": 97,
+      "end": 98,
+      "color": 4294967295
+    },
+    {
+      "start": 78,
+      "end": 80,
+      "color": 4294967295
+    },
+    {
+      "start": 80,
+      "end": 90,
+      "color": 4294967295
+    },
+    {
+      "start": 90,
+      "end": 187,
+      "color": 4294967295
+    },
+    {
+      "start": 96,
+      "end": 95,
+      "color": 4278215680
+    },
+    {
+      "start": 98,
+      "end": 95,
+      "color": 4278215680
+    },
+    {
+      "start": 211,
+      "end": 189,
+      "color": 4294967295
+    },
+    {
+      "start": 211,
+      "end": 213,
+      "color": 4294967295
+    },
+    {
+      "start": 95,
+      "end": 213,
+      "color": 4278215680
+    },
+    {
+      "start": 40,
+      "end": 213,
+      "color": 4294967295
+    },
+    {
+      "start": 213,
+      "end": 25,
+      "color": 4294967295
+    },
+    {
+      "start": 94,
+      "end": 213,
+      "color": 4294967295
+    },
+    {
+      "start": 95,
+      "end": 187,
+      "color": 4278215680
+    },
+    {
+      "start": 94,
+      "end": 187,
+      "color": 4294967295
+    },
+    {
+      "start": 211,
+      "end": 10,
+      "color": 4294967295
+    },
+    {
+      "start": 95,
+      "end": 206,
+      "color": 4278215680
+    },
+    {
+      "start": 94,
+      "end": 206,
+      "color": 4294967295
+    },
+    {
+      "start": 195,
+      "end": 180,
+      "color": 4294967295
+    },
+    {
+      "start": 178,
+      "end": 173,
+      "color": 4294967295
+    },
+    {
+      "start": 197,
+      "end": 178,
+      "color": 4294967295
+    },
+    {
+      "start": 171,
+      "end": 178,
+      "color": 4294967295
+    },
+    {
+      "start": 198,
+      "end": 177,
+      "color": 4294967295
+    },
+    {
+      "start": 136,
+      "end": 198,
+      "color": 4294967295
+    },
+    {
+      "start": 216,
+      "end": 206,
+      "color": 4294967295
+    },
+    {
+      "start": 25,
+      "end": 26,
+      "color": 4294967295
+    },
+    {
+      "start": 207,
+      "end": 101,
+      "color": 4294967295
+    },
+    {
+      "start": 172,
+      "end": 27,
+      "color": 4294967295
+    },
+    {
+      "start": 27,
+      "end": 126,
+      "color": 4294967295
+    },
+    {
+      "start": 20,
+      "end": 196,
+      "color": 4294967295
+    },
+    {
+      "start": 211,
+      "end": 179,
+      "color": 4294967295
+    },
+    {
+      "start": 116,
+      "end": 123,
+      "color": 4294967295
+    }
+  ]
+}

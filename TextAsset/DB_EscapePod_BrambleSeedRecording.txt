@@ -1,0 +1,52 @@
+<NomaiObject>
+	<TextBlock>
+		<ID>1</ID>
+		<Text>SECCA: To any who come here searching for us: We followed one of the two beacons from the <![CDATA[<color=orange>Vessel</color>]]> to this place, but now can go no further.
+		</Text>
+	</TextBlock>
+	<TextBlock>
+		<ID>2</ID>
+		<Text>
+			SECCA: It’s almost too faint to hear now, but the <![CDATA[<color=orange>Vessel</color>]]>’s beacon is still faintly emitting from within this thorny seed. Yet the opening is too small for even a single Nomai to fit through it, so our <![CDATA[<color=orange>escape pod</color>]]> couldn’t have flown through here.
+		</Text>
+	</TextBlock>
+	<TextBlock>
+		<ID>3</ID>
+		<Text>
+			SECCA: I don’t understand how this could be possible, but this gruesome place seems able to manipulate space itself; maybe this was our undoing.
+		</Text>
+	</TextBlock>
+	<TextBlock>
+		<ID>4</ID>
+		<Text>
+			SECCA: To be so close to the location of the <![CDATA[<color=orange>Vessel</color>]]> and still so far is... difficult. Worse, the <![CDATA[<color=orange>Vessel</color>]]>’s beacon is dying; soon, we will be unable to hear it.
+		</Text>
+	</TextBlock>
+	<TextBlock>
+		<ID>5</ID>
+		<Text>
+			SECCA: There is nothing we can do now but try to perhaps find a way inside, or at least attempt to comprehend why this happened.
+		</Text>
+	</TextBlock>
+	<TextBlock>
+		<ID>6</ID>
+		<Text>
+			SECCA: My dearest hope is that the other escape pods were able to reach relative safety.
+		</Text>
+	</TextBlock>
+
+	<ShipLogConditions>
+		<RevealFact>
+			<FactID>DB_NOMAI_GRAVE_X1</FactID>
+			<Condition>1</Condition>
+		</RevealFact>
+		<RevealFact>
+			<FactID>DB_NOMAI_GRAVE_X2</FactID>
+			<Condition>2</Condition>
+		</RevealFact>
+		<RevealFact>
+			<FactID>DB_NOMAI_GRAVE_X3</FactID>
+			<Condition>4</Condition>
+		</RevealFact>
+	</ShipLogConditions>
+</NomaiObject>

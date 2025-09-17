@@ -1,0 +1,8 @@
+<NomaiObject>
+	<TextBlock>
+		<ID>1</ID>
+		<Text>
+			<![CDATA[<color=orange>Black Hole Forge</color>]]>\\n(left 30m)
+		</Text>
+	</TextBlock>
+</NomaiObject>

@@ -1,0 +1,59 @@
+<!--
+1 — 2 — 3
+    |
+    4 — 5 — 6
+    |
+    7
+-->
+
+<NomaiObject>
+	<TextBlock>
+		<ID>1</ID>
+		<Text>PYE: The <![CDATA[<color=orange>Ash Twin Project</color>]]> will be one of our biggest undertakings (metaphorically <![CDATA[<i>]]>and<![CDATA[</i>]]> physically). To build it, we need a way to travel quickly between <![CDATA[<color=lightblue>Ash Twin</color>]]> and each location that holds crucial project materials.</Text>
+	</TextBlock>
+	<TextBlock>
+		<ID>2</ID>
+		<ParentID>1</ParentID>
+		<Text>ROOT: What if we used warp towers (like the one we have on the <![CDATA[<color=orange>White Hole Station</color>]]>) to connect <![CDATA[<color=lightblue>Ash Twin</color>]]> directly to each critical location?</Text>
+	</TextBlock>
+	<TextBlock>
+		<ID>3</ID>
+		<ParentID>2</ParentID>
+		<Text>CLARY: Poke, Root, and I can begin work on this immediately in the <![CDATA[<color=orange>Black Hole Forge</color>]]> (this will keep us busy!).</Text>
+	</TextBlock>
+	<TextBlock>
+		<ID>4</ID>
+		<ParentID>2</ParentID>
+		<Text>YARROW: Of note: Each tower on <![CDATA[<color=lightblue>Ash Twin</color>]]> will warp to a different planet.</Text>
+	</TextBlock>
+	<TextBlock>
+		<ID>5</ID>
+		<ParentID>4</ParentID>
+		<Text>PHLOX: We can design each tower to visually reflect its warp destination!</Text>
+	</TextBlock>
+	<TextBlock>
+		<ID>6</ID>
+		<ParentID>5</ParentID>
+		<Text>PHLOX: The <![CDATA[<color=orange>Giant’s Deep tower</color>]]>, for instance, could resemble a cyclone. And we could model the <![CDATA[<color=orange>Timber Hearth tower</color>]]> after a geyser mountain!</Text>
+	</TextBlock>
+	<TextBlock>
+		<ID>7</ID>
+		<ParentID>4</ParentID>
+		<Text>YARROW: My gratitude to those who noted my imprecise language! Yes, the <![CDATA[<color=lightblue>sun</color>]]> is not a planet. I believe this has been sufficiently clarified (kindly stop reminding me!).</Text>
+	</TextBlock>
+
+	<ShipLogConditions>
+		<RevealFact>
+			<FactID>CT_WARP_TOWER_MAP_X2</FactID>
+			<Condition>1, 2</Condition>
+		</RevealFact>
+		<RevealFact>
+			<FactID>CT_WARP_TOWER_MAP_X3</FactID>
+			<Condition>5</Condition>
+		</RevealFact>
+		<RevealFact>
+			<FactID>CT_WARP_TOWER_MAP_X4</FactID>
+			<Condition>4, 7</Condition>
+		</RevealFact>
+	</ShipLogConditions>
+</NomaiObject>

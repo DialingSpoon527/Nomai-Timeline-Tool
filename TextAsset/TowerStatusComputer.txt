@@ -1,0 +1,14 @@
+<NomaiObject>
+	<TextBlock>
+		<ID>1</ID>
+		<Text><![CDATA[<color=lightblue>Ash Twin</color>]]> warp network status: All towers online.</Text>
+	</TextBlock>
+	<TextBlock>
+		<ID>2</ID>
+		<Text><![CDATA[<color=lightblue>Ash Twin</color>]]> warp network status: <![CDATA[<color=orange>Sun tower</color>]]> offline as of <![CDATA[<MinutesSinceRedGiant>]]> minutes <![CDATA[<SecondsSinceRedGiant>]]> seconds ago.<![CDATA[\\n]]>All other towers online.</Text>
+	</TextBlock>
+	<TextBlock>
+		<ID>3</ID>
+		<Text>Sun tower offline as of <![CDATA[<MinutesSinceRedGiant>]]> minutes <![CDATA[<SecondsSinceRedGiant>]]> seconds ago.<![CDATA[\\n]]>All other towers online.</Text>
+	</TextBlock>
+</NomaiObject>

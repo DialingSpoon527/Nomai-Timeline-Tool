@@ -1,0 +1,65 @@
+<!--
+1 — 2 — 3
+|
+4 — 5
+|
+6
+
+ORIGINAL (do not delete!):
+
+1 - 2 - 3 - 4 - 5
+|   |       |
+7   8       6 
+
+1. ANNONA: As can be observed from this Quantum Moon locator, the moon typically wanders throughout the solar system.
+2. ANNONA: However, at certain intervals, the locator is unable to tell us where the Quantum Moon is. Its indicator just spins endlessly. What does this mean?
+3. Melorae: When the moon is visible, it’s always visiting a planet (one of five) in this solar system.
+4. Melorae: Hypothesis: There exists a sixth planet we haven’t yet observed, and the Quantum Moon travels there.
+5. COLEUS: Do you suppose this theoretical planet is hidden?
+6. PYE: If it isn’t a planet we can see, it must be much farther away from the Hourglass Twins than the rest of the planets (perhaps even outside of this solar system).
+7. COLEUS: Given the other places the Quantum Moon are all within this solar system, the sixth location likely lies within it, also.
+8. COLEUS: I don’t imagine this is likely, but is it possible the moon briefly ceases to exist?
+
+-->
+<NomaiObject>
+	<TextBlock>
+		<ID>1</ID>
+		<Text>MELORAE: This planet sometimes (and only sometimes) has a <![CDATA[<color=lightblue>moon</color>]]>! This is also of note: It disappears if no one is watching it! Isn’t that a <![CDATA[<i>fascinating</i>]]> orbital characteristic?</Text>
+	</TextBlock>
+	<TextBlock>
+		<ID>2</ID>
+		<ParentID>1</ParentID>
+		<Text>BUR: I found your note, Melorae; kindly count me among this <![CDATA[<color=lightblue>moon</color>]]>’s admirers! What is happening when it disappears (I doubt it ceases to exist)? Does it move to another location?</Text>
+	</TextBlock>
+	<TextBlock>
+		<ID>3</ID>
+		<ParentID>2</ParentID>
+		<Text>ANNONA: I believe so. Not only does the moon appear around <![CDATA[<color=lightblue>Brittle Hollow</color>]]>, I can confirm it sometimes orbits <![CDATA[<color=lightblue>Timber Hearth</color>]]>, as well.</Text>
+	</TextBlock>
+	<TextBlock>
+		<ID>4</ID>
+		<ParentID>1</ParentID>
+		<Text>MELORAE: This is my first time encountering a natural satellite with the ability to vanish when not being watched. We should study it! Or, even better, we should travel there!</Text>
+	</TextBlock>
+	<TextBlock>
+		<ID>5</ID>
+		<ParentID>4</ParentID>
+		<Text>BUR: I agree! Our first step would be determining a method to track this <![CDATA[<color=lightblue>phantom moon</color>]]> so that we can always know where it is.</Text>
+	</TextBlock>
+	<TextBlock>
+		<ID>6</ID>
+		<ParentID>4</ParentID>
+		<Text>ANNONA: Given its reluctance to move while consciously observed, it might be a form of macroscopic quantum mechanics.</Text>
+	</TextBlock>
+
+	<ShipLogConditions>
+		<RevealFact>
+			<FactID>CT_QUANTUM_MOON_LOCATOR_X2</FactID>
+			<Condition>6</Condition>
+		</RevealFact>
+		<RevealFact>
+			<FactID>QUANTUM_MOON_R2</FactID>
+			<Condition></Condition>
+		</RevealFact>
+	</ShipLogConditions>
+</NomaiObject>

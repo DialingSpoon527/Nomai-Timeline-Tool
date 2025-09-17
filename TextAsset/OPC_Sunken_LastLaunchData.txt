@@ -1,0 +1,14 @@
+<NomaiObject>
+	<TextBlock>
+		<ID>1</ID>
+		<Text>
+			Receiving data from probe <![CDATA[<NbTimeloops>]]>.
+		</Text>
+	</TextBlock>
+	<TextBlock>
+		<ID>2</ID>
+		<Text>
+			Visualizing current trajectory of probe <![CDATA[<NbTimeloops>]]>.
+		</Text>
+	</TextBlock>
+</NomaiObject>

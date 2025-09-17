@@ -1,0 +1,15 @@
+<!--
+
+-->
+
+<NomaiObject>
+	<TextBlock>
+		<ID>1</ID>
+		<Text>YARROW: Pye and Idaea have worked hard on the <![CDATA[<color=orange>Sun Station</color>]]>, and it at last is complete. If everything goes as planned, this structure will prompt the <![CDATA[<color=lightblue>sun</color>]]>’s explosion, which will in turn supply the power the <![CDATA[<color=orange>Ash Twin Project</color>]]> requires.</Text>
+	</TextBlock>
+	<TextBlock>
+		<ID>2</ID>
+		<ParentID>1</ParentID>
+		<Text>RAMIE: I’m impressed by their mental fortitude. This was the project’s most difficult task, in more ways than one.</Text>
+	</TextBlock>
+</NomaiObject>

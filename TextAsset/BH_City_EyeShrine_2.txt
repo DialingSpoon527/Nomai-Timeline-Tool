@@ -1,0 +1,50 @@
+<!--
+1 — 2 — 3
+|   |
+6   4 — 5
+
+-->
+
+<NomaiObject>
+	<TextBlock>
+		<ID>1</ID>
+		<Text>
+			What is the <![CDATA[<color=lightblue>Eye</color>]]>’s signal?
+		</Text>
+	</TextBlock>
+	<TextBlock>
+		<ID>2</ID>
+		<ParentID>1</ParentID>
+		<Text>
+			Suppose the <![CDATA[<color=lightblue>Eye</color>]]> wishes to communicate.
+		</Text>
+	</TextBlock>
+	<TextBlock>
+		<ID>3</ID>
+		<ParentID>2</ParentID>
+		<Text>
+			The signal is a call. Were we the intended audience?
+		</Text>
+	</TextBlock>
+	<TextBlock>
+		<ID>4</ID>
+		<ParentID>2</ParentID>
+		<Text>
+			The signal is the <![CDATA[<color=lightblue>Eye</color>]]>’s voice. It speaks a language we don’t yet know.
+		</Text>
+	</TextBlock>
+	<TextBlock>
+		<ID>5</ID>
+		<ParentID>4</ParentID>
+		<Text>
+			Or maybe the signal is the <![CDATA[<color=lightblue>Eye</color>]]>’s attempt at expressing itself.
+		</Text>
+	</TextBlock>
+	<TextBlock>
+		<ID>6</ID>
+		<ParentID>1</ParentID>
+		<Text>
+			Of note: From the signal, we were able to determine the <![CDATA[<color=lightblue>Eye</color>]]>’s approximate age (or perhaps its lack of age?).
+		</Text>
+	</TextBlock>
+</NomaiObject>

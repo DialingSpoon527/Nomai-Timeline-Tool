@@ -1,0 +1,12 @@
+<NomaiObject>
+	<TextBlock>
+		<ID>1</ID>
+		<Text>Control Module</Text>
+	</TextBlock>
+	<ShipLogConditions>
+		<RevealFact>
+			<FactID>OPC_INTACT_MODULE_R1</FactID>
+			<Condition></Condition>
+		</RevealFact>
+	</ShipLogConditions>
+</NomaiObject>

@@ -1,0 +1,8 @@
+<NomaiObject>
+	<TextBlock>
+		<ID>1</ID>
+		<Text>
+			4: <![CDATA[<color=orange>Eye Shrine District</color>]]>
+		</Text>
+	</TextBlock>
+</NomaiObject>

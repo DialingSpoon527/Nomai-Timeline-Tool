@@ -1,0 +1,58 @@
+<!--
+1 — 2 — 3
+        |
+        4 — 5 — 6
+
+WHAT’S HAPPENING: You’re receiving memories from a future version of you that’s never going to happen.
+
+How do we classify those memories metaphysically?
+
+Do you actually die, considering "future" you kind of never exists/happens?
+
+Is a person just their memories?
+
+
+
+Is the version of you that dies and has its memories copied and sent back in time really you?
+
+
+PHLOX: I’m curious: 
+
+Because the memories are being sent back in time, and time gets rewritten, does the person who died really exist?
+
+If you overwrite a timeline, do the events of that timeline still count?
+	It’s both true that the events will ever happen, but it’s also true we have a record of them happening. (What are the ethical implications of that?)
+
+-->
+
+<NomaiObject>
+	<TextBlock>
+		<ID>1</ID>
+		<Text>PHLOX: I’m curious: Is sending a being’s memories back in time the same as sending the being itself back in time?</Text>
+	</TextBlock>
+	<TextBlock>
+		<ID>2</ID>
+		<ParentID>1</ParentID>
+		<Text>PHLOX: As an example, if we were to send my memories back in time, is that the same as sending “me” back in time (not my physical body, but my essence)?</Text>
+	</TextBlock>
+	<TextBlock>
+		<ID>3</ID>
+		<ParentID>2</ParentID>
+		<Text>DAZ: I imagine they’re two different actions.</Text>
+	</TextBlock>
+	<TextBlock>
+		<ID>4</ID>
+		<ParentID>3</ParentID>
+		<Text>CASSAVA: Wouldn’t both actions be effectively the same?</Text>
+	</TextBlock>
+	<TextBlock>
+		<ID>5</ID>
+		<ParentID>4</ParentID>
+		<Text>DAZ: Suppose that time was being rewritten. I believe this is different than receiving memories from what is effectively the future.</Text>
+	</TextBlock>
+	<TextBlock>
+		<ID>6</ID>
+		<ParentID>5</ParentID>
+		<Text>CASSAVA: But isn’t the end result identical in either case?</Text>
+	</TextBlock>
+</NomaiObject>

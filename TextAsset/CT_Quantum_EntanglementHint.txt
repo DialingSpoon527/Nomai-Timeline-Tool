@@ -1,0 +1,55 @@
+<!--
+1 - 2 - 3
+|
+4 - 5 - 6
+-->
+<NomaiObject>
+	<TextBlock>
+		<ID>1</ID>
+		<Text>
+			MELORAE: If you’ve come here to look for Coleus, this is where we were when he vanished. He’s been missing for two days now!
+		</Text>
+	</TextBlock>
+	<TextBlock>
+		<ID>2</ID>
+		<ParentID>1</ParentID>
+		<Text>
+			ANNONA: Your strange, wandering rock friend is here, though Coleus isn’t.
+		</Text>
+	</TextBlock>
+	<TextBlock>
+		<ID>3</ID>
+		<ParentID>2</ParentID>
+		<Text>
+			MELORAE: Coleus and I observed this unusual-looking rock shard (and several smaller rocks) in at least two other caverns. I’m unsure if this is relevant.
+		</Text>
+	</TextBlock>
+	<TextBlock>
+		<ID>4</ID>
+		<ParentID>1</ParentID>
+		<Text>
+			BUR: What happened before Coleus disappeared?
+		</Text>
+	</TextBlock>
+	<TextBlock>
+		<ID>5</ID>
+		<ParentID>4</ParentID>
+		<Text>
+			MELORAE: We were examining the different rocks. I recall Coleus standing on the largest one (the wandering rock). I was taking notes, and then my lantern died.
+		</Text>
+	</TextBlock>
+	<TextBlock>
+		<ID>6</ID>
+		<ParentID>5</ParentID>
+		<Text>
+			MELORAE: When I lit it again, Coleus and the rock were both gone.
+		</Text>
+	</TextBlock>
+
+	<ShipLogConditions>
+		<RevealFact>
+			<FactID>CT_LAKEBED_CAVERN_X1</FactID>
+			<Condition>5, 6</Condition>
+		</RevealFact>
+	</ShipLogConditions>
+</NomaiObject>

@@ -1,0 +1,61 @@
+<!--
+1 — 5 — 6 — 7
+|		|
+2 — 4	8
+|
+3
+-->
+
+<NomaiObject>
+	<TextBlock>
+		<ID>1</ID>
+		<Text>Solution 1: We could retrieve the warp core from the <![CDATA[<color=orange>Vessel</color>]]>.</Text>
+	</TextBlock>
+	<TextBlock>
+		<ID>2</ID>
+		<ParentID>1</ParentID>
+		<Text>RAMIE: The <![CDATA[<color=orange>Vessel</color>]]>’s warp core is broken, at best (recall those present when the <![CDATA[<color=orange>Vessel</color>]]> crashed said it sustained lethal injuries). There is no guaranteed reward for this risk.</Text>
+	</TextBlock>
+	<TextBlock>
+		<ID>3</ID>
+		<ParentID>2</ParentID>
+		<Text>CONOY: Perhaps we could still repair it. My grandmother told me there was little time to assess the nature or extent of the damage.</Text>
+	</TextBlock>
+	<TextBlock>
+		<ID>4</ID>
+		<ParentID>2</ParentID>
+		<Text>CASSAVA: Even if it no longer functions, the old core could be a valuable blueprint, provided we’re able to transport it back here.</Text>
+	</TextBlock>
+	<TextBlock>
+		<ID>5</ID>
+		<ParentID>1</ParentID>
+		<Text>PHLOX: This would require a return to <![CDATA[<color=lightblue>Dark Bramble</color>]]>. Plume (my father) said many good Nomai perished there.</Text>
+	</TextBlock>
+	<TextBlock>
+		<ID>6</ID>
+		<ParentID>5</ParentID>
+		<Text>CYCAD: My mentor (Coleus) and his old mentor once discovered and studied an anglerfish fossil on <![CDATA[<color=lightblue>Ember Twin</color>]]>. Using that knowledge, we could avoid the anglerfish entirely!</Text>
+	</TextBlock>
+	<TextBlock>
+		<ID>7</ID>
+		<ParentID>6</ParentID>
+		<Text>COLEUS: What Melorae and I learned from that fossil would theoretically help us evade the anglerfish, but our hypothesis was never tested on a live specimen.</Text>
+	</TextBlock>
+	<TextBlock>
+		<ID>8</ID>
+		<ParentID>6</ParentID>
+		<Text>RAMIE: I remember that anglerfish fossil! We used to play in <![CDATA[<color=orange>Fossil Fish Cave</color>]]> when we were children.</Text>
+	</TextBlock>
+
+
+	<ShipLogConditions>
+		<RevealFact>
+			<FactID>CT_ANGLERFISH_FOSSIL_R2</FactID>
+			<Condition>6</Condition>
+		</RevealFact>
+		<RevealFact>
+			<FactID>DB_VESSEL_R3</FactID>
+			<Condition>2, 5</Condition>
+		</RevealFact>
+	</ShipLogConditions>
+</NomaiObject>

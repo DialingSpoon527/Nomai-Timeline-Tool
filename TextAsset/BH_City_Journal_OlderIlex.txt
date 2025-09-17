@@ -1,0 +1,49 @@
+<!--
+1 — 2 — 3 — 4 — 5
+|
+6
+-->
+
+<NomaiObject>
+	<TextBlock>
+		<ID>1</ID>
+		<Text>
+			SOLANUM: I no longer believe, as I did as a child on <![CDATA[<color=lightblue>Ember Twin</color>]]>, that the <![CDATA[<color=lightblue>Eye of the universe</color>]]> (the source of the signal) wishes to harm us. But it may not want to be found, either.
+		</Text>
+	</TextBlock>
+	<TextBlock>
+		<ID>2</ID>
+		<ParentID>1</ParentID>
+		<Text>
+			SOLANUM: The terrible circumstances of our arrival here were almost certainly exactly that: circumstance.
+		</Text>
+	</TextBlock>
+	<TextBlock>
+		<ID>3</ID>
+		<ParentID>2</ParentID>
+		<Text>
+			SOLANUM: I suspect imagining we are special to the <![CDATA[<color=lightblue>Eye</color>]]> in some way is wishful thinking. The <![CDATA[<color=lightblue>Eye</color>]]> might have called out to any sentient species.
+		</Text>
+	</TextBlock>
+	<TextBlock>
+		<ID>4</ID>
+		<ParentID>3</ParentID>
+		<Text>
+			SOLANUM: Or it might not have been calling out at all, and that my ancestors heard the <![CDATA[<color=lightblue>Eye</color>]]>’s signal holds no great, deep meaning.
+		</Text>
+	</TextBlock>
+	<TextBlock>
+		<ID>5</ID>
+		<ParentID>4</ParentID>
+		<Text>
+			SOLANUM: This wouldn’t be so bad, I think.
+		</Text>
+	</TextBlock>
+	<TextBlock>
+		<ID>6</ID>
+		<ParentID>1</ParentID>
+		<Text>
+			SOLANUM: In fact, the <![CDATA[<color=lightblue>Eye</color>]]> may not have wishes at all. We have no evidence supporting this.
+		</Text>
+	</TextBlock>
+</NomaiObject>

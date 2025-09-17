@@ -1,0 +1,42 @@
+<!--
+1 - 2 - 4 - 5
+|
+3
+-->
+
+<NomaiObject>
+	<TextBlock>
+		<ID>1</ID>
+		<Text>
+			MELORAE: This is amazing (look inside the cave)! How did this come to rest here? We haven’t encountered others in these caves; I think this is a rare find.
+		</Text>
+	</TextBlock>
+	<TextBlock>
+		<ID>2</ID>
+		<ParentID>1</ParentID>
+		<Text>
+			MELORAE: From what we can see, Coleus and I believe the specimen must be very old indeed. Imagine what we might learn if we could examine it!
+		</Text>
+	</TextBlock>
+	<TextBlock>
+		<ID>3</ID>
+		<ParentID>1</ParentID>
+		<Text>
+			COLEUS: An update: We need to find a way inside quickly, Melorae, because when I returned here to search for an entrance to the cave, there were children playing on the specimen!
+		</Text>
+	</TextBlock>
+	<TextBlock>
+		<ID>4</ID>
+		<ParentID>2</ParentID>
+		<Text>
+			COLEUS: We both agree it’s unlikely this dry planet is this horror’s place of origin (especially considering what we observed during the <![CDATA[<color=orange>Vessel</color>]]>’s evacuation).
+		</Text>
+	</TextBlock>
+	<TextBlock>
+		<ID>5</ID>
+		<ParentID>4</ParentID>
+		<Text>
+			MELORAE: Clearly this hole is too small for it to have fit through. Hypothesis: There is another entrance to this cave. If there is, Coleus and I will find it! We can’t leave valuable information undiscovered!
+		</Text>
+	</TextBlock>
+</NomaiObject>

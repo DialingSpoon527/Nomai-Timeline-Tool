@@ -1,0 +1,42 @@
+<!--
+1 - 2 - 3
+|
+4
+-->
+
+<NomaiObject>
+	<TextBlock>
+		<ID>1</ID>
+		<Text>RAMIE: Note: This door will need to remain closed for some <![CDATA[<i>time</i>]]>! Pye and I are running an experiment based on the extraordinary findings from the <![CDATA[<color=orange>White Hole Station</color>]]>.</Text>
+	</TextBlock>
+	<TextBlock>
+		<ID>2</ID>
+		<ParentID>1</ParentID>
+		<Text>PYE: Ramie and I will be running this experiment until one of us (specifically, me) can prove the other wrong, so although it’s inconvenient, the lab currently can only be accessed by the path from the <![CDATA[<color=orange>Sunless City</color>]]>.</Text>
+	</TextBlock>
+	<TextBlock>
+		<ID>3</ID>
+		<ParentID>2</ParentID>
+		<Text>RAMIE: Inviting sand inside would disrupt our setup and could have enormous consequences. (We realize this is an intriguing prospect, but the door must remain closed nonetheless!)</Text>
+	</TextBlock>
+	<TextBlock>
+		<ID>4</ID>
+		<ParentID>1</ParentID>
+		<Text>RAMIE: An update: The <![CDATA[<color=orange>High Energy Lab</color>]]> is now being used to design the <![CDATA[<color=orange>Ash Twin Project</color>]]>! If you’re here to help (or even just to observe), be sure to use the <![CDATA[<color=orange>Sunless City</color>]]> path to the lab.</Text>
+	</TextBlock>
+
+	<ShipLogConditions>
+		<RevealFact>
+			<FactID>CT_HIGH_ENERGY_LAB_R3</FactID>
+			<Condition>2</Condition>
+		</RevealFact>
+		<RevealFact>
+			<FactID>CT_SUNLESS_CITY_R5</FactID>
+			<Condition>2</Condition>
+		</RevealFact>
+		<RevealFact>
+			<FactID>WHS_R3</FactID>
+			<Condition>1</Condition>
+		</RevealFact>
+	</ShipLogConditions>
+</NomaiObject>

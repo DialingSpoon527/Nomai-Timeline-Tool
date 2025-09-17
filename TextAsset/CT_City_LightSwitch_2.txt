@@ -1,0 +1,8 @@
+<NomaiObject>
+	<TextBlock>
+		<ID>1</ID>
+		<Text>
+			2: <![CDATA[<color=orange>Stepping Stone District</color>]]>
+		</Text>
+	</TextBlock>
+</NomaiObject>

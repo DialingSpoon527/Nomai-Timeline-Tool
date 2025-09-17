@@ -1,0 +1,8 @@
+
+<NomaiObject>
+	<TextBlock>
+		<ID>1</ID>
+		<LocationB/>
+		<Text>WARNING: Be cautious near the boarding area while the <![CDATA[<color=orange>Black Hole Forge</color>]]> is in operation.</Text>
+	</TextBlock>
+</NomaiObject>

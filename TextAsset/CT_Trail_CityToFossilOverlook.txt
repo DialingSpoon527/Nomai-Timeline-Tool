@@ -1,0 +1,8 @@
+<NomaiObject>
+	<TextBlock>
+		<ID>1</ID>
+		<Text>
+			<![CDATA[<color=orange>Anglerfish Fossil Overlook</color>]]>\\n(40m)
+		</Text>
+	</TextBlock>
+</NomaiObject>

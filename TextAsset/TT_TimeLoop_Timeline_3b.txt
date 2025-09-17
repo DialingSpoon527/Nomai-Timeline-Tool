@@ -1,0 +1,10 @@
+<NomaiObject>
+	<TextBlock>
+		<ID>1</ID>
+		<Text>YARROW: Phlox and Daz finished the memory statues today, and they are truly remarkable.</Text>
+	</TextBlock>
+	<TextBlock>
+		<ID>2</ID>
+		<Text>YARROW: When the <![CDATA[<color=orange>Ash Twin Project</color>]]> succeeds (or in the event it fails), the memory statues will activate, allowing us to gather more data before we shut down the project.</Text>
+	</TextBlock>
+</NomaiObject>
